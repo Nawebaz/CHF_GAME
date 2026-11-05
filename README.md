@@ -58,8 +58,14 @@ La sátira va contra la gestión y el sistema, nunca contra la gente: no aparece
 | Precio | Gratis; donaciones opcionales en [Ko-fi](https://ko-fi.com/chfgame) |
 | Público | Mayores de 16 años |
 
+## Fallos, ideas y opiniones
+
+Si algo falla o tienes una idea, cuéntalo en [Discussions](https://github.com/Nawebaz/CHF_GAME/discussions). No hace falta saber programar.
+
+## Licencia
+
+El código se puede leer, estudiar y reutilizar para usos no comerciales ([PolyForm Noncommercial 1.0.0](LICENSE)). El arte, los textos del juego, el nombre y la marca CHF tienen todos los derechos reservados: no se permite volver a publicar el juego en otros sitios. Detalles en [NOTICE.md](NOTICE.md).
+
 ## English
 
 **How Many Of Us Does It Take?** A free, browser-based satirical autobattler about Spain's last decade. Recruit everyday people (grandmas, civil servants, cashiers, delivery riders, the know-it-all brother-in-law…), give them items and watch them take on the system: the unemployment line, the mega-landlord, the heatwave, the risk premium. Made by Nawe, an audiovisual professional from Málaga, with AI-generated art and an AI coding assistant; ideas, satire and design are his. **The game text is in Spanish.**
-
-[Play in your browser](https://nawebaz.github.io/CHF_GAME/) · [itch.io](https://chfgame.itch.io/cuantos-hacemos-falta)
