@@ -7086,6 +7086,43 @@ SEC_UI.unit.push((ctx,us)=>{ if(!C) return; const sc=typeof ICON!=='undefined'&&
     if(sc){ const w=8, h=w*sc.height/sc.width; ctx.drawImage(sc,x-11,y-h/2,w,h); } else { ctx.fillStyle='#2c2c34'; ctx.fillRect(x-11,y-3,7,5); ctx.fillStyle='#ff4a6a'; ctx.fillRect(x-10,y-1,5,1); }
     const t='×'+u.combo; ctx.fillStyle='#1a1410'; ctx.fillText(t,x-2,y+1); ctx.fillStyle=u.combo>=25?'#ff5a5a':'#ffd34a'; ctx.fillText(t,x-3,y); } });
 
+// ===== ENCUESTA DE FIN DE PARTIDA (nov-26) =====
+// Sale integrada en la pantalla final: al ganar (perro o jubilarse en infinito) o al perder pasada la ronda ENC_MINR. Una vez por partida.
+// Envía en silencio a un formulario de Google (solo dos campos: datos y comentario). Anónimo: sin nombre, correo ni identificador del dispositivo.
+var ENC_URL='https://docs.google.com/forms/d/e/1FAIpQLSe8RssyG1xvNrIm2jMjnfS2czs2sis8ArGwNsw2yl8_yD_U9Q/formResponse', ENC_F1='entry.1941081583', ENC_F2='entry.693322240', ENC_MINR=30, ENC_GAP=10*60*1000, ENC_MAXC=400, ENC_V='v144';
+function encOK(win){ try{ if(typeof SIM!=='undefined'&&SIM) return false; if(!RUN||RUN.encDone) return false; if(/claude/i.test(location.hostname)) return false;   /* en el enlace de Claude no se puede enviar fuera: solo en GitHub/itch */ if(!win&&(RUN.round||0)<ENC_MINR) return false; const last=+(META.encLast||0); return Date.now()-last>ENC_GAP; }catch(e){ return false; } }
+function encCSS(){ if(document.getElementById('encCss')) return; const s=document.createElement('style'); s.id='encCss'; s.textContent=`
+.enc{margin:12px 0;padding:12px 12px 14px;border-radius:14px;background:linear-gradient(#2b2f45,#1f2234);border:2px solid #ffd34a55;color:#f3f0e6;font:600 13px/1.3 system-ui,sans-serif;text-align:center}
+.enc h4{margin:0 0 2px;font-size:15px;color:#ffd34a;letter-spacing:.3px}.enc .sub{margin:0 0 10px;font-size:11px;opacity:.7;font-weight:500}
+.enc .q{margin:8px 0 4px;font-size:12px;opacity:.9}.enc .row{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.enc button.o{box-shadow:none;text-shadow:none;margin:0;height:auto;line-height:1.2;flex:1 1 auto;min-width:58px;padding:8px 6px;border-radius:10px;border:2px solid #ffffff22;background:#363b57;color:#fff;font:700 12px system-ui,sans-serif;cursor:pointer}
+.enc button.o.on{background:#ffd34a;color:#2a2410;border-color:#ffd34a}.enc .stars{flex-wrap:nowrap}.enc .stars button.o{min-width:0;flex:1 1 0;font-size:18px;padding:6px 4px;filter:grayscale(1);opacity:.55}.enc .stars button.o.on{filter:none;opacity:1;background:#363b57;color:#fff}
+.enc textarea{width:100%;box-sizing:border-box;margin-top:6px;min-height:52px;border-radius:10px;border:2px solid #ffffff22;background:#14172a;color:#fff;padding:8px;font:500 13px system-ui,sans-serif;resize:vertical}
+.enc .eact{display:flex;gap:8px;margin-top:10px}.enc button.send{box-shadow:none;margin:0;height:auto;flex:2;padding:11px;border-radius:12px;border:0;background:#3bd16f;color:#0d2a17;font:800 14px system-ui,sans-serif;cursor:pointer}.enc button.send:disabled{opacity:.45}
+.enc button.skip{box-shadow:none;margin:0;height:auto;flex:1;padding:11px;border-radius:12px;border:0;background:#ffffff14;color:#fff;font:700 12px system-ui,sans-serif;cursor:pointer}.enc .done{padding:8px 0;font-size:14px;color:#3bd16f}`; document.head.appendChild(s); }
+function encData(win,A){ const r=RUN.roster||{}, top=Object.keys(r).filter(k=>r[k]>0).sort((a,b)=>r[b]-r[a]).slice(0,6).map(k=>k+':'+r[k]).join(','), mins=RUN.t0?Math.round((Date.now()-RUN.t0)/60000):'';
+  return ['v='+ENC_V,'nota='+(A.nota||''),'dif='+(A.dif||''),'gracia='+(A.gracia||''),'rec='+(A.rec||''),'gana='+(win?1:0),'ronda='+(RUN.round||0),'inf='+(RUN.endless?1:0),'modo='+(RUN.diff||''),'min='+mins,'equipo='+top].join('|'); }
+function encSend(win,A,com){ try{ const b=new URLSearchParams(); b.append(ENC_F1,encData(win,A).slice(0,600)); b.append(ENC_F2,String(com||'').replace(/[<>]/g,'').slice(0,ENC_MAXC));
+    fetch(ENC_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:b.toString()}).catch(()=>{}); }catch(e){} }
+function encBox(win){ encCSS(); const A={}, box=document.createElement('div'); box.className='enc'; box.id='oEnc';
+  const opt=(k,list)=>`<div class="row" data-k="${k}">`+list.map(([v,t])=>`<button class="o" data-v="${v}">${t}</button>`).join('')+`</div>`;
+  box.innerHTML=`<h4>¿Qué te ha parecido?</h4><p class="sub">30 segundos. Anónimo: no guardamos ni tu nombre ni tu correo.</p>
+<div class="q">Nota</div><div class="row stars" data-k="nota">${[1,2,3,4,5].map(n=>`<button class="o" data-v="${n}" aria-label="${n} de 5">🍺</button>`).join('')}</div>
+<div class="q">La dificultad</div>${opt('dif',[['facil','Muy fácil'],['justa','Justa'],['injusta','Injusta']])}
+<div class="q">Lo que más gracia te ha hecho</div>${opt('gracia',[['personajes','Personajes'],['jefes','Jefes'],['textos','Textos'],['nada','Nada, soy de Hacienda']])}
+<div class="q">¿Se lo pasarías a un colega?</div>${opt('rec',[['si','Sí'],['no','No']])}
+<textarea maxlength="${ENC_MAXC}" placeholder="¿Algo que decirle al cuñao? (opcional)"></textarea>
+<div class="eact"><button class="skip">Ahora no</button><button class="send" disabled>Enviar</button></div>`;
+  const send=box.querySelector('.send');
+  box.querySelectorAll('.row').forEach(row=>row.querySelectorAll('button.o').forEach(bt=>bt.onclick=()=>{ const k=row.dataset.k, v=bt.dataset.v; A[k]=v; try{ AU.sfx&&AU.sfx('tap'); }catch(e){}
+    if(k==='nota') row.querySelectorAll('button.o').forEach(o=>o.classList.toggle('on',+o.dataset.v<=+v)); else row.querySelectorAll('button.o').forEach(o=>o.classList.toggle('on',o===bt));
+    send.disabled=!A.nota; }));
+  const close=(sent)=>{ RUN.encDone=1; if(sent){ META.encLast=Date.now(); try{ saveMeta(); }catch(e){} box.innerHTML='<div class="done">¡Gracias! El cuñao ya lo está leyendo.</div>'; setTimeout(()=>box.remove(),2200); } else box.remove(); };
+  box.querySelector('.skip').onclick=()=>close(false);
+  send.onclick=()=>{ if(send.disabled) return; send.disabled=true; encSend(win,A,box.querySelector('textarea').value); close(true); };
+  return box; }
+(function(){ if(typeof finish!=='function') return; const _f=finish; finish=function(win){ const r=_f.apply(this,arguments); try{ if(encOK(win)){ const old=document.getElementById('oEnc'); if(old) old.remove(); const anchor=document.getElementById('oJub')||document.getElementById('poster'); if(anchor) anchor.after(encBox(win)); } }catch(e){ console.warn('encuesta',e); } return r; }; })();
+
 // ===== SECRETO espetero: dibujo =====
 // Barca: el espetero sigue con su sprite y se le pinta delante la barca del icono 'x_barcaespeto' (parece que va dentro).
 // Si algún día hay sprite 'x_barcaespeto', se usa ese. Sin icono ni sprite, se genera un sprite de reserva por código (barBuild).
