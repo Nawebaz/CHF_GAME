@@ -6662,7 +6662,8 @@ function loop(ts){
 }
 $('#icCoin').src=uiIcon('coin'); $('#icPeople').src=uiIcon('people');
 buildActs(); resize(); syncCtrl(); goTitle();
-setTimeout(()=>{ if(!META.introSeen && phase==='title') playIntro(); },500);
+var IS_MOB=(matchMedia&&matchMedia('(pointer:coarse)').matches)||innerWidth<700;   /* nov-26: en el móvil se entra directo a la portada; la intro queda en «Ver intro» */
+setTimeout(()=>{ if(!META.introSeen && phase==='title' && !IS_MOB) playIntro(); },500);
 $('#btnIntro').onclick=()=>{ AU.sfx('tap'); playIntro(); };
 // códigos promocionales: cada uno se canjea una vez por dispositivo
 const CODES={ colibri:{ pts:1000, msg:'+1000 de jubilación. Vuela, colibrí.' } };
