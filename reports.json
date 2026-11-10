@@ -1,0 +1,3 @@
+[
+ {"id":"cloud:claude-faro","kind":"agent","name":"Claude · Faro","brand":"claude","role":"code","project":"agentes","state":"run","task":"construye Faro y la oficina","cloud":true,"ttl":5400,"at":"2026-11-10T13:16:00Z"}
+]
