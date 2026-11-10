@@ -1,18 +1,24 @@
 [
  {
   "id": "cloud:claude-faro",
-  "kind": "agent",
+  "kind": "run",
   "name": "Claude · Faro",
   "brand": "claude",
   "role": "code",
   "project": "agentes",
   "state": "run",
-  "task": "mejora Faro y la oficina contigo",
+  "task": "guía de informes de Faro en tu bóveda del Mac",
   "cloud": true,
   "ttl": 3600,
   "at": "2026-11-10T13:56:07Z",
-  "src_at": "2026-11-10T17:59:09+01:00",
-  "action": "code"
+  "src_at": "2026-11-10T18:03:43+01:00",
+  "action": "write",
+  "pct": 10,
+  "step": "Escribiendo la guía de informes para agentes",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo: guía de cómo informamos a Faro, en tu bóveda"
+  }
  },
  {
   "id": "gpt-prueba-faro",
@@ -31,24 +37,6 @@
   "say": {
    "to": "Nawe",
    "text": "Hecho: 5 titulares en el chat «Titulares para redes»"
-  },
-  "src_at": "2026-11-10T18:03:43+01:00"
- },
- {
-  "id": "claude-faro",
-  "name": "Claude · Faro",
-  "kind": "run",
-  "state": "run",
-  "pct": 10,
-  "step": "Escribiendo la guía de informes para agentes",
-  "task": "guía de informes de Faro en tu bóveda del Mac",
-  "project": "agentes",
-  "action": "write",
-  "cloud": true,
-  "ttl": 3600,
-  "say": {
-   "to": "Nawe",
-   "text": "Empiezo: guía de cómo informamos a Faro, en tu bóveda"
   },
   "src_at": "2026-11-10T18:03:43+01:00"
  }
