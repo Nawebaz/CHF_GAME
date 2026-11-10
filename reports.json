@@ -6,18 +6,22 @@
   "brand": "claude",
   "role": "code",
   "project": "agentes",
-  "state": "run",
+  "state": "ok",
   "task": "guía de informes de Faro en tu bóveda del Mac",
   "cloud": true,
   "ttl": 3600,
   "at": "2026-11-10T13:56:07Z",
-  "src_at": "2026-11-10T18:03:43+01:00",
-  "action": "write",
-  "pct": 10,
-  "step": "Escribiendo la guía de informes para agentes",
+  "src_at": "2026-11-10T18:04:19+01:00",
+  "action": "obsidian",
+  "pct": 100,
+  "step": "Guía guardada en la bóveda",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo: guía de cómo informamos a Faro, en tu bóveda"
+   "text": "Hecho: Faro/Guía de informes para agentes.md en tu bóveda"
+  },
+  "last": null,
+  "artifact": {
+   "name": "Guía de informes para agentes"
   }
  },
  {
