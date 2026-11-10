@@ -1,3 +1,17 @@
 [
- {"id":"cloud:claude-faro","kind":"agent","name":"Claude · Faro","brand":"claude","role":"code","project":"agentes","state":"run","task":"actualiza Faro","cloud":true,"ttl":3600,"at":"2026-11-10T13:56:07Z"}
+ {
+  "id": "cloud:claude-faro",
+  "kind": "agent",
+  "name": "Claude · Faro",
+  "brand": "claude",
+  "role": "code",
+  "project": "agentes",
+  "state": "run",
+  "task": "mejora Faro y la oficina contigo",
+  "cloud": true,
+  "ttl": 3600,
+  "at": "2026-11-10T13:56:07Z",
+  "src_at": "2026-11-10T17:59:09+01:00",
+  "action": "code"
+ }
 ]
