@@ -72,17 +72,17 @@
   "cloud": true,
   "name": "Claude · Panel GTA",
   "state": "ok",
-  "task": "Panel de la máquina de clips: carretera, 3D y mapa",
+  "task": "3D: rótulo y encuadre en cada parada",
   "project": "gta",
   "action": "build",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-11T11:34:21+01:00",
+  "src_at": "2026-11-11T11:40:37+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Panel v2 publicado: sin colisiones, subida a internet, decorado 3D y mapa",
-   "at": "2026-11-11T11:34:21+01:00"
+   "text": "Panel v2: en 3D se ve dónde está parado cada coche",
+   "at": "2026-11-11T11:40:37+01:00"
   }
  }
 ]
