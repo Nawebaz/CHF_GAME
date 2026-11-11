@@ -43,5 +43,27 @@
    "text": "Hecho: 5 titulares en el chat «Titulares para redes»"
   },
   "src_at": "2026-11-10T18:03:43+01:00"
+ },
+ {
+  "id": "gta-pipeline",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · GTA",
+  "state": "ok",
+  "task": "panel 3D de la máquina de clips publicado",
+  "project": "gta",
+  "action": "code",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-11T11:27:23+01:00",
+  "artifact": {
+   "name": "Panel máquina GTA VI"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Último avance (11:15): panel 3D publicado; espera tu prueba en el iPhone",
+   "at": "2026-11-11T11:27:23+01:00"
+  }
  }
 ]
