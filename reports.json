@@ -91,17 +91,17 @@
   "cloud": true,
   "name": "Claude · Máquina GTA",
   "state": "run",
-  "task": "Kit de arranque: nombres, juez, calendario, guiones, tarea iceland",
+  "task": "Kit de arranque listo; espera cuentas, grabaciones e informe de iceland",
   "project": "gta",
   "action": "write",
-  "pct": 20.0,
+  "pct": 35.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-11T14:14:08+01:00",
+  "src_at": "2026-11-11T14:15:49+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Redactando el kit de arranque",
-   "at": "2026-11-11T14:14:08+01:00"
+   "text": "Kit de arranque escrito: nombres, juez, calendario, guiones y tarea iceland",
+   "at": "2026-11-11T14:15:49+01:00"
   }
  }
 ]
