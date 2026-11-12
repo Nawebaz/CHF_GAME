@@ -391,21 +391,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Radar viral + auditoría de defectos",
-  "pct": 5.0,
+  "step": "Guiones v6 en ITV ronda 3 (4 jueces duros)",
+  "pct": 35.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T20:10:48+01:00",
-  "at": "2026-11-12T20:10:48+01:00",
+  "src_at": "2026-11-12T20:42:38+01:00",
+  "at": "2026-11-12T20:42:38+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Tanda 1 rechazada: barrido de lo más viral de GTA VI y revisión de subtítulos y flechas",
-   "at": "2026-11-12T20:10:48+01:00"
+   "text": "Radar hecho, puertas duras listas, motor v2 con metraje; jueces en la ronda 3 de guiones",
+   "at": "2026-11-12T20:42:38+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Radar viral + auditoría de defectos",
+   "paso": "Guiones v6 en ITV ronda 3 (4 jueces duros)",
    "clips": [
     {
      "n": 1,
