@@ -74,19 +74,19 @@
   "cloud": true,
   "name": "Claude · panel GTA",
   "state": "ok",
-  "task": "Panel GTA VI",
+  "task": "Respaldo clip 002",
   "project": "gta",
-  "action": "ITV x3, rendimiento y respaldo listo; falta copiar al PC",
-  "pct": 90.0,
+  "action": "Respaldo copiado y verificado en iceland",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T13:34:12+01:00",
+  "src_at": "2026-11-12T13:40:40+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Bloqueo: voces de macOS sin licencia comercial",
-   "at": "2026-11-12T13:34:12+01:00"
+   "text": "Huellas SHA-256 coinciden",
+   "at": "2026-11-12T13:40:40+01:00"
   },
-  "at": "2026-11-12T13:34:12+01:00"
+  "at": "2026-11-12T13:40:40+01:00"
  },
  {
   "id": "claude-gta-maquina",
