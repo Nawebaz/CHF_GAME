@@ -534,13 +534,13 @@
   "cloud": true,
   "name": "Claude · Repo ↔ Obsidian",
   "state": "run",
-  "task": "revisar repo y bóveda; sincronía y conexiones",
+  "task": "Faro v2.16 publicado; esperando instalación en el PC",
   "project": "agentes",
-  "action": "obsidian",
-  "pct": 5.0,
+  "action": "code",
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T20:29:21+01:00",
-  "at": "2026-11-12T20:29:21+01:00"
+  "src_at": "2026-11-12T20:33:46+01:00",
+  "at": "2026-11-12T20:33:46+01:00"
  }
 ]
