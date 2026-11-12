@@ -385,77 +385,52 @@
  },
  {
   "id": "claude-gta-tanda",
-  "kind": "run",
+  "kind": "agent",
   "cloud": true,
   "name": "Claude · Tanda 1 GTA VI",
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Guiones aprobados · montando sin voz",
-  "pct": 30.0,
+  "step": "Montaje: 5 vídeos renderizados, mezclando música y efectos",
+  "pct": 55.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:09:39+01:00",
-  "at": "2026-11-12T19:09:39+01:00",
+  "src_at": "2026-11-12T19:15:39+01:00",
+  "at": "2026-11-12T19:15:39+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Guiones aprobados por los 3 jueces. Monto sin voz, como pediste",
-   "at": "2026-11-12T19:09:39+01:00"
+   "text": "5 clips montados (sin voz). Ahora música, efectos y sonoridad",
+   "at": "2026-11-12T19:15:39+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Guiones aprobados · montando sin voz",
+   "paso": "Montaje: 5 vídeos renderizados, mezclando música y efectos",
    "clips": [
     {
      "n": 1,
      "s": "mito",
-     "st": 1,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 2,
      "s": "cuenta",
-     "st": 1,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 3,
      "s": "reto",
-     "st": 1,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 4,
      "s": "mapa",
-     "st": 1,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 5,
      "s": "hito",
-     "st": 1,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     }
    ]
   }
