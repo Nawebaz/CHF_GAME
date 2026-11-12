@@ -73,20 +73,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · panel GTA",
-  "state": "run",
+  "state": "ok",
   "task": "Panel GTA VI",
   "project": "gta",
-  "action": "ITV x3 en mapas, rendimiento y respaldo local en el PC",
-  "pct": 5.0,
+  "action": "ITV x3, rendimiento y respaldo listo; falta copiar al PC",
+  "pct": 90.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T13:17:13+01:00",
+  "src_at": "2026-11-12T13:34:12+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Arreglando panel y respaldo",
-   "at": "2026-11-12T13:17:13+01:00"
+   "text": "Bloqueo: voces de macOS sin licencia comercial",
+   "at": "2026-11-12T13:34:12+01:00"
   },
-  "at": "2026-11-12T13:17:13+01:00"
+  "at": "2026-11-12T13:34:12+01:00"
  },
  {
   "id": "claude-gta-maquina",
