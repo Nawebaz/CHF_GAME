@@ -388,74 +388,79 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Tanda 1 GTA VI",
-  "state": "run",
+  "state": "ok",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "ITV 2: los jueces revisan el taller",
-  "pct": 92.0,
+  "step": "Entregado en Descargas del Mac; esperando voz y auditoría",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:54:00+01:00",
-  "at": "2026-11-12T19:54:00+01:00",
+  "src_at": "2026-11-12T20:08:00+01:00",
+  "at": "2026-11-12T20:08:00+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Taller hecho; segunda ITV de vídeo en marcha",
-   "at": "2026-11-12T19:54:00+01:00"
+   "text": "Tanda 1: 5 clips aprobados por los 3 jueces. En peaje hasta la voz de Nawe.",
+   "at": "2026-11-12T20:08:00+01:00"
   },
-  "action": "think",
+  "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "ITV 2: los jueces revisan el taller",
+   "paso": "Entregado en Descargas del Mac; esperando voz y auditoría",
    "clips": [
     {
      "n": 1,
      "s": "mito",
-     "st": 7,
+     "st": 9,
      "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+      "ok",
+      "ok",
+      "ok"
+     ],
+     "b": "Falta la voz"
     },
     {
      "n": 2,
      "s": "cuenta",
-     "st": 7,
+     "st": 9,
      "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+      "ok",
+      "ok",
+      "ok"
+     ],
+     "b": "Falta la voz"
     },
     {
      "n": 3,
      "s": "reto",
-     "st": 7,
+     "st": 9,
      "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+      "ok",
+      "ok",
+      "ok"
+     ],
+     "b": "Falta la voz"
     },
     {
      "n": 4,
      "s": "mapa",
-     "st": 7,
+     "st": 9,
      "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+      "ok",
+      "ok",
+      "ok"
+     ],
+     "b": "Falta la voz"
     },
     {
      "n": 5,
      "s": "hito",
-     "st": 7,
+     "st": 9,
      "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+      "ok",
+      "ok",
+      "ok"
+     ],
+     "b": "Falta la voz"
     }
    ]
   }
