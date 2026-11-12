@@ -129,17 +129,17 @@
   "cloud": true,
   "name": "Claude · Estado proyectos",
   "state": "ok",
-  "task": "repaso de estado y enlace de Faro",
+  "task": "encargo a Hermes: coste cero y reparto local/suscripción",
   "project": "agentes",
   "action": "pensar",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T10:52:38+01:00",
+  "src_at": "2026-11-12T11:33:19+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Repaso hecho: CHF 3D sin informes de Hermes desde el 10 nov",
-   "at": "2026-11-12T10:52:38+01:00"
+   "text": "Encargo listo: Hermes reparte motores sin gastar API",
+   "at": "2026-11-12T11:33:19+01:00"
   }
  },
  {
