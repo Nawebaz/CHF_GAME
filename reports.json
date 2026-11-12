@@ -378,5 +378,25 @@
    "text": "Empiezo: grafo vivo como el de Obsidian y repaso de notas",
    "at": "2026-11-12T18:46:16+01:00"
   }
+ },
+ {
+  "id": "claude-gta-tanda",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Tanda 1 GTA VI",
+  "state": "run",
+  "task": "Tanda de 5 clips para auditar",
+  "project": "gta",
+  "step": "Investigando fuentes y escribiendo guiones",
+  "pct": 3.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T18:50:13+01:00",
+  "at": "2026-11-12T18:50:13+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Arranco la tanda de 5 clips en español",
+   "at": "2026-11-12T18:50:13+01:00"
+  }
  }
 ]
