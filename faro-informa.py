@@ -22,7 +22,7 @@ for intento in range(4):
     now = datetime.datetime.now(datetime.timezone.utc).astimezone().isoformat(timespec="seconds")
     upd = {k: v for k, v in {"name": a.name, "state": a.state, "task": a.task, "project": a.project, "action": a.action,
            "step": a.step, "pct": a.pct, "brand": a.brand or ("claude" if a.name and "claude" in a.name.lower() else None), "ttl": a.ttl}.items() if v is not None}
-    r.update(upd); r["src_at"] = now; r["cloud"] = True
+    r.update(upd); r["src_at"] = now; r["at"] = now; r["cloud"] = True  # Faro solo importa si cambia "at"
     if a.artifact: r["artifact"] = {"name": a.artifact}
     if a.say: r["say"] = {"to": a.to or "Nawe", "text": a.say, "at": now}
     json.dump(d, open("reports.json", "w"), ensure_ascii=False, indent=1)
