@@ -166,18 +166,18 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · test pipeline GTA",
-  "state": "ok",
-  "task": "Test del pipeline: vídeo pizarra",
+  "state": "run",
+  "task": "Test v2: vídeo estilo GTA con voz",
   "project": "gta",
-  "action": "Clip en el peaje; vídeo y portada en Descargas",
-  "pct": 100.0,
+  "action": "Guion v2 a revisión de 3 jueces independientes",
+  "pct": 10.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T12:30:22+01:00",
+  "src_at": "2026-11-12T12:37:04+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Esperando visto bueno de Nawe",
-   "at": "2026-11-12T12:30:22+01:00"
+   "text": "Clip v1 rechazado: sin voz y sin estética GTA",
+   "at": "2026-11-12T12:37:04+01:00"
   }
  }
 ]
