@@ -387,16 +387,17 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Investigando fuentes y escribiendo guiones",
-  "pct": 3.0,
+  "step": "ITV de guiones: ronda 1 con 3 jueces",
+  "pct": 15.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T18:50:13+01:00",
-  "at": "2026-11-12T18:50:13+01:00",
+  "src_at": "2026-11-12T18:58:31+01:00",
+  "at": "2026-11-12T18:58:31+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Arranco la tanda de 5 clips en español",
-   "at": "2026-11-12T18:50:13+01:00"
-  }
+   "text": "Jueces: 0 aprobados en ronda 1, aplico cambios",
+   "at": "2026-11-12T18:58:31+01:00"
+  },
+  "action": "think"
  }
 ]
