@@ -13,6 +13,7 @@ import argparse, datetime, json, os, subprocess, sys, time
 p = argparse.ArgumentParser()
 for a in ("id", "name", "state", "task", "project", "action", "step", "artifact", "say", "to", "brand", "notes", "notes-kind"): p.add_argument("--" + a)
 p.add_argument("--pct", type=float); p.add_argument("--ttl", type=int, default=3600)
+p.add_argument("--kind", choices=["run", "agent"], help="agent: sale como agente trabajando en la oficina; run: tarea de fondo")
 p.add_argument("--json", help='campos extra genéricos, p. ej. {"gta": {...}} (solo se admite "gta")')
 a = p.parse_args()
 if not a.id: sys.exit("falta --id")
@@ -29,6 +30,7 @@ for intento in range(4):
     now = datetime.datetime.now(datetime.timezone.utc).astimezone().isoformat(timespec="seconds")
     upd = {k: v for k, v in {"name": a.name, "state": a.state, "task": a.task, "project": a.project, "action": a.action,
            "step": a.step, "pct": a.pct, "brand": a.brand or ("claude" if a.name and "claude" in a.name.lower() else None), "ttl": a.ttl}.items() if v is not None}
+    if a.kind: r["kind"] = a.kind
     r.update(upd); r["src_at"] = now; r["at"] = now; r["cloud"] = True  # Faro solo importa si cambia "at"
     if a.artifact: r["artifact"] = {"name": a.artifact}
     if a.json:
