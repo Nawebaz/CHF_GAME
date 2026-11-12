@@ -193,14 +193,19 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Faro agentes",
-  "state": "run",
-  "task": "auditoría de agentes visibles en Faro y propuesta de sondeo",
+  "state": "ok",
+  "task": "auditoría de agentes en Faro; arreglado el buzón",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 20.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T13:10:57+01:00",
-  "at": "2026-11-12T13:10:57+01:00"
+  "src_at": "2026-11-12T13:12:21+01:00",
+  "at": "2026-11-12T13:12:21+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Arreglado: los informes de la nube no entraban en Faro",
+   "at": "2026-11-12T13:12:21+01:00"
+  }
  }
 ]
