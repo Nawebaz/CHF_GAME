@@ -391,70 +391,70 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "ITV de vídeo: 3 jueces comparan el montaje con su visión",
-  "pct": 80.0,
+  "step": "Taller: arreglos de la ITV de vídeo (ritmo por palabra, velo de subtítulos, zoom en el mapa)",
+  "pct": 82.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:28:08+01:00",
-  "at": "2026-11-12T19:28:08+01:00",
+  "src_at": "2026-11-12T19:32:56+01:00",
+  "at": "2026-11-12T19:32:56+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Los 5 coches en la ITV: los jueces miran el vídeo",
-   "at": "2026-11-12T19:28:08+01:00"
+   "text": "ITV de vídeo: 4 aprobados de 15 votos; todo al taller con una lista de arreglos",
+   "at": "2026-11-12T19:32:56+01:00"
   },
-  "action": "think",
+  "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "ITV de vídeo: 3 jueces comparan el montaje con su visión",
+   "paso": "Taller: arreglos de la ITV de vídeo (ritmo por palabra, velo de subtítulos, zoom en el mapa)",
    "clips": [
     {
      "n": 1,
      "s": "mito",
-     "st": 5,
+     "st": 6,
      "j": [
-      "rev",
-      "rev",
-      "rev"
+      "ko",
+      "ko",
+      "ok"
      ]
     },
     {
      "n": 2,
      "s": "cuenta",
-     "st": 5,
+     "st": 6,
      "j": [
-      "rev",
-      "rev",
-      "rev"
+      "ko",
+      "ko",
+      "ko"
      ]
     },
     {
      "n": 3,
      "s": "reto",
-     "st": 5,
+     "st": 6,
      "j": [
-      "rev",
-      "rev",
-      "rev"
+      "ko",
+      "ok",
+      "ok"
      ]
     },
     {
      "n": 4,
      "s": "mapa",
-     "st": 5,
+     "st": 6,
      "j": [
-      "rev",
-      "rev",
-      "rev"
+      "ko",
+      "ok",
+      "ko"
      ]
     },
     {
      "n": 5,
      "s": "hito",
-     "st": 5,
+     "st": 6,
      "j": [
-      "rev",
-      "rev",
-      "rev"
+      "ko",
+      "ko",
+      "ko"
      ]
     }
    ]
