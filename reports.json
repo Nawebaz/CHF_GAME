@@ -527,5 +527,20 @@
    "text": "Bóveda enlazada; hay un duplicado de Syncthing en _to_delete para que lo borres",
    "at": "2026-11-12T19:45:01+01:00"
   }
+ },
+ {
+  "id": "claude-repo-boveda-1211",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Repo ↔ Obsidian",
+  "state": "run",
+  "task": "revisar repo y bóveda; sincronía y conexiones",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T20:29:21+01:00",
+  "at": "2026-11-12T20:29:21+01:00"
  }
 ]
