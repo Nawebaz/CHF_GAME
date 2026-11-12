@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Conecta Strata (la IA local del PC) con Faro. v2
+# Conecta Strata (la IA local del PC) con Faro. v3
 # - Pregunta al propio Strata (su biblioteca de control, la misma que usa el arranque automático) en qué puerto está su API.
 # - Busca la clave en su perfil y en sus procesos, y la prueba SOLO contra localhost (puertos de Strata, nunca otro servicio).
 # - Si no la encuentra, te la pide; al escribirla no se ve.
@@ -49,6 +49,22 @@ fi
 echo "2/4 Busco la clave (no se muestra)"
 cands=(); n_proc=0; n_file=0
 add() { [ "${#1}" -ge 8 ] && [ "${#1}" -le 400 ] && cands+=("$1"); }
+# a) donde la guarda Strata: ~/.strata/data/native-instances/*.json, campo api_key (la más reciente primero)
+while IFS= read -r v; do add "$v"; done < <(python3 - "$HOME/.strata/data/native-instances" 2>/dev/null <<'PYEOF'
+import glob, json, os, sys
+def walk(x):
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if isinstance(v, str) and k.lower() in ("api_key", "apikey", "api-key", "token", "key"): print(v)
+            else: walk(v)
+    elif isinstance(x, list):
+        for y in x: walk(y)
+for f in sorted(glob.glob(os.path.join(sys.argv[1], "*.json")), key=os.path.getmtime, reverse=True):
+    try: walk(json.load(open(f, encoding="utf-8")))
+    except Exception: pass
+PYEOF
+)
+n_inst=${#cands[@]}
 yo=$$
 while read -r pid; do
   [ "$pid" = "$yo" ] && continue
@@ -76,7 +92,7 @@ while IFS= read -r -d '' f; do
   case "$f" in *.key|*/key|*/token|*api_key*|*apikey*) add "$(tr -d '\r\n' < "$f")";; esac
 done < <(find "$HOME/.config" "$HOME/.local/share" "$HOME/.local/state" "$HOME/.cache" "$HOME/Strata/data" "$HOME/.strata" -maxdepth 5 -type f -ipath '*strata*' -size -300k \
          \( -iname '*.json' -o -iname '*.toml' -o -iname '*.yaml' -o -iname '*.yml' -o -iname '*.ini' -o -iname '*.conf' -o -iname '*.env' -o -iname '.env' -o -iname '*key*' -o -iname '*token*' -o -iname '*profile*' -o -iname '*settings*' \) -print0 2>/dev/null)
-echo "   miré $n_proc procesos de Strata y $n_file archivos de su configuración: ${#cands[@]} posibles claves"
+echo "   instancias de Strata: $n_inst · procesos: $n_proc · archivos de configuración: $n_file → ${#cands[@]} posibles claves"
 
 hdr=""; val=""; url=""
 probar() {   # $1 = clave; prueba en cada puerto vivo de Strata con las cabeceras habituales
