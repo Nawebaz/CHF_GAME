@@ -225,5 +225,25 @@
   "ttl": 3600,
   "src_at": "2026-11-12T14:14:26+01:00",
   "at": "2026-11-12T14:14:26+01:00"
+ },
+ {
+  "id": "claude-faro-oficina-v2",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Faro oficina",
+  "state": "run",
+  "task": "oficina v2 publicada; encargo a Hermes",
+  "project": "agentes",
+  "action": "code",
+  "pct": 85.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T14:18:57+01:00",
+  "at": "2026-11-12T14:18:57+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Oficina v2 publicada (2026.11.12-oficina-v2); paso a Hermes lo del PC",
+   "at": "2026-11-12T14:18:57+01:00"
+  }
  }
 ]
