@@ -72,22 +72,22 @@
   "id": "claude-gta-panel",
   "kind": "run",
   "cloud": true,
-  "name": "Claude · panel GTA",
+  "name": "Claude · Panel GTA VI",
   "state": "ok",
-  "task": "Panel GTA VI v3",
+  "task": "Arreglo del paso mapa→3D",
   "project": "gta",
   "action": "Strata funciona: modelo listo en 18501",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T15:12:42+01:00",
+  "src_at": "2026-11-12T15:44:11+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Las órdenes del panel se guardan; las recoge la máquina cuando corra en el PC",
-   "at": "2026-11-12T15:12:42+01:00"
+   "text": "3D del panel arreglado y probado con three.js real",
+   "at": "2026-11-12T15:44:11+01:00"
   },
-  "at": "2026-11-12T15:12:42+01:00",
-  "step": "Publicado: Te toca, estado del PC, cola con prioridad, obras por GPU"
+  "at": "2026-11-12T15:44:11+01:00",
+  "step": "Panel publicado: 3D estable, motor de respaldo y reactivación"
  },
  {
   "id": "claude-gta-maquina",
