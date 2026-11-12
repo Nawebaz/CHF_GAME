@@ -71,18 +71,18 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · panel GTA",
-  "state": "ok",
+  "state": "run",
   "task": "Panel GTA VI",
   "project": "gta",
-  "action": "Zoom rehecho y publicado",
-  "pct": 100.0,
+  "action": "Aplicando 5 cambios de auditoría",
+  "pct": 5.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T11:37:21+01:00",
+  "src_at": "2026-11-12T11:47:21+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Zoom con deslizador y pasos intermedios; controles activos en 3D",
-   "at": "2026-11-12T11:37:21+01:00"
+   "text": "Semáforo, atajo, empaquetado, peaje y grúa",
+   "at": "2026-11-12T11:47:21+01:00"
   }
  },
  {
