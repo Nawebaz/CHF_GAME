@@ -365,19 +365,30 @@
   "cloud": true,
   "name": "Claude · Obsidian vivo",
   "state": "run",
-  "task": "Grafo de Obsidian animado en la oficina + actualizar notas",
+  "task": "Actualizo la bóveda: Faro, GTA VI, diario, sistema, guía, inicio y buzón",
   "project": "faro",
-  "action": "code",
-  "pct": 50.0,
+  "action": "obsidian",
+  "pct": 65.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T18:58:20+01:00",
-  "at": "2026-11-12T18:58:20+01:00",
+  "src_at": "2026-11-12T19:10:06+01:00",
+  "at": "2026-11-12T19:10:06+01:00",
   "say": {
    "to": "Nawe",
-   "text": "v2.9 publicada: la bóveda se anima con cada lectura y escritura real",
-   "at": "2026-11-12T18:58:20+01:00"
-  }
+   "text": "Actualizo la bóveda; mira el grafo",
+   "at": "2026-11-12T19:10:06+01:00"
+  },
+  "step": "leo y actualizo notas",
+  "notes": [
+   "10 Proyectos/Faro",
+   "00 Inicio",
+   "Diario de decisiones",
+   "20 Áreas/Sistema y máquinas",
+   "Faro/Guía de informes para agentes",
+   "_agentes/Índice de tareas",
+   "_agentes/README"
+  ],
+  "notes_kind": "read"
  },
  {
   "id": "claude-gta-tanda",
