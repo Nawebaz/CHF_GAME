@@ -300,19 +300,19 @@
   "cloud": true,
   "name": "Claude · auditoría GTA",
   "state": "ok",
-  "task": "Autoauditoría de la máquina GTA VI",
+  "task": "Decisiones GTA VI para la bóveda",
   "project": "gta",
   "action": "Empiezo: panel, edición, pipeline y referentes",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T14:56:43+01:00",
-  "at": "2026-11-12T14:56:43+01:00",
+  "src_at": "2026-11-12T15:01:21+01:00",
+  "at": "2026-11-12T15:01:21+01:00",
   "say": {
-   "to": "Nawe",
-   "text": "Auditoría lista: voz, duración y dónde vive la máquina",
-   "at": "2026-11-12T14:56:43+01:00"
+   "to": "Hermes",
+   "text": "Hermes: crea en la bóveda ~/Obsidian/Nahuel, en la carpeta del proyecto GTA VI (créala si no existe), la nota 'GTA VI - Decisiones 2026-11-12.md' con esto: 1) VOZ: solo la voz clonada de Nawe. Nawe graba una vez 10-20 min; el PC usa un modelo de clonación cuya licencia permita uso comercial (verificar Chatterbox y OpenVoice v2, ambos MIT; descartar XTTS-v2 y F5-TTS por licencia no comercial). Etiquetar como IA en TikTok. 2) DURACIÓN: dos carriles, cortos de 20-35 s para crecer y largos de 61-90 s para cobrar (TikTok paga solo +1 min y desde 10.000 seguidores). 3) DÓNDE: la máquina corre en el PC (Hermes + Claude Code); Claude en la nube hace de juez final; Faro es el panel. 4) PLATAFORMAS: TikTok, YouTube Shorts e Instagram Reels; cada clip aprobado sale en las tres. FIJO: el peaje con aprobación de Nawe es permanente; ITV de 3 jueces más uno de otra familia (Codex o Qwen local); manifiesto de licencias por clip. PENDIENTE DE NAWE: grabar la muestra de voz, correo y teléfono para las cuentas. Avisa en Faro cuando esté guardada.",
+   "at": "2026-11-12T15:01:21+01:00"
   },
-  "step": "Documento terminado: 3 decisiones para Nawe"
+  "step": "Encargo a Hermes: guardar decisiones en Obsidian"
  }
 ]
