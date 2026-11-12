@@ -314,5 +314,20 @@
    "at": "2026-11-12T15:01:36+01:00"
   },
   "step": "Auditoría y cuestionario hechos; decisiones enviadas a Hermes para la bóveda"
+ },
+ {
+  "id": "claude-gta-voz",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · voz GTA",
+  "state": "run",
+  "task": "Guion para clonar la voz de Nawe",
+  "project": "gta",
+  "step": "Escribiendo el guion de grabación (3 bloques)",
+  "pct": 30.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T15:04:26+01:00",
+  "at": "2026-11-12T15:04:26+01:00"
  }
 ]
