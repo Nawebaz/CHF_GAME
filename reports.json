@@ -505,14 +505,22 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "enlazar notas huérfanas de la bóveda",
+  "state": "ok",
+  "task": "huérfanas enlazadas: de 55 aparentes (30 reales) a 5 apartadas a propósito",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 10.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:42:05+01:00",
-  "at": "2026-11-12T19:42:05+01:00"
+  "src_at": "2026-11-12T19:45:01+01:00",
+  "at": "2026-11-12T19:45:01+01:00",
+  "artifact": {
+   "name": "76 enlaces nuevos en la bóveda"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Bóveda enlazada; hay un duplicado de Syncthing en _to_delete para que lo borres",
+   "at": "2026-11-12T19:45:01+01:00"
+  }
  }
 ]
