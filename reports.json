@@ -176,15 +176,15 @@
   "state": "ok",
   "task": "Test v2: clip GTA con voz ES/EN/PT",
   "project": "gta",
-  "action": "Aprobado por 3 jueces; en el peaje",
+  "action": "Ficha de publicación con títulos añadida",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T13:05:17+01:00",
+  "src_at": "2026-11-12T13:12:30+01:00",
   "say": {
    "to": "Nawe",
-   "text": "3 vídeos y portadas en Descargas del Mac",
-   "at": "2026-11-12T13:05:17+01:00"
+   "text": "Carpeta gta6-clip-002 en Descargas",
+   "at": "2026-11-12T13:12:30+01:00"
   },
   "at": "2026-11-12T13:05:17+01:00"
  },
