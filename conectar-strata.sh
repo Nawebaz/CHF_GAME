@@ -123,4 +123,4 @@ mods=$(curl -s -m 5 -H "$hdr: $val" "$url/v1/models" | python3 -c 'import json,s
 try: print(", ".join(m.get("id", "?") for m in json.load(sys.stdin).get("data", []))[:120])
 except Exception: print("")' 2>/dev/null)
 echo "Listo: Strata en $url acepta la clave (${mods:-modelo sin nombre}). Guardada en $DEST, solo legible por ti; no se ha mostrado."
-curl -s -m 5 -X POST http://127.0.0.1:8787/api/update > /dev/null 2>&1 && echo "Faro: pedida la actualización; usará a Strata en cuanto tenga la versión 2.13 (unos minutos)."
+curl -s -m 5 -X POST http://127.0.0.1:8787/api/update > /dev/null 2>&1 && echo "Faro: pedida la actualización; Faro la usa en menos de un minuto (necesita la versión 2.12 o posterior)."
