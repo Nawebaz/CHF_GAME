@@ -299,20 +299,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · auditoría GTA",
-  "state": "run",
+  "state": "ok",
   "task": "Autoauditoría de la máquina GTA VI",
   "project": "gta",
   "action": "Empiezo: panel, edición, pipeline y referentes",
-  "pct": 65.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T14:56:01+01:00",
-  "at": "2026-11-12T14:56:01+01:00",
+  "src_at": "2026-11-12T14:56:43+01:00",
+  "at": "2026-11-12T14:56:43+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Hallazgo: TikTok solo paga vídeos de más de 1 minuto",
-   "at": "2026-11-12T14:55:09+01:00"
+   "text": "Auditoría lista: voz, duración y dónde vive la máquina",
+   "at": "2026-11-12T14:56:43+01:00"
   },
-  "step": "Panel, edición y pipeline escritos; faltan referentes, estilo y plan"
+  "step": "Documento terminado: 3 decisiones para Nawe"
  }
 ]
