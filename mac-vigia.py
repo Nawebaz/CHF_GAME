@@ -50,16 +50,33 @@ def _run(cmd, t=4):
     try: return subprocess.run(cmd, capture_output=True, text=True, timeout=t).stdout
     except Exception: return ""
 
+def _top_ahora(ncpu):
+    """CPU real de este segundo con «top» (la 1.ª muestra de top es la media desde el arranque: se usa la 2.ª)."""
+    out = _run(["top", "-l", "2", "-s", "1", "-n", "8", "-o", "cpu", "-stats", "command,cpu"], 6)
+    parts = out.split("Processes:")
+    if len(parts) < 3: return None, []
+    last = parts[-1]; m = re.search(r"CPU usage:.*?([\d.]+)% idle", last)
+    if not m: return None, []
+    procs, on = [], False
+    for ln in last.splitlines():
+        if ln.strip().startswith("COMMAND"): on = True; continue
+        if on and ln.strip():
+            p = ln.rsplit(None, 1)
+            try: procs.append((float(p[1]), 0, p[0].strip()))
+            except (ValueError, IndexError): pass
+    return round(max(0.0, 100 - float(m.group(1))), 1), procs
+
 def maquina():
     """CPU, RAM y gráfica del Mac sin sudo: ps, vm_stat/sysctl e ioreg (Apple Silicon da el uso de la GPU ahí)."""
     ncpu = os.cpu_count() or 1
-    procs = []
-    for ln in _run(["ps", "-Ao", "pcpu=,rss=,comm="]).splitlines():
-        p = ln.split(None, 2)
-        if len(p) == 3:
-            try: procs.append((float(p[0]), int(p[1]), os.path.basename(p[2])))
-            except ValueError: pass
-    cpu = min(100.0, sum(x[0] for x in procs) / ncpu)
+    cpu, procs = _top_ahora(ncpu)
+    if cpu is None:   # respaldo: «ps» da medias de un minuto, se mueve despacio
+        for ln in _run(["ps", "-Ao", "pcpu=,rss=,comm="]).splitlines():
+            p = ln.split(None, 2)
+            if len(p) == 3:
+                try: procs.append((float(p[0]), int(p[1]), os.path.basename(p[2])))
+                except ValueError: pass
+        cpu = min(100.0, sum(x[0] for x in procs) / ncpu)
     total = int((_run(["sysctl", "-n", "hw.memsize"]).strip() or "0"))
     vm = _run(["vm_stat"]); pg = int((re.search(r"page size of (\d+)", vm) or [0, 16384])[1])
     get = lambda k: int((re.search(k + r":\s+(\d+)", vm) or [0, 0])[1])
