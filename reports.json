@@ -110,17 +110,17 @@
   "cloud": true,
   "name": "Claude · Edits + Meta MCP + Blender",
   "state": "run",
-  "task": "Strata caído: Hermes pasa a Codex como motor por defecto",
+  "task": "Hermes sin responder al encargo del 12 nov",
   "project": "chf",
-  "action": "decisión motor",
+  "action": "esperando a Hermes",
   "pct": 92.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T10:46:23+01:00",
+  "src_at": "2026-11-12T11:04:38+01:00",
   "say": {
-   "to": "Hermes",
-   "text": "Tienes encargo en el buzón: Strata, HTTPS y CHF 3D",
-   "at": "2026-11-12T10:38:27+01:00"
+   "to": "Nawe",
+   "text": "Hermes no ha recogido el encargo; escríbele por Telegram",
+   "at": "2026-11-12T11:04:38+01:00"
   }
  },
  {
