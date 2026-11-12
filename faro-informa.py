@@ -6,10 +6,12 @@ Uso (desde un clon de la rama faro-buzon):
   python3 faro-informa.py --id gta-pipeline --state ok --pct 100 --artifact "Panel GTA" --say "Hecho: panel publicado"
 state: run (trabajando) · ok (terminado) · bad (falló).
 action (solo una de estas): code, write, web, edit, think, obsidian, mail, system, skills. Lo demás va en --step.
+--notes "10 Proyectos/Faro;Diario de decisiones" (+ --notes-kind read|write|new): notas de Obsidian que acabas de leer o
+escribir, para que la oficina las encienda en el grafo (solo rutas de la bóveda, sin contenido).
 """
 import argparse, datetime, json, os, subprocess, sys, time
 p = argparse.ArgumentParser()
-for a in ("id", "name", "state", "task", "project", "action", "step", "artifact", "say", "to", "brand"): p.add_argument("--" + a)
+for a in ("id", "name", "state", "task", "project", "action", "step", "artifact", "say", "to", "brand", "notes", "notes-kind"): p.add_argument("--" + a)
 p.add_argument("--pct", type=float); p.add_argument("--ttl", type=int, default=3600)
 a = p.parse_args()
 if not a.id: sys.exit("falta --id")
@@ -28,6 +30,8 @@ for intento in range(4):
            "step": a.step, "pct": a.pct, "brand": a.brand or ("claude" if a.name and "claude" in a.name.lower() else None), "ttl": a.ttl}.items() if v is not None}
     r.update(upd); r["src_at"] = now; r["at"] = now; r["cloud"] = True  # Faro solo importa si cambia "at"
     if a.artifact: r["artifact"] = {"name": a.artifact}
+    if a.notes: r["notes"] = [x.strip() for x in a.notes.split(";") if x.strip()][:24]; r["notes_kind"] = a.notes_kind or "read"
+    else: r.pop("notes", None); r.pop("notes_kind", None)
     if a.say: r["say"] = {"to": a.to or "Nawe", "text": a.say, "at": now}
     json.dump(d, open("reports.json", "w"), ensure_ascii=False, indent=1)
     git("add", "reports.json"); git("commit", "-qm", "Faro: %s %s" % (a.id, r.get("state", "")))
