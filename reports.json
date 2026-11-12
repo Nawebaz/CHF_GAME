@@ -335,5 +335,28 @@
    "text": "Graba los bloques A, B y C; en el coche, sin leer",
    "at": "2026-11-12T15:04:56+01:00"
   }
+ },
+ {
+  "id": "claude-faro-maquinas",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Faro máquinas",
+  "state": "ok",
+  "task": "CPU y gráfica en vivo en la oficina",
+  "project": "agentes",
+  "action": "code",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T15:28:15+01:00",
+  "at": "2026-11-12T15:28:15+01:00",
+  "artifact": {
+   "name": "Faro v2.8"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Hecho: v2.8 publicada (CPU y gráfica del PC y del Mac en vivo); el PC la instala solo",
+   "at": "2026-11-12T15:28:15+01:00"
+  }
  }
 ]
