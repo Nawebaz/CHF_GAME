@@ -391,21 +391,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Hermes baja el metraje oficial; puliendo estilo y jueces",
-  "pct": 50.0,
+  "step": "4 clips montados con metraje oficial; pasan las puertas; ITV de vídeo",
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T21:28:42+01:00",
-  "at": "2026-11-12T21:28:42+01:00",
+  "src_at": "2026-11-12T22:12:46+01:00",
+  "at": "2026-11-12T22:12:46+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Orden a Hermes en iceland: tráileres + Extended Look + voz guía",
-   "at": "2026-11-12T21:28:42+01:00"
+   "text": "M1, M2, E1 y E2 superan las puertas duras; P1 aparcado (falta el monte)",
+   "at": "2026-11-12T22:12:46+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Hermes baja el metraje oficial; puliendo estilo y jueces",
+   "paso": "4 clips montados con metraje oficial; pasan las puertas; ITV de vídeo",
    "clips": [
     {
      "n": 1,
