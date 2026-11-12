@@ -269,5 +269,26 @@
    "text": "Hecho: en la bóveda solo 1 nota cita GTA VI (la auditoría); el proyecto no tiene nota propia en 10 Proyectos",
    "at": "2026-11-12T14:39:39+01:00"
   }
+ },
+ {
+  "id": "claude-busca-faro",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · búsqueda en la bóveda",
+  "state": "run",
+  "task": "busca en la bóveda lo documentado de Faro",
+  "project": "agentes",
+  "action": "obsidian",
+  "step": "buscando notas de Faro",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T14:48:34+01:00",
+  "at": "2026-11-12T14:48:34+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Busco en la bóveda qué está documentado de Faro",
+   "at": "2026-11-12T14:48:34+01:00"
+  }
  }
 ]
