@@ -391,21 +391,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Tanda 2: renders y jueces",
-  "pct": 45.0,
+  "step": "Tanda 2: ronda de taller",
+  "pct": 65.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T00:31:55+01:00",
-  "at": "2026-11-13T00:31:55+01:00",
+  "src_at": "2026-11-13T00:57:46+01:00",
+  "at": "2026-11-13T00:57:46+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Serie 5→1, mapa de Leonida y 5 detalles del tráiler 2 montados; jueces revisando.",
-   "at": "2026-11-13T00:31:55+01:00"
+   "text": "Serie 5→1 y detalles del tráiler en taller por los jueces; el mapa queda aparcado (falta plano de Kalaga).",
+   "at": "2026-11-13T00:57:46+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Tanda 2: renders y jueces",
+   "paso": "Tanda 2: ronda de taller",
    "clips": [
     {
      "n": 1,
