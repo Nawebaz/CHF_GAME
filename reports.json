@@ -486,22 +486,18 @@
   "cloud": true,
   "name": "Claude · verificación",
   "state": "run",
-  "task": "Compruebo Strata, rendimiento en vivo y bóveda viva vía encargos",
+  "task": "Hermes revisa Strata, Syncthing y la CPU del escritorio",
   "project": "faro",
-  "action": "obsidian",
-  "pct": 20.0,
+  "action": "think",
+  "pct": 50.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:24:45+01:00",
-  "at": "2026-11-12T19:24:45+01:00",
-  "notes": [
-   "_agentes/inbox/faro"
-  ],
-  "notes_kind": "write",
+  "src_at": "2026-11-12T19:37:50+01:00",
+  "at": "2026-11-12T19:37:50+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Encargos de prueba a Strata y Hermes por el buzón de la bóveda",
-   "at": "2026-11-12T19:24:45+01:00"
+   "text": "Encargo a Hermes: Strata, Syncthing Mac→PC y gnome-shell al 72 % de CPU",
+   "at": "2026-11-12T19:37:50+01:00"
   }
  }
 ]
