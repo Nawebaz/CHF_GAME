@@ -388,79 +388,79 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Tanda 1 GTA VI",
-  "state": "ok",
+  "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Entregado en Descargas del Mac; esperando voz y auditoría",
-  "pct": 100.0,
+  "step": "Radar viral + auditoría de defectos",
+  "pct": 5.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T20:08:00+01:00",
-  "at": "2026-11-12T20:08:00+01:00",
+  "src_at": "2026-11-12T20:10:48+01:00",
+  "at": "2026-11-12T20:10:48+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Tanda 1: 5 clips aprobados por los 3 jueces. En peaje hasta la voz de Nawe.",
-   "at": "2026-11-12T20:08:00+01:00"
+   "text": "Tanda 1 rechazada: barrido de lo más viral de GTA VI y revisión de subtítulos y flechas",
+   "at": "2026-11-12T20:10:48+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Entregado en Descargas del Mac; esperando voz y auditoría",
+   "paso": "Radar viral + auditoría de defectos",
    "clips": [
     {
      "n": 1,
      "s": "mito",
-     "st": 9,
+     "st": 5,
      "j": [
-      "ok",
-      "ok",
-      "ok"
+      "ko",
+      "ko",
+      "ko"
      ],
-     "b": "Falta la voz"
+     "b": "Rechazado por Nawe"
     },
     {
      "n": 2,
      "s": "cuenta",
-     "st": 9,
+     "st": 5,
      "j": [
-      "ok",
-      "ok",
-      "ok"
+      "ko",
+      "ko",
+      "ko"
      ],
-     "b": "Falta la voz"
+     "b": "Rechazado por Nawe"
     },
     {
      "n": 3,
      "s": "reto",
-     "st": 9,
+     "st": 5,
      "j": [
-      "ok",
-      "ok",
-      "ok"
+      "ko",
+      "ko",
+      "ko"
      ],
-     "b": "Falta la voz"
+     "b": "Rechazado por Nawe"
     },
     {
      "n": 4,
      "s": "mapa",
-     "st": 9,
+     "st": 5,
      "j": [
-      "ok",
-      "ok",
-      "ok"
+      "ko",
+      "ko",
+      "ko"
      ],
-     "b": "Falta la voz"
+     "b": "Rechazado por Nawe"
     },
     {
      "n": 5,
      "s": "hito",
-     "st": 9,
+     "st": 5,
      "j": [
-      "ok",
-      "ok",
-      "ok"
+      "ko",
+      "ko",
+      "ko"
      ],
-     "b": "Falta la voz"
+     "b": "Rechazado por Nawe"
     }
    ]
   }
