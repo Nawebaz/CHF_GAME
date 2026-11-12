@@ -248,5 +248,26 @@
   "artifact": {
    "name": "Faro oficina v2"
   }
+ },
+ {
+  "id": "claude-busca-boveda",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · búsqueda en la bóveda",
+  "state": "run",
+  "task": "busca en la bóveda todo lo de GTA VI",
+  "project": "gta",
+  "action": "obsidian",
+  "step": "leyendo índice de notas",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T14:39:00+01:00",
+  "at": "2026-11-12T14:39:00+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Busco en la bóveda las notas de GTA VI",
+   "at": "2026-11-12T14:39:00+01:00"
+  }
  }
 ]
