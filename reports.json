@@ -179,5 +179,19 @@
    "text": "3 vídeos y portadas en Descargas del Mac",
    "at": "2026-11-12T13:05:17+01:00"
   }
+ },
+ {
+  "id": "claude-faro-agentes-1211",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Faro agentes",
+  "state": "run",
+  "task": "auditoría de agentes visibles en Faro y propuesta de sondeo",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 20.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T13:10:57+01:00"
  }
 ]
