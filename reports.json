@@ -485,19 +485,19 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · verificación",
-  "state": "run",
-  "task": "Hermes revisa Strata, Syncthing y la CPU del escritorio",
+  "state": "ok",
+  "task": "Syncthing arreglado, notas en el PC, modo ahorro v2.15; Strata pendiente de que Nawe ejecute el script",
   "project": "faro",
   "action": "think",
-  "pct": 50.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:37:50+01:00",
-  "at": "2026-11-12T19:37:50+01:00",
+  "src_at": "2026-11-12T19:52:43+01:00",
+  "at": "2026-11-12T19:52:43+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Encargo a Hermes: Strata, Syncthing Mac→PC y gnome-shell al 72 % de CPU",
-   "at": "2026-11-12T19:37:50+01:00"
+   "text": "Strata: falta que ejecutes conectar-strata.sh (v3) desde la Terminal del Mac",
+   "at": "2026-11-12T19:52:43+01:00"
   }
  },
  {
