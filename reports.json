@@ -387,17 +387,73 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "ITV de guiones: ronda 1 con 3 jueces",
-  "pct": 15.0,
+  "step": "Guiones · ronda 2 de la ITV",
+  "pct": 18.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T18:58:31+01:00",
-  "at": "2026-11-12T18:58:31+01:00",
+  "src_at": "2026-11-12T19:01:31+01:00",
+  "at": "2026-11-12T19:01:31+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Jueces: 0 aprobados en ronda 1, aplico cambios",
-   "at": "2026-11-12T18:58:31+01:00"
+   "text": "Faro v2.10 publicado: mapa de la máquina en vivo. Aplico cambios de los jueces",
+   "at": "2026-11-12T19:01:31+01:00"
   },
-  "action": "think"
+  "action": "write",
+  "gta": {
+   "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
+   "paso": "Guiones · ronda 2 de la ITV",
+   "clips": [
+    {
+     "n": 1,
+     "s": "mito",
+     "st": 1,
+     "j": [
+      "rev",
+      "rev",
+      "rev"
+     ]
+    },
+    {
+     "n": 2,
+     "s": "cuenta",
+     "st": 1,
+     "j": [
+      "rev",
+      "rev",
+      "rev"
+     ]
+    },
+    {
+     "n": 3,
+     "s": "reto",
+     "st": 1,
+     "j": [
+      "rev",
+      "rev",
+      "rev"
+     ]
+    },
+    {
+     "n": 4,
+     "s": "mapa",
+     "st": 1,
+     "j": [
+      "rev",
+      "rev",
+      "rev"
+     ]
+    },
+    {
+     "n": 5,
+     "s": "hito",
+     "st": 1,
+     "j": [
+      "rev",
+      "rev",
+      "rev"
+     ]
+    }
+   ]
+  }
  }
 ]
