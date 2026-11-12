@@ -391,21 +391,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "ITV de vídeo ronda 3",
-  "pct": 88.0,
+  "step": "ITV final; M3 (cuenta atrás diaria) añadido",
+  "pct": 92.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T22:53:06+01:00",
-  "at": "2026-11-12T22:53:06+01:00",
+  "src_at": "2026-11-12T23:13:29+01:00",
+  "at": "2026-11-12T23:13:29+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Taller 2 hecho; jueces revisando la versión final",
-   "at": "2026-11-12T22:53:06+01:00"
+   "text": "E1, E2 y M2 aprobados; M1 y M3 en la última revisión",
+   "at": "2026-11-12T23:13:29+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "ITV de vídeo ronda 3",
+   "paso": "ITV final; M3 (cuenta atrás diaria) añadido",
    "clips": [
     {
      "n": 1,
