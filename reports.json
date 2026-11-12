@@ -73,21 +73,21 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · panel GTA",
-  "state": "run",
+  "state": "ok",
   "task": "Panel GTA VI v3",
   "project": "gta",
   "action": "Strata funciona: modelo listo en 18501",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T15:09:04+01:00",
+  "src_at": "2026-11-12T15:12:42+01:00",
   "say": {
-   "to": "Hermes",
-   "text": "Hermes: el diagnóstico ya está hecho; Strata app-1 está listo en 127.0.0.1:18501 (no 18500). Solo comprueba que tu drop-in 10-strata.conf apunta a 18501 y no reinicies nada.",
-   "at": "2026-11-12T13:44:51+01:00"
+   "to": "Nawe",
+   "text": "Las órdenes del panel se guardan; las recoge la máquina cuando corra en el PC",
+   "at": "2026-11-12T15:12:42+01:00"
   },
-  "at": "2026-11-12T15:09:04+01:00",
-  "step": "Te toca, estado del PC, cola con prioridad"
+  "at": "2026-11-12T15:12:42+01:00",
+  "step": "Publicado: Te toca, estado del PC, cola con prioridad, obras por GPU"
  },
  {
   "id": "claude-gta-maquina",
