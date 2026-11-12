@@ -103,5 +103,24 @@
    "text": "Kit de arranque escrito: nombres, juez, calendario, guiones y tarea iceland",
    "at": "2026-11-11T14:15:49+01:00"
   }
+ },
+ {
+  "id": "claude-edits-1112",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Edits + Meta MCP + Blender",
+  "state": "run",
+  "task": "Instalar Edits en Mac, conectores Meta, lanzar CHF 3D",
+  "project": "chf",
+  "action": "investigando",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T10:17:12+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo",
+   "at": "2026-11-12T10:17:12+01:00"
+  }
  }
 ]
