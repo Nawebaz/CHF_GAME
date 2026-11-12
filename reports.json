@@ -391,71 +391,46 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "ITV de vídeo: los 3 jueces revisan los 5 montajes",
-  "pct": 70.0,
+  "step": "Montaje: golpes de cámara cada 1,3 s + portadas y fichas hechas",
+  "pct": 75.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:19:02+01:00",
-  "at": "2026-11-12T19:19:02+01:00",
+  "src_at": "2026-11-12T19:24:06+01:00",
+  "at": "2026-11-12T19:24:06+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Faro v2.13: la máquina GTA ya está en la tele de la oficina. Clips montados, pasan la ITV",
-   "at": "2026-11-12T19:19:02+01:00"
+   "text": "Reajusto el ritmo antes de la ITV de vídeo; portadas y fichas listas",
+   "at": "2026-11-12T19:24:06+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "ITV de vídeo: los 3 jueces revisan los 5 montajes",
+   "paso": "Montaje: golpes de cámara cada 1,3 s + portadas y fichas hechas",
    "clips": [
     {
      "n": 1,
      "s": "mito",
-     "st": 5,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 2,
      "s": "cuenta",
-     "st": 5,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 3,
      "s": "reto",
-     "st": 5,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 4,
      "s": "mapa",
-     "st": 5,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     },
     {
      "n": 5,
      "s": "hito",
-     "st": 5,
-     "j": [
-      "rev",
-      "rev",
-      "rev"
-     ]
+     "st": 4
     }
    ]
   }
