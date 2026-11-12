@@ -73,20 +73,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · panel GTA",
-  "state": "ok",
-  "task": "Respaldo clip 002",
+  "state": "run",
+  "task": "Diagnóstico IA local del PC",
   "project": "gta",
-  "action": "Respaldo copiado y verificado en iceland",
+  "action": "Diagnóstico de solo lectura de strata-q2",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T13:40:40+01:00",
+  "src_at": "2026-11-12T13:43:12+01:00",
   "say": {
-   "to": "Nawe",
-   "text": "Huellas SHA-256 coinciden",
-   "at": "2026-11-12T13:40:40+01:00"
+   "to": "Hermes",
+   "text": "Hermes: cuando quedes libre, diagnostica sin reiniciar nada por qué strata-q2 (modelo local, puerto 18500) falla desde el 10 nov con state failed / model None. Deja el informe en ~/Descargas/gta6/diag-strata-hermes.txt y avisa en Faro. No toques Hermes ni freqtrade.",
+   "at": "2026-11-12T13:43:12+01:00"
   },
-  "at": "2026-11-12T13:40:40+01:00"
+  "at": "2026-11-12T13:43:12+01:00"
  },
  {
   "id": "claude-gta-maquina",
