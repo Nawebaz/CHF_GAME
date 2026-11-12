@@ -552,18 +552,18 @@
   "cloud": true,
   "name": "Claude · Coordinación",
   "state": "run",
-  "task": "v2.17 (Codex con bóveda y localhost) publicada; Hermes con arranque de Strata y CPU del escritorio; Codex espera a la v2.17",
+  "task": "Hermes: Strata arranca solo (hecho) y CPU diagnosticada; Codex: v2.18 le quita el solo lectura, espero a que el PC se actualice",
   "project": "agentes",
   "action": "code",
-  "pct": 60.0,
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T22:46:07+01:00",
-  "at": "2026-11-12T22:46:07+01:00",
+  "src_at": "2026-11-12T23:08:39+01:00",
+  "at": "2026-11-12T23:08:39+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Hermes: arranque de Strata y CPU. Codex vuelve cuando el PC tenga la v2.17",
-   "at": "2026-11-12T22:46:07+01:00"
+   "text": "Codex estaba en solo lectura por el comando del PC; v2.18 lo arregla",
+   "at": "2026-11-12T23:08:39+01:00"
   }
  }
 ]
