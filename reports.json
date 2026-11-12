@@ -160,5 +160,24 @@
    "text": "Encargo 3D listo para Hermes",
    "at": "2026-11-12T11:16:44+01:00"
   }
+ },
+ {
+  "id": "claude-gta-test",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · test pipeline GTA",
+  "state": "run",
+  "task": "Test del pipeline: vídeo pizarra",
+  "project": "gta",
+  "action": "Preparando",
+  "pct": 2.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T12:07:20+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empieza el test de punta a punta",
+   "at": "2026-11-12T12:07:20+01:00"
+  }
  }
 ]
