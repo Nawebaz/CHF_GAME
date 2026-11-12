@@ -210,5 +210,20 @@
   "artifact": {
    "name": "Faro 2026.11.12-live-15s-1"
   }
+ },
+ {
+  "id": "claude-hermes-clips-1211",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · encargos de Hermes",
+  "state": "ok",
+  "task": "ACK del puente y 5 momentos para clips verticales",
+  "project": "gta",
+  "action": "write",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T14:14:26+01:00",
+  "at": "2026-11-12T14:14:26+01:00"
  }
 ]
