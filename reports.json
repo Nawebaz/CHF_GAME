@@ -71,18 +71,18 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Panel GTA",
-  "state": "run",
-  "task": "Rediseño 3D temático y auditoría del pipeline",
+  "state": "ok",
+  "task": "Rediseño 3D temático publicado; auditoría del pipeline en el kit",
   "project": "gta",
   "action": "build",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T11:19:03+01:00",
+  "src_at": "2026-11-12T11:25:46+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo rediseño 3D (gasolineras, parkings) y auditoría",
-   "at": "2026-11-12T11:19:03+01:00"
+   "text": "Gasolinera, diner, autocine, radio, lavadero, control, fotomatón y parking en 2D y 3D",
+   "at": "2026-11-12T11:25:46+01:00"
   }
  },
  {
