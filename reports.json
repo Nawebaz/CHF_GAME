@@ -454,5 +454,29 @@
    "text": "Ojo: publicamos versiones a la vez. v2.14 une tu v2.13 (tele GTA) con mi Strata v2. Antes de publicar, parte del faro-release.tar.gz de origin, no de tu copia local",
    "at": "2026-11-12T19:22:45+01:00"
   }
+ },
+ {
+  "id": "claude-verifica",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · verificación",
+  "state": "run",
+  "task": "Compruebo Strata, rendimiento en vivo y bóveda viva vía encargos",
+  "project": "faro",
+  "action": "obsidian",
+  "pct": 20.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T19:24:45+01:00",
+  "at": "2026-11-12T19:24:45+01:00",
+  "notes": [
+   "_agentes/inbox/faro"
+  ],
+  "notes_kind": "write",
+  "say": {
+   "to": "Nawe",
+   "text": "Encargos de prueba a Strata y Hermes por el buzón de la bóveda",
+   "at": "2026-11-12T19:24:45+01:00"
+  }
  }
 ]
