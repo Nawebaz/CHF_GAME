@@ -499,5 +499,20 @@
    "text": "Encargo a Hermes: Strata, Syncthing Mac→PC y gnome-shell al 72 % de CPU",
    "at": "2026-11-12T19:37:50+01:00"
   }
+ },
+ {
+  "id": "claude-huerfanos-1211",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "enlazar notas huérfanas de la bóveda",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T19:42:05+01:00",
+  "at": "2026-11-12T19:42:05+01:00"
  }
 ]
