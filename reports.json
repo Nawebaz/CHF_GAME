@@ -293,5 +293,25 @@
   "artifact": {
    "name": "Nota Faro actualizada"
   }
+ },
+ {
+  "id": "claude-gta-auditoria",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · auditoría GTA",
+  "state": "run",
+  "task": "Autoauditoría de la máquina GTA VI",
+  "project": "gta",
+  "action": "Empiezo: panel, edición, pipeline y referentes",
+  "pct": 3.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T14:54:00+01:00",
+  "at": "2026-11-12T14:54:00+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Trabajo en la nube; te aviso por aquí en cada hito",
+   "at": "2026-11-12T14:54:00+01:00"
+  }
  }
 ]
