@@ -71,18 +71,18 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Panel GTA",
-  "state": "ok",
-  "task": "3D: rótulo y encuadre en cada parada",
+  "state": "run",
+  "task": "Rediseño 3D temático y auditoría del pipeline",
   "project": "gta",
   "action": "build",
-  "pct": 100.0,
+  "pct": 5.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-11T11:40:37+01:00",
+  "src_at": "2026-11-12T11:19:03+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Panel v2: en 3D se ve dónde está parado cada coche",
-   "at": "2026-11-11T11:40:37+01:00"
+   "text": "Empiezo rediseño 3D (gasolineras, parkings) y auditoría",
+   "at": "2026-11-12T11:19:03+01:00"
   }
  },
  {
