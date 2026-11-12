@@ -391,21 +391,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "ITV de vídeo ronda 2 (4 jueces)",
-  "pct": 80.0,
+  "step": "ITV de vídeo ronda 3",
+  "pct": 88.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T22:41:55+01:00",
-  "at": "2026-11-12T22:41:55+01:00",
+  "src_at": "2026-11-12T22:53:06+01:00",
+  "at": "2026-11-12T22:53:06+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Taller hecho: sin planos repetidos, sin PS5 Slim, ganchos y remates reajustados",
-   "at": "2026-11-12T22:41:55+01:00"
+   "text": "Taller 2 hecho; jueces revisando la versión final",
+   "at": "2026-11-12T22:53:06+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "ITV de vídeo ronda 2 (4 jueces)",
+   "paso": "ITV de vídeo ronda 3",
    "clips": [
     {
      "n": 1,
