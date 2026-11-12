@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Vigía de Faro para el Mac: mira si Codex (app o terminal) está trabajando y se lo cuenta a Faro en el PC.
 Instalar (una vez):  python3 mac-vigia.py --instalar          Quitar:  python3 mac-vigia.py --quitar
-Solo lee ~/.codex/sessions. Manda a Faro: si está activo, qué tipo de acción hace y la primera frase del encargo."""
+Lee ~/.codex/sessions (si Codex trabaja y en qué) y el uso de CPU, RAM y gráfica del Mac (cada 3 s). Se actualiza solo una vez por hora."""
 import json, os, re, shutil, subprocess, sys, time, urllib.request
 FARO = os.environ.get("FARO_URL", "http://iceland:8787")
 FAROS = [FARO] + [u for u in ("http://iceland:8787", "http://192.168.18.108:8787") if u != FARO]
@@ -46,15 +46,66 @@ def enviar(r):
         except Exception as e: err = e
     raise err
 
-def bucle():
-    ultimo = None
-    while True:
+def _run(cmd, t=4):
+    try: return subprocess.run(cmd, capture_output=True, text=True, timeout=t).stdout
+    except Exception: return ""
+
+def maquina():
+    """CPU, RAM y gráfica del Mac sin sudo: ps, vm_stat/sysctl e ioreg (Apple Silicon da el uso de la GPU ahí)."""
+    ncpu = os.cpu_count() or 1
+    procs = []
+    for ln in _run(["ps", "-Ao", "pcpu=,rss=,comm="]).splitlines():
+        p = ln.split(None, 2)
+        if len(p) == 3:
+            try: procs.append((float(p[0]), int(p[1]), os.path.basename(p[2])))
+            except ValueError: pass
+    cpu = min(100.0, sum(x[0] for x in procs) / ncpu)
+    total = int((_run(["sysctl", "-n", "hw.memsize"]).strip() or "0"))
+    vm = _run(["vm_stat"]); pg = int((re.search(r"page size of (\d+)", vm) or [0, 16384])[1])
+    get = lambda k: int((re.search(k + r":\s+(\d+)", vm) or [0, 0])[1])
+    used = (get("Pages active") + get("Pages wired down") + get("Pages occupied by compressor")) * pg
+    io = _run(["ioreg", "-r", "-d", "1", "-w", "0", "-c", "IOAccelerator"])
+    g = re.search(r'"Device Utilization %"\s*=\s*(\d+)', io); gm = re.search(r'"In use system memory"\s*=\s*(\d+)', io)
+    top = sorted(procs, reverse=True)[:5]
+    return {"name": "Mac", "kind": "mac", "cpu": round(cpu, 1), "ncpu": ncpu,
+            "ram": round(used / total * 100, 1) if total else None, "ram_gb": round(used / 2**30, 1), "ram_total_gb": round(total / 2**30, 1),
+            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None,
+            "top": [{"name": n[:28], "cpu": round(c / ncpu, 1)} for c, _, n in top if c > 1]}
+
+def enviar_maquina(m):
+    for u in FAROS:
         try:
-            r = estado()
-            if r and (r != ultimo or int(time.time()) % 60 < 20): enviar(r); ultimo = r
-        except Exception as e:
-            print("vigía:", e, flush=True)
-        time.sleep(20)
+            req = urllib.request.Request(u + "/api/machine", data=json.dumps(m).encode(), headers={"Content-Type": "application/json"})
+            urllib.request.urlopen(req, timeout=4).read(); return
+        except Exception: pass
+
+URL_YO = "https://raw.githubusercontent.com/Nawebaz/CHF_GAME/faro-buzon/mac-vigia.py"
+def autoactualizar():
+    """Una vez por hora: si hay una versión nueva del vigía en el buzón de Faro, se reemplaza y se reinicia (launchd lo vuelve a lanzar)."""
+    try:
+        nuevo = urllib.request.urlopen(URL_YO + "?t=%d" % time.time(), timeout=15).read()
+        yo = os.path.abspath(__file__)
+        if nuevo and nuevo != open(yo, "rb").read():
+            compile(nuevo, "vigia.py", "exec")
+            with open(yo + ".tmp", "wb") as f: f.write(nuevo)
+            os.replace(yo + ".tmp", yo); print("vigía actualizado; reinicio", flush=True); sys.exit(0)
+    except SystemExit: raise
+    except Exception as e: print("autoactualización:", e, flush=True)
+
+def bucle():
+    ultimo, t_codex, t_upd = None, 0, time.time()
+    while True:
+        try: enviar_maquina(maquina())          # cada 3 s: lo más en vivo posible sin cargar el Mac
+        except Exception as e: print("máquina:", e, flush=True)
+        if time.time() - t_codex > 20:
+            t_codex = time.time()
+            try:
+                r = estado()
+                if r and (r != ultimo or int(time.time()) % 60 < 20): enviar(r); ultimo = r
+            except Exception as e:
+                print("vigía:", e, flush=True)
+        if time.time() - t_upd > 3600: t_upd = time.time(); autoactualizar()
+        time.sleep(3)
 
 def instalar():
     os.makedirs(DEST, exist_ok=True); shutil.copy(__file__, os.path.join(DEST, "vigia.py"))
@@ -71,7 +122,7 @@ def instalar():
 </dict></plist>""")
     subprocess.run(["launchctl", "unload", PLIST], capture_output=True)
     subprocess.run(["launchctl", "load", PLIST], check=True)
-    print("Vigía instalado. Avisará a Faro (%s) de lo que haga Codex en este Mac." % FARO)
+    print("Vigía instalado. Avisará a Faro (%s) de lo que haga Codex en este Mac y de su CPU y gráfica." % FARO)
 
 if __name__ == "__main__":
     if "--instalar" in sys.argv: instalar()
