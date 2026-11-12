@@ -4,7 +4,8 @@ Uso (desde un clon de la rama faro-buzon):
   python3 faro-informa.py --id gta-pipeline --name "Claude · GTA" --state run --task "monta el panel 3D" \
       --project gta --action code --pct 40 --say "Empiezo el panel 3D"
   python3 faro-informa.py --id gta-pipeline --state ok --pct 100 --artifact "Panel GTA" --say "Hecho: panel publicado"
-state: run (trabajando) · ok (terminado) · bad (falló). action: code, write, web, edit, think, obsidian, mail, system, skills.
+state: run (trabajando) · ok (terminado) · bad (falló).
+action (solo una de estas): code, write, web, edit, think, obsidian, mail, system, skills. Lo demás va en --step.
 """
 import argparse, datetime, json, os, subprocess, sys, time
 p = argparse.ArgumentParser()
@@ -12,6 +13,9 @@ for a in ("id", "name", "state", "task", "project", "action", "step", "artifact"
 p.add_argument("--pct", type=float); p.add_argument("--ttl", type=int, default=3600)
 a = p.parse_args()
 if not a.id: sys.exit("falta --id")
+ACT = {"code", "write", "web", "edit", "think", "obsidian", "mail", "system", "skills"}
+if a.action and a.action not in ACT:   # una frase no es una acción: va como paso
+    a.step = a.step or a.action; a.action = None
 here = os.path.dirname(os.path.abspath(__file__)); os.chdir(here)
 git = lambda *c: subprocess.run(["git", *c], capture_output=True, text=True)
 for intento in range(4):
