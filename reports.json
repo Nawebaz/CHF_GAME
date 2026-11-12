@@ -71,18 +71,18 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · panel GTA",
-  "state": "run",
+  "state": "ok",
   "task": "Panel GTA VI",
   "project": "gta",
-  "action": "Panel y documento listos; redactando skills de subtítulos y edición",
-  "pct": 75.0,
+  "action": "Subtítulos, doble juez, peaje permanente y skills de edición entregados",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T11:56:17+01:00",
+  "src_at": "2026-11-12T11:57:00+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Subtítulos, doble juez y peaje permanente publicados",
-   "at": "2026-11-12T11:56:17+01:00"
+   "text": "Pendiente: guardar las dos skills",
+   "at": "2026-11-12T11:57:00+01:00"
   }
  },
  {
