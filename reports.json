@@ -391,21 +391,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "4 clips montados con metraje oficial; pasan las puertas; ITV de vídeo",
-  "pct": 70.0,
+  "step": "ITV de vídeo ronda 2 (4 jueces)",
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T22:12:46+01:00",
-  "at": "2026-11-12T22:12:46+01:00",
+  "src_at": "2026-11-12T22:41:55+01:00",
+  "at": "2026-11-12T22:41:55+01:00",
   "say": {
    "to": "Nawe",
-   "text": "M1, M2, E1 y E2 superan las puertas duras; P1 aparcado (falta el monte)",
-   "at": "2026-11-12T22:12:46+01:00"
+   "text": "Taller hecho: sin planos repetidos, sin PS5 Slim, ganchos y remates reajustados",
+   "at": "2026-11-12T22:41:55+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "4 clips montados con metraje oficial; pasan las puertas; ITV de vídeo",
+   "paso": "ITV de vídeo ronda 2 (4 jueces)",
    "clips": [
     {
      "n": 1,
