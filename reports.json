@@ -388,24 +388,24 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Tanda 1 GTA VI",
-  "state": "ok",
+  "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Guiones v6 aprobados; esperando metraje oficial y voz",
-  "pct": 45.0,
+  "step": "Hermes baja el metraje oficial; puliendo estilo y jueces",
+  "pct": 50.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T20:49:05+01:00",
-  "at": "2026-11-12T20:49:05+01:00",
+  "src_at": "2026-11-12T21:28:42+01:00",
+  "at": "2026-11-12T21:28:42+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Radar viral en el panel, 4 jueces duros + puertas automáticas, motor v2 sobre metraje listo",
-   "at": "2026-11-12T20:49:05+01:00"
+   "text": "Orden a Hermes en iceland: tráileres + Extended Look + voz guía",
+   "at": "2026-11-12T21:28:42+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Guiones v6 aprobados; esperando metraje oficial y voz",
+   "paso": "Hermes baja el metraje oficial; puliendo estilo y jueces",
    "clips": [
     {
      "n": 1,
