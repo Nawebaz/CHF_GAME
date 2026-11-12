@@ -552,18 +552,22 @@
   "cloud": true,
   "name": "Claude · Coordinación",
   "state": "run",
-  "task": "Busco tareas paradas y las reparto en paralelo a Codex, Claude Code y Hermes",
+  "task": "Reparto 6 encargos parados: Codex (recepción, arranque de Strata, encargos viejos), Claude Code (recepción, CPU del escritorio), Hermes (recepción)",
   "project": "agentes",
-  "action": "think",
-  "pct": 10.0,
+  "action": "obsidian",
+  "pct": 40.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T22:37:56+01:00",
-  "at": "2026-11-12T22:37:56+01:00",
+  "src_at": "2026-11-12T22:40:36+01:00",
+  "at": "2026-11-12T22:40:36+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Reviso qué está parado para repartirlo en paralelo",
-   "at": "2026-11-12T22:37:56+01:00"
-  }
+   "text": "Encargos en paralelo a Codex, Claude Code y Hermes por el buzón de la bóveda",
+   "at": "2026-11-12T22:40:36+01:00"
+  },
+  "notes": [
+   "_agentes/inbox/faro"
+  ],
+  "notes_kind": "write"
  }
 ]
