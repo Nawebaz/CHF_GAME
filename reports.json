@@ -565,5 +565,28 @@
    "text": "Hecho. Quedan 3 decisiones tuyas: driver NVIDIA, HTTPS de CHF 3D y galería",
    "at": "2026-11-12T23:35:13+01:00"
   }
+ },
+ {
+  "id": "claude-boveda-fix",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "ok",
+  "task": "Faro v2.19: la bóveda ya no se sale de su caja (reproducido y corregido con prueba de estrés)",
+  "project": "faro",
+  "action": "code",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-12T23:47:14+01:00",
+  "at": "2026-11-12T23:47:14+01:00",
+  "artifact": {
+   "name": "Faro v2.19"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Arreglado el fallo de la bóveda: era mío (v2.15); llega al PC en unos minutos",
+   "at": "2026-11-12T23:47:14+01:00"
+  }
  }
 ]
