@@ -391,26 +391,26 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Taller: segunda pasada de ritmo (gancho con golpes desde 0,7 s) y limitador de audio",
-  "pct": 88.0,
+  "step": "ITV 2: los jueces revisan el taller",
+  "pct": 92.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:43:37+01:00",
-  "at": "2026-11-12T19:43:37+01:00",
+  "src_at": "2026-11-12T19:54:00+01:00",
+  "at": "2026-11-12T19:54:00+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Casi: última pasada de ritmo y sonido",
-   "at": "2026-11-12T19:43:37+01:00"
+   "text": "Taller hecho; segunda ITV de vídeo en marcha",
+   "at": "2026-11-12T19:54:00+01:00"
   },
-  "action": "edit",
+  "action": "think",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Taller: segunda pasada de ritmo (gancho con golpes desde 0,7 s) y limitador de audio",
+   "paso": "ITV 2: los jueces revisan el taller",
    "clips": [
     {
      "n": 1,
      "s": "mito",
-     "st": 6,
+     "st": 7,
      "j": [
       "rev",
       "rev",
@@ -420,7 +420,7 @@
     {
      "n": 2,
      "s": "cuenta",
-     "st": 6,
+     "st": 7,
      "j": [
       "rev",
       "rev",
@@ -430,7 +430,7 @@
     {
      "n": 3,
      "s": "reto",
-     "st": 6,
+     "st": 7,
      "j": [
       "rev",
       "rev",
@@ -440,7 +440,7 @@
     {
      "n": 4,
      "s": "mapa",
-     "st": 6,
+     "st": 7,
      "j": [
       "rev",
       "rev",
@@ -450,7 +450,7 @@
     {
      "n": 5,
      "s": "hito",
-     "st": 6,
+     "st": 7,
      "j": [
       "rev",
       "rev",
