@@ -387,21 +387,21 @@
   "state": "run",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Guiones · ronda 2 de la ITV",
-  "pct": 18.0,
+  "step": "Guiones aprobados · montando sin voz",
+  "pct": 30.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T19:01:31+01:00",
-  "at": "2026-11-12T19:01:31+01:00",
+  "src_at": "2026-11-12T19:09:39+01:00",
+  "at": "2026-11-12T19:09:39+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Faro v2.10 publicado: mapa de la máquina en vivo. Aplico cambios de los jueces",
-   "at": "2026-11-12T19:01:31+01:00"
+   "text": "Guiones aprobados por los 3 jueces. Monto sin voz, como pediste",
+   "at": "2026-11-12T19:09:39+01:00"
   },
-  "action": "write",
+  "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Guiones · ronda 2 de la ITV",
+   "paso": "Guiones aprobados · montando sin voz",
    "clips": [
     {
      "n": 1,
