@@ -673,19 +673,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · GTA VI en otros idiomas",
-  "state": "run",
+  "state": "ok",
   "task": "Versiones EN y PT-BR de los clips aprobados",
   "project": "gta",
-  "step": "Renderizando 16 versiones con rótulos traducidos",
-  "pct": 20.0,
+  "step": "16 clips EN/PT-BR entregados al Mac; pendiente decisión de cuentas y peaje",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T12:30:35+01:00",
-  "at": "2026-11-13T12:30:35+01:00",
+  "src_at": "2026-11-13T12:59:17+01:00",
+  "at": "2026-11-13T12:59:17+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo versiones en inglés y portugués",
-   "at": "2026-11-13T12:30:35+01:00"
+   "text": "16 clips en inglés y portugués listos",
+   "at": "2026-11-13T12:59:17+01:00"
   }
  },
  {
