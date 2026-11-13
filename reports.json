@@ -1049,14 +1049,17 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "más espacio y separación en el mapa de la bóveda",
+  "state": "ok",
+  "task": "Faro v2.37: mapa con mucho más espacio",
   "project": "agentes",
   "action": "code",
-  "pct": 15.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T00:28:21+01:00",
-  "at": "2026-11-14T00:28:21+01:00"
+  "src_at": "2026-11-14T00:30:28+01:00",
+  "at": "2026-11-14T00:30:28+01:00",
+  "artifact": {
+   "name": "Faro v2.37"
+  }
  }
 ]
