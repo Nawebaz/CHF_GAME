@@ -893,5 +893,25 @@
    "text": "Publicada la v2.31: huérfanas en rosa, calor por visitas",
    "at": "2026-11-13T23:19:07+01:00"
   }
+ },
+ {
+  "id": "claude-boveda-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Comité de la bóveda",
+  "state": "run",
+  "task": "revisión de la estructura de la bóveda con expertos",
+  "project": "agentes",
+  "step": "pensar",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T23:25:54+01:00",
+  "at": "2026-11-13T23:25:54+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Saco el mapa de la bóveda",
+   "at": "2026-11-13T23:25:54+01:00"
+  }
  }
 ]
