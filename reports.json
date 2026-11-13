@@ -1008,14 +1008,17 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "conexiones más visibles y giro más lento",
+  "state": "ok",
+  "task": "Faro v2.35: conexiones visibles y giro de 3 min",
   "project": "agentes",
   "action": "code",
-  "pct": 20.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T00:12:10+01:00",
-  "at": "2026-11-14T00:12:10+01:00"
+  "src_at": "2026-11-14T00:12:55+01:00",
+  "at": "2026-11-14T00:12:55+01:00",
+  "artifact": {
+   "name": "Faro v2.35"
+  }
  }
 ]
