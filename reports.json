@@ -735,18 +735,18 @@
   "cloud": true,
   "name": "Claude · Sprites oficina",
   "state": "run",
-  "task": "v2.25: haces de luz corregidos; ahora estilo Bruto para lo que falta",
+  "task": "v2.26 estilo Bruto publicada; actualizando el PC",
   "project": "faro",
   "action": "code",
-  "pct": 60.0,
+  "pct": 85.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:36:16+01:00",
-  "at": "2026-11-13T13:36:16+01:00",
+  "src_at": "2026-11-13T13:40:17+01:00",
+  "at": "2026-11-13T13:40:17+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Haces del faro y flexos corregidos (v2.25)",
-   "at": "2026-11-13T13:36:16+01:00"
+   "text": "Estilo Bruto para lo que no tiene sprite (v2.26)",
+   "at": "2026-11-13T13:40:17+01:00"
   },
   "step": "esperando a que el PC se actualice"
  },
