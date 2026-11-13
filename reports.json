@@ -652,19 +652,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · CHF 3D v2",
-  "state": "run",
+  "state": "ok",
   "task": "Personajes especiales/secretos, enemigos y efectos 3D",
   "project": "chf",
-  "step": "Captura fiel de cada muñeco con el dibujo del juego + efectos 3D",
-  "pct": 10.0,
+  "step": "v2 probada en headless y entregada al Mac; falta medir con GPU real",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T10:43:31+01:00",
-  "at": "2026-11-13T10:43:31+01:00",
+  "src_at": "2026-11-13T12:17:29+01:00",
+  "at": "2026-11-13T12:17:29+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo CHF 3D v2 en la nube",
-   "at": "2026-11-13T10:43:31+01:00"
+   "text": "CHF 3D v2 lista en el Mac",
+   "at": "2026-11-13T12:17:29+01:00"
   }
  }
 ]
