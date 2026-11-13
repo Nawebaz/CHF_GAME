@@ -1061,5 +1061,20 @@
   "artifact": {
    "name": "Faro v2.37"
   }
+ },
+ {
+  "id": "claude-nucleo2-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "núcleo claramente visible",
+  "project": "agentes",
+  "action": "code",
+  "pct": 15.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T00:34:51+01:00",
+  "at": "2026-11-14T00:34:51+01:00"
  }
 ]
