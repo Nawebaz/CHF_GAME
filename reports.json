@@ -942,14 +942,22 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Expertos",
-  "state": "run",
-  "task": "6 de 12 expertos creados en la bóveda",
+  "state": "ok",
+  "task": "12 expertos propuestos en la bóveda, enlazados a sus proyectos",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 45.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:48:43+01:00",
-  "at": "2026-11-13T23:48:43+01:00"
+  "src_at": "2026-11-13T23:50:46+01:00",
+  "at": "2026-11-13T23:50:46+01:00",
+  "artifact": {
+   "name": "20 Áreas/Expertos"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "12 expertos nuevos en la bóveda, pendientes de que Nawe los confirme",
+   "at": "2026-11-13T23:50:46+01:00"
+  }
  }
 ]
