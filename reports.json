@@ -979,5 +979,20 @@
    "text": "Encargo pasado a Hermes: lista de derechos antes de publicar GTA VI",
    "at": "2026-11-13T23:52:27+01:00"
   }
+ },
+ {
+  "id": "claude-fisica-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "física del mapa: el sistema gira con órbitas, rebotes y gravedad",
+  "project": "agentes",
+  "action": "code",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T23:55:04+01:00",
+  "at": "2026-11-13T23:55:04+01:00"
  }
 ]
