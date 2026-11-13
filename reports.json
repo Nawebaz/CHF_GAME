@@ -1002,5 +1002,20 @@
    "text": "Mapa con física real: gira el sistema, rebota y lo rojo atrae",
    "at": "2026-11-14T00:01:33+01:00"
   }
+ },
+ {
+  "id": "claude-fisica2-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "conexiones más visibles y giro más lento",
+  "project": "agentes",
+  "action": "code",
+  "pct": 20.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T00:12:10+01:00",
+  "at": "2026-11-14T00:12:10+01:00"
  }
 ]
