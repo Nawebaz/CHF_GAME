@@ -749,5 +749,25 @@
    "at": "2026-11-13T13:10:03+01:00"
   },
   "step": "3 hojas recortadas: 36 personajes + 7 puestos"
+ },
+ {
+  "id": "claude-gta-creadores",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · GTA VI análisis de creadores",
+  "state": "run",
+  "task": "Clips analizando vídeos de creadores grandes (ES/EN/PT)",
+  "project": "gta",
+  "step": "Lista de 18 vídeos enviada; esperando descargas de Nawe",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T13:25:25+01:00",
+  "at": "2026-11-13T13:25:25+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Esperando vídeos en Descargas",
+   "at": "2026-11-13T13:25:25+01:00"
+  }
  }
 ]
