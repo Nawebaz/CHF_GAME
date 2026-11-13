@@ -943,13 +943,13 @@
   "cloud": true,
   "name": "Claude · Expertos",
   "state": "run",
-  "task": "sopesar expertos necesarios a partir de la bóveda",
+  "task": "6 de 12 expertos creados en la bóveda",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 10.0,
+  "pct": 45.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:46:16+01:00",
-  "at": "2026-11-13T23:46:16+01:00"
+  "src_at": "2026-11-13T23:48:43+01:00",
+  "at": "2026-11-13T23:48:43+01:00"
  }
 ]
