@@ -667,5 +667,25 @@
    "text": "CHF 3D v2 lista en el Mac",
    "at": "2026-11-13T12:17:29+01:00"
   }
+ },
+ {
+  "id": "claude-gta-idiomas",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · GTA VI en otros idiomas",
+  "state": "run",
+  "task": "Versiones EN y PT-BR de los clips aprobados",
+  "project": "gta",
+  "step": "Renderizando 16 versiones con rótulos traducidos",
+  "pct": 20.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T12:30:35+01:00",
+  "at": "2026-11-13T12:30:35+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo versiones en inglés y portugués",
+   "at": "2026-11-13T12:30:35+01:00"
+  }
  }
 ]
