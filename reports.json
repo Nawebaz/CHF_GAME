@@ -588,5 +588,25 @@
    "text": "Arreglado el fallo de la bóveda: era mío (v2.15); llega al PC en unos minutos",
    "at": "2026-11-12T23:47:14+01:00"
   }
+ },
+ {
+  "id": "claude-chf3d-noche",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · CHF 3D",
+  "state": "run",
+  "task": "CHF 3D: capa 3D jugable",
+  "project": "chf",
+  "step": "start",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T09:17:51+01:00",
+  "at": "2026-11-13T09:17:51+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "GTA bloqueado (voz y metraje). Paso a CHF 3D: reviso lo que dejó Hermes y sigo.",
+   "at": "2026-11-13T09:17:51+01:00"
+  }
  }
 ]
