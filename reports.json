@@ -735,20 +735,25 @@
   "cloud": true,
   "name": "Claude · Sprites oficina",
   "state": "run",
-  "task": "v2.26 estilo Bruto publicada; actualizando el PC",
+  "task": "v2.27 publicada; el PC la coge en unos minutos",
   "project": "faro",
-  "action": "code",
-  "pct": 85.0,
+  "action": "obsidian",
+  "pct": 92.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:40:17+01:00",
-  "at": "2026-11-13T13:40:17+01:00",
+  "src_at": "2026-11-13T13:44:17+01:00",
+  "at": "2026-11-13T13:44:17+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Estilo Bruto para lo que no tiene sprite (v2.26)",
-   "at": "2026-11-13T13:40:17+01:00"
+   "text": "Bóveda al día: Faro y Diario de decisiones",
+   "at": "2026-11-13T13:44:17+01:00"
   },
-  "step": "esperando a que el PC se actualice"
+  "step": "esperando a que el PC se actualice",
+  "notes": [
+   "10 Proyectos/Faro",
+   "Diario de decisiones"
+  ],
+  "notes_kind": "write"
  },
  {
   "id": "claude-gta-creadores",
