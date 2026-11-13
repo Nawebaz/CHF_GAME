@@ -758,16 +758,16 @@
   "state": "run",
   "task": "Clips analizando vídeos de creadores grandes (ES/EN/PT)",
   "project": "gta",
-  "step": "Lista de 18 vídeos enviada; esperando descargas de Nawe",
-  "pct": 10.0,
+  "step": "5 vídeos elegidos con transcripción: ~45 clips posibles; esperando descargas",
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:25:25+01:00",
-  "at": "2026-11-13T13:25:25+01:00",
+  "src_at": "2026-11-13T13:28:23+01:00",
+  "at": "2026-11-13T13:28:23+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Esperando vídeos en Descargas",
-   "at": "2026-11-13T13:25:25+01:00"
+   "text": "5 fuentes elegidas, esperando vídeos",
+   "at": "2026-11-13T13:28:23+01:00"
   }
  }
 ]
