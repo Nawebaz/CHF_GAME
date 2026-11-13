@@ -321,19 +321,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · GTA VI voz narradora",
-  "state": "run",
+  "state": "ok",
   "task": "Clon de voz con permiso escrito (local, Chatterbox MIT)",
   "project": "gta",
-  "step": "Permiso registrado, audios limpios y muestra de referencia listos; orden a Hermes pendiente de que Nawe la publique",
-  "pct": 30.0,
+  "step": "Encargo dejado a Hermes en la bóveda con muestra y permiso; esperando sus 3 pruebas",
+  "pct": 50.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:49:32+01:00",
-  "at": "2026-11-13T13:49:32+01:00",
+  "src_at": "2026-11-13T13:51:50+01:00",
+  "at": "2026-11-13T13:51:50+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Voz: permiso y muestras listos",
-   "at": "2026-11-13T13:49:32+01:00"
+   "text": "Encargo de voz en la bóveda para Hermes",
+   "at": "2026-11-13T13:51:50+01:00"
   }
  },
  {
