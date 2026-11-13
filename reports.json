@@ -913,5 +913,20 @@
    "text": "Bóveda reordenada: Inicio en 4 bloques, Yo, Sistema y Privado; 0 enlaces rotos",
    "at": "2026-11-13T23:29:54+01:00"
   }
+ },
+ {
+  "id": "claude-mapa3d-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "mapa de la bóveda en 3D: formas por grupos, rotación y profundidad por calor",
+  "project": "agentes",
+  "action": "code",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T23:31:49+01:00",
+  "at": "2026-11-13T23:31:49+01:00"
  }
 ]
