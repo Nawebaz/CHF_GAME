@@ -855,20 +855,20 @@
   "id": "claude-noche-1311",
   "kind": "run",
   "cloud": true,
-  "name": "Claude · Goma, gráfica y escritos",
+  "name": "Claude · Escritos a la bóveda",
   "state": "run",
-  "task": "precio a Goma, prueba de gráfica y escritos a la bóveda",
+  "task": "escritos de ChatGPT a la bóveda",
   "project": "agentes",
-  "step": "pensar",
-  "pct": 5.0,
+  "step": "buscar",
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:07:32+01:00",
-  "at": "2026-11-13T23:07:32+01:00",
+  "src_at": "2026-11-13T23:09:13+01:00",
+  "at": "2026-11-13T23:09:13+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo: contestación a Goma",
-   "at": "2026-11-13T23:07:32+01:00"
+   "text": "Te toca: inicia sesión en ChatGPT en el navegador de la app",
+   "at": "2026-11-13T23:09:13+01:00"
   }
  }
 ]
