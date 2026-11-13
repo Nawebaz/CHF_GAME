@@ -614,14 +614,17 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "conectores en la bóveda y conexiones débiles",
+  "state": "ok",
+  "task": "nota de Conectores, 25 conexiones nuevas y Faro v2.20 (grafo fiel a Obsidian)",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 20.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T09:19:48+01:00",
-  "at": "2026-11-13T09:19:48+01:00"
+  "src_at": "2026-11-13T09:49:16+01:00",
+  "at": "2026-11-13T09:49:16+01:00",
+  "artifact": {
+   "name": "20 Áreas/Conectores"
+  }
  }
 ]
