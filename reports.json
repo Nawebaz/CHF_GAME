@@ -985,14 +985,22 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "física del mapa: el sistema gira con órbitas, rebotes y gravedad",
+  "state": "ok",
+  "task": "Faro v2.34 publicado: física real y calor en vivo",
   "project": "agentes",
   "action": "code",
-  "pct": 10.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:55:04+01:00",
-  "at": "2026-11-13T23:55:04+01:00"
+  "src_at": "2026-11-14T00:01:33+01:00",
+  "at": "2026-11-14T00:01:33+01:00",
+  "artifact": {
+   "name": "Faro v2.34"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Mapa con física real: gira el sistema, rebota y lo rojo atrae",
+   "at": "2026-11-14T00:01:33+01:00"
+  }
  }
 ]
