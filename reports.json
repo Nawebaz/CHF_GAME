@@ -594,19 +594,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · CHF 3D",
-  "state": "run",
+  "state": "ok",
   "task": "CHF 3D: capa 3D jugable",
   "project": "chf",
-  "step": "start",
-  "pct": 5.0,
+  "step": "done",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T09:17:51+01:00",
-  "at": "2026-11-13T09:17:51+01:00",
+  "src_at": "2026-11-13T09:24:53+01:00",
+  "at": "2026-11-13T09:24:53+01:00",
   "say": {
    "to": "Nawe",
-   "text": "GTA bloqueado (voz y metraje). Paso a CHF 3D: reviso lo que dejó Hermes y sigo.",
-   "at": "2026-11-13T09:17:51+01:00"
+   "text": "Vista 3D del combate con cámara de órbita y vuelo, probada en Chrome. En Descargas/chf3d-prueba. Nada subido al repo.",
+   "at": "2026-11-13T09:24:53+01:00"
   }
  },
  {
