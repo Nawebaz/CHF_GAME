@@ -388,24 +388,24 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Tanda 1 GTA VI",
-  "state": "run",
+  "state": "ok",
   "task": "Tanda de 5 clips para auditar",
   "project": "gta",
-  "step": "Tanda 2: ronda de taller",
-  "pct": 65.0,
+  "step": "Tanda 2 entregada",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T00:57:46+01:00",
-  "at": "2026-11-13T00:57:46+01:00",
+  "src_at": "2026-11-13T09:17:27+01:00",
+  "at": "2026-11-13T09:17:27+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Serie 5→1 y detalles del tráiler en taller por los jueces; el mapa queda aparcado (falta plano de Kalaga).",
-   "at": "2026-11-13T00:57:46+01:00"
+   "text": "Descargas/gta6-tanda-02: serie 14–17 nov y «El caimán ya lo viste» aprobados por los 4 jueces. Aparcados: día 18 y mapa (falta metraje nuevo).",
+   "at": "2026-11-13T09:17:27+01:00"
   },
   "action": "edit",
   "gta": {
    "url": "https://claude.ai/artifact/QUvqJEhH5YZzTi7v8hGSnF",
-   "paso": "Tanda 2: ronda de taller",
+   "paso": "Tanda 2 entregada",
    "clips": [
     {
      "n": 1,
