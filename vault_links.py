@@ -48,7 +48,7 @@ def graph(notes):
     out = {r: set() for r in notes}; inc = {r: set() for r in notes}; broken = []
     for rel, n in notes.items():
         for t in LINK.findall(CODE.sub("", n["txt"])):
-            t = t.strip()
+            t = t.strip().rstrip("\\").strip()  # en tablas el alias va con \|
             if not t or re.search(r"\.(png|jpe?g|webp|gif|pdf|mp4|mov|svg)$", t, re.I): continue
             q = idx.get(KEY(t)) or idx.get(KEY(t.split("/")[-1]))
             if q is None:
