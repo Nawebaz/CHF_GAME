@@ -920,16 +920,21 @@
   "cloud": true,
   "name": "Claude · Bóveda",
   "state": "run",
-  "task": "gravedad por calor: rojo atrae, azul pesa poco",
+  "task": "Faro v2.33 publicado: mapa 3D con gravedad por calor; falta verificar en el PC",
   "project": "agentes",
   "action": "code",
-  "pct": 85.0,
+  "pct": 90.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:42:20+01:00",
-  "at": "2026-11-13T23:42:20+01:00",
+  "src_at": "2026-11-13T23:43:07+01:00",
+  "at": "2026-11-13T23:43:07+01:00",
   "artifact": {
-   "name": "Faro v2.32"
+   "name": "Faro v2.33"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Mapa 3D: rojo atrae, azul ligero",
+   "at": "2026-11-13T23:43:07+01:00"
   }
  }
 ]
