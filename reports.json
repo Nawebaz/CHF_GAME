@@ -734,26 +734,21 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Sprites oficina",
-  "state": "run",
-  "task": "v2.27 publicada; el PC la coge en unos minutos",
+  "state": "ok",
+  "task": "Oficina con sprites, estilo Bruto y monitor de Strata (v2.27 en el PC)",
   "project": "faro",
-  "action": "obsidian",
-  "pct": 92.0,
+  "action": "code",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:44:17+01:00",
-  "at": "2026-11-13T13:44:17+01:00",
+  "src_at": "2026-11-13T13:47:39+01:00",
+  "at": "2026-11-13T13:47:39+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Bóveda al día: Faro y Diario de decisiones",
-   "at": "2026-11-13T13:44:17+01:00"
+   "text": "Hecho: v2.27 en el PC y verificada en el Mac",
+   "at": "2026-11-13T13:47:39+01:00"
   },
-  "step": "esperando a que el PC se actualice",
-  "notes": [
-   "10 Proyectos/Faro",
-   "Diario de decisiones"
-  ],
-  "notes_kind": "write"
+  "step": "esperando a que el PC se actualice"
  },
  {
   "id": "claude-gta-creadores",
