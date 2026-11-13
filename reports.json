@@ -760,16 +760,17 @@
   "task": "Clips analizando vídeos de creadores grandes (ES/EN/PT)",
   "project": "gta",
   "step": "3 clips de prueba (tanda 4) entregados para validar dirección; clon de voz en espera de consentimiento escrito",
-  "pct": 35.0,
+  "pct": 55.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:38:17+01:00",
-  "at": "2026-11-13T13:38:17+01:00",
+  "src_at": "2026-11-13T14:58:40+01:00",
+  "at": "2026-11-13T14:58:40+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Tanda 4 de prueba lista",
-   "at": "2026-11-13T13:38:17+01:00"
-  }
+   "text": "Tanda 4: 5 clips en español + 10 en inglés y portugués, para revisar",
+   "at": "2026-11-13T14:58:40+01:00"
+  },
+  "action": "edit"
  },
  {
   "id": "claude-strata-io",
