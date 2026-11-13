@@ -716,15 +716,18 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "Faro v2.21 publicado: bóveda en doble vía",
+  "state": "ok",
+  "task": "bóveda en doble vía (vigía + sondeo 15 s) verificada en el PC, v2.22",
   "project": "agentes",
   "action": "code",
-  "pct": 80.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T12:50:02+01:00",
-  "at": "2026-11-13T12:50:02+01:00"
+  "src_at": "2026-11-13T13:15:59+01:00",
+  "at": "2026-11-13T13:15:59+01:00",
+  "artifact": {
+   "name": "Faro v2.22"
+  }
  },
  {
   "id": "claude-sprites-prod",
