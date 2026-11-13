@@ -728,22 +728,23 @@
  },
  {
   "id": "claude-sprites-prod",
-  "kind": "run",
+  "kind": "agent",
   "cloud": true,
   "name": "Claude · Sprites oficina",
   "state": "run",
-  "task": "Producción de sprites (hasta 70 créditos, GPT Image 2) y montaje en la oficina",
+  "task": "Integra los sprites en la oficina",
   "project": "faro",
-  "action": "edit",
-  "pct": 5.0,
+  "action": "code",
+  "pct": 35.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:00:38+01:00",
-  "at": "2026-11-13T13:00:38+01:00",
+  "src_at": "2026-11-13T13:10:03+01:00",
+  "at": "2026-11-13T13:10:03+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo la producción de sprites de la oficina",
-   "at": "2026-11-13T13:00:38+01:00"
-  }
+   "text": "Hojas recortadas; monto los sprites en la oficina",
+   "at": "2026-11-13T13:10:03+01:00"
+  },
+  "step": "3 hojas recortadas: 36 personajes + 7 puestos"
  }
 ]
