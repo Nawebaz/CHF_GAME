@@ -735,20 +735,20 @@
   "cloud": true,
   "name": "Claude · Sprites oficina",
   "state": "run",
-  "task": "Integra los sprites en la oficina",
+  "task": "Publicada v2.23: sprites y monitor de Strata",
   "project": "faro",
   "action": "code",
-  "pct": 35.0,
+  "pct": 85.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:10:03+01:00",
-  "at": "2026-11-13T13:10:03+01:00",
+  "src_at": "2026-11-13T13:29:54+01:00",
+  "at": "2026-11-13T13:29:54+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Hojas recortadas; monto los sprites en la oficina",
-   "at": "2026-11-13T13:10:03+01:00"
+   "text": "v2.23 publicada: oficina con sprites y pantalla propia de Strata",
+   "at": "2026-11-13T13:29:54+01:00"
   },
-  "step": "3 hojas recortadas: 36 personajes + 7 puestos"
+  "step": "esperando a que el PC se actualice"
  },
  {
   "id": "claude-gta-creadores",
