@@ -959,5 +959,25 @@
    "text": "12 expertos nuevos en la bóveda, pendientes de que Nawe los confirme",
    "at": "2026-11-13T23:50:46+01:00"
   }
+ },
+ {
+  "id": "claude-expertos-encargo-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Expertos",
+  "state": "ok",
+  "task": "encargo a Hermes: lista previa a publicar de GTA VI (experto Derechos y normas)",
+  "project": "gta",
+  "action": "obsidian",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T23:52:27+01:00",
+  "at": "2026-11-13T23:52:27+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Encargo pasado a Hermes: lista de derechos antes de publicar GTA VI",
+   "at": "2026-11-13T23:52:27+01:00"
+  }
  }
 ]
