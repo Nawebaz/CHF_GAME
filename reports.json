@@ -1026,14 +1026,22 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "núcleo visible y masa por conexiones",
+  "state": "ok",
+  "task": "Faro v2.36: núcleo visible y energía por cada entrada a la bóveda",
   "project": "agentes",
   "action": "code",
-  "pct": 20.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T00:15:11+01:00",
-  "at": "2026-11-14T00:15:11+01:00"
+  "src_at": "2026-11-14T00:22:17+01:00",
+  "at": "2026-11-14T00:22:17+01:00",
+  "artifact": {
+   "name": "Faro v2.36"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Cada entrada a la bóveda da su golpe: leer, escribir, crear o borrar",
+   "at": "2026-11-14T00:22:17+01:00"
+  }
  }
 ]
