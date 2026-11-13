@@ -108,6 +108,14 @@ def review(root, apply=False, extra_blocks=None, hook=None):
             if not enc.startswith("_agentes/"): continue
             W.write(rel, related(notes[rel]["txt"], [wikilink(enc, "encargo")]))
             W.write(enc, related(notes[enc]["txt"], [wikilink(rel, "respuesta")]))
+    # 2b) cada orden de Faro, enlazada con su proyecto (si no, queda colgando solo del índice de Faro)
+    PROJ = {"chf": "10 Proyectos/CHF.md", "gta": "10 Proyectos/GTA VI.md", "ingresos": "10 Proyectos/Campaña de ingresos.md",
+            "trading": "10 Proyectos/Laboratorio trading.md", "agentes": "20 Áreas/Sistema y máquinas.md", "faro": "10 Proyectos/Faro.md"}
+    for rel in list(notes):
+        if not rel.startswith("Faro/Órdenes/"): continue
+        m = re.search(r"^- Proyecto:\s*([\w-]+)", notes[rel]["txt"], re.M)
+        tgt = PROJ.get((m.group(1) if m else "").lower())
+        if tgt and tgt in notes: W.write(rel, related(notes[rel]["txt"], [wikilink(tgt, title(tgt))]))
     # 3) bloques automáticos en las notas índice
     hub = lambda *c: next((r for r in c if r in notes), None)
     faro, idx_t, inicio = hub("10 Proyectos/Faro.md"), hub("_agentes/Índice de tareas.md"), hub("00 Inicio.md")
