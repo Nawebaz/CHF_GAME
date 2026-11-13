@@ -72,13 +72,14 @@ def set_block(txt, name, lines, heading):
     return txt.rstrip() + "\n\n## %s\n%s\n" % (heading, block)
 
 class Writer:
-    def __init__(self, notes, apply):
-        self.notes, self.apply, self.changed, self.skipped = notes, apply, [], []
+    def __init__(self, notes, apply, hook=None):
+        self.notes, self.apply, self.changed, self.skipped, self.hook = notes, apply, [], [], hook
     def write(self, rel, new):
         n = self.notes[rel]
         if new == n["txt"]: return False
         if time.time() - n["mtime"] < FRESH: self.skipped.append(rel); return False
         if self.apply:
+            if self.hook: self.hook(n["fp"])  # avisa antes de escribir: el vigía lo atribuye a quien llama
             with open(n["fp"], "w", encoding="utf-8") as f: f.write(new)
             n["txt"], n["mtime"] = new, time.time()
         self.changed.append(rel); return True
@@ -89,11 +90,12 @@ def related(txt, links):
     if "\n## Relacionado\n" in txt: return txt.rstrip() + "\n" + "\n".join("- " + l for l in new) + "\n"
     return txt.rstrip() + "\n\n## Relacionado\n" + "\n".join("- " + l for l in new) + "\n"
 
-def review(root, apply=False, extra_blocks=None):
-    notes = scan(root); W = Writer(notes, apply); moved = []
+def review(root, apply=False, extra_blocks=None, hook=None):
+    notes = scan(root); W = Writer(notes, apply, hook); moved = []
     # 1) copias de conflicto de Syncthing → _to_delete (nunca se borran)
     for rel in [r for r in notes if ".sync-conflict-" in r]:
         if apply:
+            if hook: hook(notes[rel]["fp"])
             dst = os.path.join(root, "_to_delete"); os.makedirs(dst, exist_ok=True)
             shutil.move(notes[rel]["fp"], os.path.join(dst, os.path.basename(notes[rel]["fp"])))
         moved.append(rel); notes.pop(rel)
