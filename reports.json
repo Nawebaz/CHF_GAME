@@ -859,16 +859,16 @@
   "state": "run",
   "task": "escritos de ChatGPT a la bóveda",
   "project": "agentes",
-  "step": "buscar",
-  "pct": 20.0,
+  "step": "editar",
+  "pct": 45.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:09:13+01:00",
-  "at": "2026-11-13T23:09:13+01:00",
+  "src_at": "2026-11-13T23:17:23+01:00",
+  "at": "2026-11-13T23:17:23+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Te toca: inicia sesión en ChatGPT en el navegador de la app",
-   "at": "2026-11-13T23:09:13+01:00"
+   "text": "1 de 4 escritos en la bóveda; Chrome frena el resto",
+   "at": "2026-11-13T23:17:23+01:00"
   }
  },
  {
