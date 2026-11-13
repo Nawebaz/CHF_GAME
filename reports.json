@@ -735,18 +735,18 @@
   "cloud": true,
   "name": "Claude · Sprites oficina",
   "state": "run",
-  "task": "Publicada v2.23: sprites y monitor de Strata",
+  "task": "v2.25: haces de luz corregidos; ahora estilo Bruto para lo que falta",
   "project": "faro",
   "action": "code",
-  "pct": 85.0,
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T13:29:54+01:00",
-  "at": "2026-11-13T13:29:54+01:00",
+  "src_at": "2026-11-13T13:36:16+01:00",
+  "at": "2026-11-13T13:36:16+01:00",
   "say": {
    "to": "Nawe",
-   "text": "v2.23 publicada: oficina con sprites y pantalla propia de Strata",
-   "at": "2026-11-13T13:29:54+01:00"
+   "text": "Haces del faro y flexos corregidos (v2.25)",
+   "at": "2026-11-13T13:36:16+01:00"
   },
   "step": "esperando a que el PC se actualice"
  },
