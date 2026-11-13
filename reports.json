@@ -1079,5 +1079,20 @@
   "artifact": {
    "name": "Faro v2.38"
   }
+ },
+ {
+  "id": "claude-interaccion-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "mapa interactivo: arrastrar, tocar, girar y zoom",
+  "project": "agentes",
+  "action": "code",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T00:59:26+01:00",
+  "at": "2026-11-14T00:59:26+01:00"
  }
 ]
