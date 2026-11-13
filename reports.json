@@ -936,5 +936,20 @@
    "text": "Mapa 3D: rojo atrae, azul ligero",
    "at": "2026-11-13T23:43:07+01:00"
   }
+ },
+ {
+  "id": "claude-expertos-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Expertos",
+  "state": "run",
+  "task": "sopesar expertos necesarios a partir de la bóveda",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T23:46:16+01:00",
+  "at": "2026-11-13T23:46:16+01:00"
  }
 ]
