@@ -776,18 +776,18 @@
   "cloud": true,
   "name": "Claude · Strata lectura/escritura",
   "state": "run",
-  "task": "Strata: lectura y escritura del modelo y del disco en su pantalla",
+  "task": "v2.28 publicada; esperando al PC",
   "project": "faro",
   "action": "code",
-  "pct": 10.0,
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T14:01:35+01:00",
-  "at": "2026-11-13T14:01:35+01:00",
+  "src_at": "2026-11-13T14:04:57+01:00",
+  "at": "2026-11-13T14:04:57+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Añado disco (Strata y PC) al monitor de Strata",
-   "at": "2026-11-13T14:01:35+01:00"
+   "text": "v2.28: Strata con lectura y escritura de texto y disco",
+   "at": "2026-11-13T14:04:57+01:00"
   }
  }
 ]
