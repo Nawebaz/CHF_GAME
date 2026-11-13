@@ -877,13 +877,21 @@
   "cloud": true,
   "name": "Claude · Bóveda",
   "state": "run",
-  "task": "colores de huérfanas y puntos calientes en la oficina",
+  "task": "Faro v2.31 publicado (colores de huérfanas y puntos calientes); esperando instalación en el PC",
   "project": "agentes",
   "action": "code",
-  "pct": 10.0,
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T23:17:06+01:00",
-  "at": "2026-11-13T23:17:06+01:00"
+  "src_at": "2026-11-13T23:19:07+01:00",
+  "at": "2026-11-13T23:19:07+01:00",
+  "artifact": {
+   "name": "Faro v2.31"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "Publicada la v2.31: huérfanas en rosa, calor por visitas",
+   "at": "2026-11-13T23:19:07+01:00"
+  }
  }
 ]
