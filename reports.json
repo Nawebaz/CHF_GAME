@@ -794,5 +794,20 @@
    "10 Proyectos/Faro"
   ],
   "notes_kind": "write"
+ },
+ {
+  "id": "claude-grafo-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "ok",
+  "task": "Faro v2.30: grafo fiel a la bóveda y huérfanas marcadas",
+  "project": "agentes",
+  "action": "code",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T14:17:35+01:00",
+  "at": "2026-11-13T14:17:35+01:00"
  }
 ]
