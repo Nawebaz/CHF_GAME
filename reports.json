@@ -318,22 +318,22 @@
  },
  {
   "id": "claude-gta-voz",
-  "kind": "run",
+  "kind": "agent",
   "cloud": true,
-  "name": "Claude · voz GTA",
-  "state": "ok",
-  "task": "Guion para clonar la voz de Nawe",
+  "name": "Claude · GTA VI voz narradora",
+  "state": "run",
+  "task": "Clon de voz con permiso escrito (local, Chatterbox MIT)",
   "project": "gta",
-  "step": "Guion de grabación listo; espero los audios en voz-nawe",
-  "pct": 100.0,
+  "step": "Permiso registrado, audios limpios y muestra de referencia listos; orden a Hermes pendiente de que Nawe la publique",
+  "pct": 30.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-12T15:04:56+01:00",
-  "at": "2026-11-12T15:04:56+01:00",
+  "src_at": "2026-11-13T13:49:32+01:00",
+  "at": "2026-11-13T13:49:32+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Graba los bloques A, B y C; en el coche, sin leer",
-   "at": "2026-11-12T15:04:56+01:00"
+   "text": "Voz: permiso y muestras listos",
+   "at": "2026-11-13T13:49:32+01:00"
   }
  },
  {
