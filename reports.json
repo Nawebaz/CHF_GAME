@@ -687,5 +687,25 @@
    "text": "Empiezo versiones en inglés y portugués",
    "at": "2026-11-13T12:30:35+01:00"
   }
+ },
+ {
+  "id": "claude-sprites",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Sprites oficina",
+  "state": "run",
+  "task": "Presupuesto de créditos de Higgsfield para rehacer la oficina con sprites",
+  "project": "faro",
+  "action": "think",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T12:39:26+01:00",
+  "at": "2026-11-13T12:39:26+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Calculo créditos de Higgsfield para la oficina; pido estilo a Codex y Claude Code",
+   "at": "2026-11-13T12:39:26+01:00"
+  }
  }
 ]
