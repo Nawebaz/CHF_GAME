@@ -769,5 +769,25 @@
    "text": "Tanda 4 de prueba lista",
    "at": "2026-11-13T13:38:17+01:00"
   }
+ },
+ {
+  "id": "claude-strata-io",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Strata lectura/escritura",
+  "state": "run",
+  "task": "Strata: lectura y escritura del modelo y del disco en su pantalla",
+  "project": "faro",
+  "action": "code",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T14:01:35+01:00",
+  "at": "2026-11-13T14:01:35+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Añado disco (Strata y PC) al monitor de Strata",
+   "at": "2026-11-13T14:01:35+01:00"
+  }
  }
 ]
