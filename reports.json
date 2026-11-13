@@ -830,5 +830,25 @@
    "text": "Repaso: lo más urgente es contestar a Goma (precio)",
    "at": "2026-11-13T20:52:01+01:00"
   }
+ },
+ {
+  "id": "claude-goma-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Respuestas campaña",
+  "state": "run",
+  "task": "actualizar borradores con tarifa nueva",
+  "project": "ingresos",
+  "step": "editar",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T23:04:57+01:00",
+  "at": "2026-11-13T23:04:57+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo: Goma con 450 € + IVA, alquiler y prepago",
+   "at": "2026-11-13T23:04:57+01:00"
+  }
  }
 ]
