@@ -694,18 +694,18 @@
   "cloud": true,
   "name": "Claude · Sprites oficina",
   "state": "run",
-  "task": "Prueba lista para lanzar (prompts y recorte probados); espera a que Nawe inicie sesión en Higgsfield",
+  "task": "Prueba de estilo: 4 hojas generadas en Higgsfield (GPT Image 2 y Nano Banana Pro, 11 créditos)",
   "project": "faro",
-  "action": "code",
-  "pct": 45.0,
+  "action": "edit",
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-13T12:46:45+01:00",
-  "at": "2026-11-13T12:46:45+01:00",
+  "src_at": "2026-11-13T12:54:14+01:00",
+  "at": "2026-11-13T12:54:14+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Todo listo para la prueba; solo falta tu inicio de sesión en Higgsfield",
-   "at": "2026-11-13T12:46:45+01:00"
+   "text": "Prueba lanzada: 4 hojas, 11 créditos. Ahora recorto y comparo",
+   "at": "2026-11-13T12:54:14+01:00"
   }
  },
  {
