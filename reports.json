@@ -646,5 +646,25 @@
    "text": "Arranco: reviso el paquete de Hermes (Extended Look) y reparto CHF 3D entre nube y PC.",
    "at": "2026-11-13T09:54:25+01:00"
   }
+ },
+ {
+  "id": "claude-chf3d-v2",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · CHF 3D v2",
+  "state": "run",
+  "task": "Personajes especiales/secretos, enemigos y efectos 3D",
+  "project": "chf",
+  "step": "Captura fiel de cada muñeco con el dibujo del juego + efectos 3D",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T10:43:31+01:00",
+  "at": "2026-11-13T10:43:31+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo CHF 3D v2 en la nube",
+   "at": "2026-11-13T10:43:31+01:00"
+  }
  }
 ]
