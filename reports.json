@@ -810,5 +810,25 @@
   "ttl": 3600,
   "src_at": "2026-11-13T14:17:35+01:00",
   "at": "2026-11-13T14:17:35+01:00"
+ },
+ {
+  "id": "claude-estado-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Estado proyectos",
+  "state": "ok",
+  "task": "repaso de estado general",
+  "project": "agentes",
+  "step": "pensar",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T20:52:01+01:00",
+  "at": "2026-11-13T20:52:01+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Repaso: lo más urgente es contestar a Goma (precio)",
+   "at": "2026-11-13T20:52:01+01:00"
+  }
  }
 ]
