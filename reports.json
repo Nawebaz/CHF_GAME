@@ -707,5 +707,20 @@
    "text": "Todo listo para la prueba; solo falta tu inicio de sesión en Higgsfield",
    "at": "2026-11-13T12:46:45+01:00"
   }
+ },
+ {
+  "id": "claude-boveda-doble-1311",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "Faro v2.21 publicado: bóveda en doble vía",
+  "project": "agentes",
+  "action": "code",
+  "pct": 80.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T12:50:02+01:00",
+  "at": "2026-11-13T12:50:02+01:00"
  }
 ]
