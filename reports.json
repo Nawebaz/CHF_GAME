@@ -626,5 +626,25 @@
   "artifact": {
    "name": "20 Áreas/Conectores"
   }
+ },
+ {
+  "id": "claude-coord-1311",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Coordinación nube+local",
+  "state": "run",
+  "task": "Reparto: CHF 3D v2, metraje GTA y build local",
+  "project": "agentes",
+  "action": "system",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-13T09:54:25+01:00",
+  "at": "2026-11-13T09:54:25+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Arranco: reviso el paquete de Hermes (Extended Look) y reparto CHF 3D entre nube y PC.",
+   "at": "2026-11-13T09:54:25+01:00"
+  }
  }
 ]
