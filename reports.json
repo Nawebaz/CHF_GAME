@@ -1043,5 +1043,20 @@
    "text": "Cada entrada a la bóveda da su golpe: leer, escribir, crear o borrar",
    "at": "2026-11-14T00:22:17+01:00"
   }
+ },
+ {
+  "id": "claude-espacio-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "más espacio y separación en el mapa de la bóveda",
+  "project": "agentes",
+  "action": "code",
+  "pct": 15.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T00:28:21+01:00",
+  "at": "2026-11-14T00:28:21+01:00"
  }
 ]
