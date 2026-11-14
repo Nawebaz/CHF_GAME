@@ -1278,19 +1278,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · GTA VI y la economía",
-  "state": "run",
-  "task": "Ronda 3: medias 8,75–8,85 (n4 la mejor). Ronda 4 en jueces",
+  "state": "done",
+  "task": "Tanda 5: 4 de 5 aprobados (8,93–9,05) en la ronda 4; entregados en Descargas/gta6-tanda-05",
   "project": "gta",
-  "step": "review",
-  "pct": 90.0,
+  "step": "done",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T14:07:34+01:00",
-  "at": "2026-11-14T14:07:34+01:00",
+  "src_at": "2026-11-14T14:12:34+01:00",
+  "at": "2026-11-14T14:12:34+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Ronda 4 en jueces",
-   "at": "2026-11-14T14:07:34+01:00"
+   "text": "4 de 5 con nota ≥ 8,9: hecho",
+   "at": "2026-11-14T14:12:34+01:00"
   }
  }
 ]
