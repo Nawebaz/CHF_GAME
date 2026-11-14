@@ -2,11 +2,18 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-14 12:45 · «500 años después», monitor de GTA VI y ruta del orbe (v2.47)
+- **Estilo**: cristal oscuro, filos de neón y hologramas, todo dibujado en código (sin créditos). Ayudantes en `office.js`: `txGlass`, `txText`, `txSeg`, `txBeam`, `txBubble`. **No reintroduzcas** el estilo «Bruto» (madera, pergamino, contorno negro): sus funciones ya no existen.
+- **Mesas**: `DG(dk)` es geometría de código (tablero `st`, panel `sx/sy/sw/sh`, `top`, `seat`); ya no hay flexo (`lampGeo` eliminado) ni sprite de mesa. Zonas: `ZG()` devuelve `pad` y `scr` (puesto holográfico). Los sprites de mesa, flexo, zonas y buzón siguen en el atlas pero no se usan.
+- **Proyectos**: agujas con un segmento por cosa hecha, color por tipo (`SEGC`: cian entregas, violeta artefactos, oro orgullo ×2, gris azulado obra guardada). Alto de segmento: `PFH()` (úsalo también en `buildingTop`).
+- **Máquina GTA VI**: `gtaLive()` dice si trabaja (agente de GTA trabajando en la oficina, o informe con `gta` en `run` sin caducar), paso, última señal y recuento. La tele de Proyectos es su monitor, como el de Strata. **Si informas de la máquina, manda `--state run` mientras trabaje y `ok` al parar**, con el bloque `gta` (`--json`), para que la luz sea fiel.
+- **Orbe**: mantiene su ruta (orden de mesa, sigue por donde iba si alguien entra o sale); sin trabajo se queda flotando y a los 25 s sobrevuela la bóveda.
+
 ## 2026-11-14 12:20 · Octógono, sin sala de descanso y orbe vivo (v2.46)
 - El **octógono** es la clave de diseño de la oficina (bóveda central, zonas, entrada, proyectos, barra, suelo).
 - **Ya no hay sala de descanso** (`L.rest` no existe): quien no trabaja se va y queda en el banquillo. El **buzón** está en la entrada (`BOX()`); la **tele de GTA VI** está dentro de Proyectos (`TVR()`, arriba a la derecha) — aviso para la sesión de GTA.
 - El orbe se alimenta en tiempo real: sus últimos puntos de energía lo orbitan.
-- Próximo: lavado de cara «500 años después» (todo más tech); se auditará antes de tocarlo.
+- Lavado de cara «500 años después»: hecho en v2.47.
 
 ## 2026-11-14 · El faro pasa a orbe flotante (decisión de Nawe)
 - El faro deja de ser una torre física: es un **orbe flotante** (tipo palantír, diseño propio) que se activa como el ojo vigía, con las mismas directrices de siempre (el haz se estrecha y se fija más cuanto menos le queda a la tarea; si no hay nadie, parpadea y se atenúa).
