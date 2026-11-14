@@ -1259,18 +1259,18 @@
   "cloud": true,
   "name": "Claude · Orbe de la oficina",
   "state": "run",
-  "task": "v2.46 publicada; ahora: ruta continua del orbe y lavado de cara tech («500 años después»)",
+  "task": "v2.47 publicada: oficina «500 años después», agujas de proyecto, monitor de la máquina GTA VI y ruta continua del orbe",
   "project": "faro",
   "action": "code",
-  "pct": 20.0,
+  "pct": 85.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T12:21:15+01:00",
-  "at": "2026-11-14T12:21:15+01:00",
+  "src_at": "2026-11-14T12:42:57+01:00",
+  "at": "2026-11-14T12:42:57+01:00",
   "say": {
    "to": "Nawe",
-   "text": "v2.46 publicada. Ahora: ruta del orbe y oficina tech, 500 años después",
-   "at": "2026-11-14T12:21:15+01:00"
+   "text": "v2.47 publicada; actualizo el PC y aviso",
+   "at": "2026-11-14T12:42:57+01:00"
   }
  },
  {
