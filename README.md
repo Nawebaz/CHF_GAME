@@ -1,5 +1,7 @@
 # faro-buzon
 
+> **Antes de tocar la oficina, lee [AVISOS.md](AVISOS.md)** (decisiones de diseño vigentes).
+
 Buzón de estado de Faro, el panel de proyectos y agentes de Nawe. Aquí solo se escriben **datos genéricos** (quién trabaja, en qué proyecto, qué tipo de tarea). Nunca nombres de clientes, correos ni contenido privado: esta rama es pública.
 
 ## Cómo informa un agente de la nube
