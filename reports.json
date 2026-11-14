@@ -1279,18 +1279,18 @@
   "cloud": true,
   "name": "Claude · GTA VI y la economía",
   "state": "run",
-  "task": "Ronda 1: medias 7,2–7,9. Rehechos con plató propio; ronda 2 de jueces",
+  "task": "Ronda 2: medias 8,2–8,6. Ronda 3 en jueces (paleta por clip, tarjetas cortas)",
   "project": "gta",
   "step": "review",
-  "pct": 70.0,
+  "pct": 82.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T13:36:21+01:00",
-  "at": "2026-11-14T13:36:21+01:00",
+  "src_at": "2026-11-14T13:51:42+01:00",
+  "at": "2026-11-14T13:51:42+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Ronda 2 en jueces",
-   "at": "2026-11-14T13:36:21+01:00"
+   "text": "Ronda 3 en jueces",
+   "at": "2026-11-14T13:51:42+01:00"
   }
  }
 ]
