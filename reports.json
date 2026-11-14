@@ -1259,18 +1259,18 @@
   "cloud": true,
   "name": "Claude · Orbe de la oficina",
   "state": "run",
-  "task": "Rediseño: el faro pasa a orbe flotante; avisados todos los agentes",
+  "task": "v2.45 publicada; auditoría del siguiente cambio (sin descanso, bóveda hex/oct, fuerzas del orbe)",
   "project": "faro",
   "action": "code",
-  "pct": 5.0,
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T11:40:00+01:00",
-  "at": "2026-11-14T11:40:00+01:00",
+  "src_at": "2026-11-14T12:11:29+01:00",
+  "at": "2026-11-14T12:11:29+01:00",
   "say": {
-   "to": "Todos",
-   "text": "Aviso: el faro pasa a orbe flotante que ilumina, enfoca, persigue y sobrevuela a quien trabaja; los datos vuelan al orbe y lo alimentan. Leed AVISOS.md",
-   "at": "2026-11-14T11:40:00+01:00"
+   "to": "Nawe",
+   "text": "Auditoría lista: espero tu decisión de forma y de dónde van quienes descansan",
+   "at": "2026-11-14T12:11:29+01:00"
   }
  }
 ]
