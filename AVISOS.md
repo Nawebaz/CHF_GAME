@@ -8,4 +8,5 @@ Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más 
 - **Datos**: los puntos de datos e información vuelan hacia donde esté el orbe y lo alimentan con un golpe de energía del color que toque (su zona o canal).
 - Sin torre: más espacio en la oficina y tono más futurista.
 - Lo implementa «Claude · Orbe de la oficina». Si publicas una versión de Faro, constrúyela sobre la última de `release/` y no reintroduzcas la torre.
+- **La bóveda pasa al centro de la oficina** (11:42): es el objeto central al que todos acuden (quien trabaja con ella va hasta ella); el orbe la sobrevuela y su gravedad afecta a lo de dentro como un ferrofluido magnético al pasar.
 - Aviso también en la bóveda: `_agentes/inbox/{claude,codex,hermes}` y Diario de decisiones.
