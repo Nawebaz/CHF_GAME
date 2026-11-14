@@ -1085,14 +1085,22 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "mapa interactivo: arrastrar, tocar, girar y zoom",
+  "state": "ok",
+  "task": "Faro v2.39: mapa de la bóveda interactivo",
   "project": "agentes",
   "action": "code",
-  "pct": 10.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T00:59:26+01:00",
-  "at": "2026-11-14T00:59:26+01:00"
+  "src_at": "2026-11-14T01:01:11+01:00",
+  "at": "2026-11-14T01:01:11+01:00",
+  "artifact": {
+   "name": "Faro v2.39"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "La bóveda ya se toca: arrastra, toca, gira y acerca",
+   "at": "2026-11-14T01:01:11+01:00"
+  }
  }
 ]
