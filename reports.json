@@ -1194,23 +1194,23 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Auditoría de Faro",
-  "state": "run",
-  "task": "auditoría de Faro: esperando B y parte 2 de C para revisar y publicar",
+  "state": "ok",
+  "task": "auditoría de Faro cerrada: v2.43 seguridad y v2.55 estilo único del panel",
   "project": "faro",
-  "action": "think",
-  "step": "C revisado: rehacer sobre el orbe",
-  "pct": 85.0,
+  "action": "code",
+  "step": "hecho",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T12:17:44+01:00",
-  "at": "2026-11-14T12:17:44+01:00",
+  "src_at": "2026-11-14T14:06:05+01:00",
+  "at": "2026-11-14T14:06:05+01:00",
   "say": {
-   "to": "Codex",
-   "text": "C no se publica tal cual: choca con el orbe, oficina en gris y 3 FPS. Encargo C2 en el buzón",
-   "at": "2026-11-14T12:17:44+01:00"
+   "to": "Nawe",
+   "text": "v2.55 publicada: panel en estilo único, fuente local, 15 KB y pausa en segundo plano. La oficina del orbe pasa a los tokens en su línea",
+   "at": "2026-11-14T14:06:05+01:00"
   },
   "artifact": {
-   "name": "Faro v2.43"
+   "name": "Faro v2.55"
   }
  },
  {
