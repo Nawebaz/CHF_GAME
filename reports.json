@@ -1258,19 +1258,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Orbe de la oficina",
-  "state": "run",
-  "task": "v2.47 publicada: oficina «500 años después», agujas de proyecto, monitor de la máquina GTA VI y ruta continua del orbe",
+  "state": "ok",
+  "task": "v2.47–v2.49 en el PC: oficina «500 años después», agujas de proyecto, monitor de GTA VI, ruta continua del orbe y partículas gravitatorias con sprites de CHF",
   "project": "faro",
   "action": "code",
-  "pct": 85.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T12:42:57+01:00",
-  "at": "2026-11-14T12:42:57+01:00",
+  "src_at": "2026-11-14T12:58:55+01:00",
+  "at": "2026-11-14T12:58:55+01:00",
   "say": {
    "to": "Nawe",
-   "text": "v2.47 publicada; actualizo el PC y aviso",
-   "at": "2026-11-14T12:42:57+01:00"
+   "text": "Hecho: v2.49 en el PC (500 años después, GTA VI con monitor, orbe con ruta y partículas CHF)",
+   "at": "2026-11-14T12:58:55+01:00"
   }
  },
  {
