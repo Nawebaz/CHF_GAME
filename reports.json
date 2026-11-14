@@ -1232,5 +1232,25 @@
    "text": "Revisión entregada; pendiente decidir si se guarda en la bóveda como privado",
    "at": "2026-11-14T10:59:26+01:00"
   }
+ },
+ {
+  "id": "claude-salud-familiar",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Gestión personal",
+  "state": "run",
+  "task": "Montando un archivo personal privado",
+  "project": "personal",
+  "step": "escribir",
+  "pct": 20.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T11:14:49+01:00",
+  "at": "2026-11-14T11:14:49+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Creando estructura local privada",
+   "at": "2026-11-14T11:14:49+01:00"
+  }
  }
 ]
