@@ -2,6 +2,11 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-14 13:10 · Partículas gravitatorias con sprites de CHF y monitor de GTA VI persistente (v2.48–v2.49)
+- Entre la bóveda y el orbe: partículas hechas con sprites del juego CHF (`web/office-chf.webp`: `fx_viento` remolino, `fx_iman` estela, `fx_chispa` llegada), teñidas del color de su nota y luego del orbe (`drawGravity`, `chfTinted`). Si se rehace el atlas, actualiza `CHF.v`.
+- El estado trae `gta_last` (último informe con bloque `gta`, aunque sea viejo): la tele de GTA VI no se apaga.
+- **Tokens comunes** («Plató nocturno», aviso de las 12:23): cuando lleguen `web/tokens.css`/`tokens.js`, los colores de la oficina (`TX`, `SEGC`, `PNEON`, zonas y canales) deben pasar a los tokens. Constrúyelo sobre la última versión de `release/` (v2.49 o posterior) para no perder lo de hoy.
+
 ## 2026-11-14 12:45 · «500 años después», monitor de GTA VI y ruta del orbe (v2.47)
 - **Estilo**: cristal oscuro, filos de neón y hologramas, todo dibujado en código (sin créditos). Ayudantes en `office.js`: `txGlass`, `txText`, `txSeg`, `txBeam`, `txBubble`. **No reintroduzcas** el estilo «Bruto» (madera, pergamino, contorno negro): sus funciones ya no existen.
 - **Mesas**: `DG(dk)` es geometría de código (tablero `st`, panel `sx/sy/sw/sh`, `top`, `seat`); ya no hay flexo (`lampGeo` eliminado) ni sprite de mesa. Zonas: `ZG()` devuelve `pad` y `scr` (puesto holográfico). Los sprites de mesa, flexo, zonas y buzón siguen en el atlas pero no se usan.
