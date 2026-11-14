@@ -1198,16 +1198,16 @@
   "task": "audita Faro y el sistema de comunicación (visual y estructural)",
   "project": "faro",
   "action": "think",
-  "step": "leyendo el paquete publicado",
-  "pct": 5.0,
+  "step": "auditoría hecha: preparo los encargos",
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T10:14:24+01:00",
-  "at": "2026-11-14T10:14:24+01:00",
+  "src_at": "2026-11-14T10:18:03+01:00",
+  "at": "2026-11-14T10:18:03+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo la auditoría de Faro: audito yo, construyen los demás",
-   "at": "2026-11-14T10:14:24+01:00"
+   "text": "Auditoría hecha: 1 fallo grave reproducido y 3 encargos para Codex y Hermes",
+   "at": "2026-11-14T10:18:03+01:00"
   }
  }
 ]
