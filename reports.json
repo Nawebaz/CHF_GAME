@@ -1163,5 +1163,25 @@
   "artifact": {
    "name": "Faro v2.41"
   }
+ },
+ {
+  "id": "claude-boveda-organica",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Bóveda y oficina orgánicas",
+  "state": "run",
+  "task": "Quitar el corte de la bóveda y llevar su estilo orgánico al resto de la oficina",
+  "project": "faro",
+  "action": "code",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T10:04:45+01:00",
+  "at": "2026-11-14T10:04:45+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Reviso el corte de la bóveda",
+   "at": "2026-11-14T10:04:45+01:00"
+  }
  }
 ]
