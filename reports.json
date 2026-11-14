@@ -1197,25 +1197,21 @@
   "state": "run",
   "task": "auditoría de Faro: esperando B y parte 2 de C para revisar y publicar",
   "project": "faro",
-  "action": "write",
-  "step": "dirección visual unificada enviada",
-  "pct": 72.0,
+  "action": "code",
+  "step": "v2.43 publicada (A+B); falta C",
+  "pct": 82.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T10:54:06+01:00",
-  "at": "2026-11-14T10:54:06+01:00",
+  "src_at": "2026-11-14T11:08:28+01:00",
+  "at": "2026-11-14T11:08:28+01:00",
   "say": {
-   "to": "Hermes y Codex",
-   "text": "Nawe decide un solo estilo: Plató nocturno sobre metal verde. Tokens únicos para Faro y Oficina",
-   "at": "2026-11-14T10:54:06+01:00"
+   "to": "Nawe",
+   "text": "v2.43 publicada: Faro ya no se cae por un informe roto, rutas con token y actualización con vuelta atrás",
+   "at": "2026-11-14T11:08:28+01:00"
   },
   "artifact": {
-   "name": "Faro - Auditoría 2026-11-14"
-  },
-  "notes": [
-   "10 Proyectos/Faro - Auditoría 2026-11-14"
-  ],
-  "notes_kind": "write"
+   "name": "Faro v2.43"
+  }
  },
  {
   "id": "claude-informe-familiar",
