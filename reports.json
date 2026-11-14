@@ -1086,14 +1086,14 @@
   "cloud": true,
   "name": "Claude · Bóveda",
   "state": "ok",
-  "task": "Faro v2.39: mapa de la bóveda interactivo",
+  "task": "Faro v2.39 republicado bien: mapa interactivo",
   "project": "agentes",
   "action": "code",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T01:01:11+01:00",
-  "at": "2026-11-14T01:01:11+01:00",
+  "src_at": "2026-11-14T01:01:59+01:00",
+  "at": "2026-11-14T01:01:59+01:00",
   "artifact": {
    "name": "Faro v2.39"
   },
