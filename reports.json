@@ -1132,18 +1132,18 @@
   "cloud": true,
   "name": "Claude · CHF 3D",
   "state": "run",
-  "task": "CHF 3D web al PC para iPhone y medir GPU real",
+  "task": "avanzar CHF 3D Godot",
   "project": "chf",
-  "step": "codigo",
-  "pct": 40.0,
+  "step": "pensar",
+  "pct": 10.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T02:14:24+01:00",
-  "at": "2026-11-14T02:14:24+01:00",
+  "src_at": "2026-11-14T09:56:47+01:00",
+  "at": "2026-11-14T09:56:47+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Paquete enviado al PC; Hermes lo sirve en :8643 y mide fps",
-   "at": "2026-11-14T02:14:24+01:00"
+   "text": "Retomo la versión Godot",
+   "at": "2026-11-14T09:56:47+01:00"
   }
  },
  {
