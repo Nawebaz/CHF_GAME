@@ -1238,19 +1238,19 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Gestión personal",
-  "state": "run",
-  "task": "Montando un archivo personal privado",
+  "state": "ok",
+  "task": "Archivo personal privado creado en el Mac",
   "project": "personal",
-  "step": "escribir",
-  "pct": 20.0,
+  "step": "entregar",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T11:14:49+01:00",
-  "at": "2026-11-14T11:14:49+01:00",
+  "src_at": "2026-11-14T11:17:39+01:00",
+  "at": "2026-11-14T11:17:39+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Creando estructura local privada",
-   "at": "2026-11-14T11:14:49+01:00"
+   "text": "Estructura local lista; falta decidir cómo llega a la bóveda del PC",
+   "at": "2026-11-14T11:17:39+01:00"
   }
  }
 ]
