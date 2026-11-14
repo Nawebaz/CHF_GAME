@@ -1125,5 +1125,25 @@
    "text": "La cámara ya navega sola por dentro de la bóveda",
    "at": "2026-11-14T01:29:25+01:00"
   }
+ },
+ {
+  "id": "claude-chf3d-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · CHF 3D",
+  "state": "run",
+  "task": "retomar CHF 3D: estado y siguiente iteración",
+  "project": "chf",
+  "step": "buscar",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T02:12:28+01:00",
+  "at": "2026-11-14T02:12:28+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Reviso dónde se quedó el 3D",
+   "at": "2026-11-14T02:12:28+01:00"
+  }
  }
 ]
