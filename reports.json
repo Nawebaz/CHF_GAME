@@ -1259,18 +1259,18 @@
   "cloud": true,
   "name": "Claude · Orbe de la oficina",
   "state": "run",
-  "task": "v2.45 publicada; auditoría del siguiente cambio (sin descanso, bóveda hex/oct, fuerzas del orbe)",
+  "task": "v2.46 publicada; ahora: ruta continua del orbe y lavado de cara tech («500 años después»)",
   "project": "faro",
   "action": "code",
-  "pct": 60.0,
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T12:11:29+01:00",
-  "at": "2026-11-14T12:11:29+01:00",
+  "src_at": "2026-11-14T12:21:15+01:00",
+  "at": "2026-11-14T12:21:15+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Auditoría lista: espero tu decisión de forma y de dónde van quienes descansan",
-   "at": "2026-11-14T12:11:29+01:00"
+   "text": "v2.46 publicada. Ahora: ruta del orbe y oficina tech, 500 años después",
+   "at": "2026-11-14T12:21:15+01:00"
   }
  }
 ]
