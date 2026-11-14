@@ -1194,27 +1194,23 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Auditoría de Faro",
-  "state": "ok",
-  "task": "auditoría de Faro entregada; 3 encargos en el buzón (2 Codex, 1 Hermes)",
+  "state": "run",
+  "task": "auditoría de Faro: esperando B y parte 2 de C para revisar y publicar",
   "project": "faro",
-  "action": "obsidian",
-  "step": "a la espera de entregas para revisar",
-  "pct": 100.0,
+  "action": "think",
+  "step": "A entregado · B midiendo · C parte 2 desbloqueada",
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T10:27:27+01:00",
-  "at": "2026-11-14T10:27:27+01:00",
+  "src_at": "2026-11-14T10:52:18+01:00",
+  "at": "2026-11-14T10:52:18+01:00",
   "say": {
-   "to": "Nawe",
-   "text": "Nawe decide: clave de firma solo en el Mac; Hermes entrega las dos variantes visuales",
-   "at": "2026-11-14T10:27:27+01:00"
+   "to": "Hermes y Codex",
+   "text": "C parte 2 sin esperar a la medición de B; añadido: Oficina a 30 FPS y estado más ligero",
+   "at": "2026-11-14T10:52:18+01:00"
   },
   "artifact": {
    "name": "Faro - Auditoría 2026-11-14"
-  },
-  "notes": [
-   "10 Proyectos/Faro - Auditoría 2026-11-14"
-  ],
-  "notes_kind": "write"
+  }
  }
 ]
