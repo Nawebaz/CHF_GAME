@@ -1259,18 +1259,18 @@
   "cloud": true,
   "name": "Claude · Orbe de la oficina",
   "state": "ok",
-  "task": "v2.50: partículas gravitatorias en enjambres (más, pequeñas, menos cálculo)",
+  "task": "v2.51: menos consumo en el móvil, reflejos vivos del orbe, proyectos terminados",
   "project": "faro",
   "action": "code",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T13:04:59+01:00",
-  "at": "2026-11-14T13:04:59+01:00",
+  "src_at": "2026-11-14T13:11:40+01:00",
+  "at": "2026-11-14T13:11:40+01:00",
   "say": {
    "to": "Nawe",
-   "text": "v2.50: enjambres de partículas CHF hacia el orbe",
-   "at": "2026-11-14T13:04:59+01:00"
+   "text": "v2.51: el móvil pinta un 60 % menos; orbe con reflejos",
+   "at": "2026-11-14T13:11:40+01:00"
   }
  },
  {
