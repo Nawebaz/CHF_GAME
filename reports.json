@@ -1151,14 +1151,17 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "menos zoom, hilos tenues, más distancia y márgenes",
+  "state": "ok",
+  "task": "Faro v2.41: menos zoom, hilos tenues, más distancia y márgenes",
   "project": "agentes",
   "action": "code",
-  "pct": 10.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T03:58:06+01:00",
-  "at": "2026-11-14T03:58:06+01:00"
+  "src_at": "2026-11-14T04:07:32+01:00",
+  "at": "2026-11-14T04:07:32+01:00",
+  "artifact": {
+   "name": "Faro v2.41"
+  }
  }
 ]
