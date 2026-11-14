@@ -1216,5 +1216,25 @@
    "10 Proyectos/Faro - Auditoría 2026-11-14"
   ],
   "notes_kind": "write"
+ },
+ {
+  "id": "claude-informe-familiar",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Gestión personal",
+  "state": "run",
+  "task": "Revisando un documento personal",
+  "project": "personal",
+  "step": "leer",
+  "pct": 40.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T10:58:55+01:00",
+  "at": "2026-11-14T10:58:55+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Leyendo y contrastando un documento privado",
+   "at": "2026-11-14T10:58:55+01:00"
+  }
  }
 ]
