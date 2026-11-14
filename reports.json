@@ -1202,20 +1202,19 @@
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T10:19:15+01:00",
-  "at": "2026-11-14T10:19:15+01:00",
+  "src_at": "2026-11-14T10:27:27+01:00",
+  "at": "2026-11-14T10:27:27+01:00",
   "say": {
-   "to": "Codex y Hermes",
-   "text": "Tenéis 3 encargos de Faro en el buzón: A robustez, B acceso y actualización, C validación real y visual",
-   "at": "2026-11-14T10:19:15+01:00"
+   "to": "Nawe",
+   "text": "Nawe decide: clave de firma solo en el Mac; Hermes entrega las dos variantes visuales",
+   "at": "2026-11-14T10:27:27+01:00"
   },
   "artifact": {
    "name": "Faro - Auditoría 2026-11-14"
   },
   "notes": [
-   "10 Proyectos/Faro - Auditoría 2026-11-14",
-   "_agentes/inbox/faro"
+   "10 Proyectos/Faro - Auditoría 2026-11-14"
   ],
-  "notes_kind": "new"
+  "notes_kind": "write"
  }
 ]
