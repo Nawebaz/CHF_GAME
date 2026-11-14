@@ -1102,5 +1102,20 @@
    "text": "La bóveda ya se toca: arrastra, toca, gira y acerca",
    "at": "2026-11-14T01:01:11+01:00"
   }
+ },
+ {
+  "id": "claude-camara-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "cámara autónoma que navega por dentro de la bóveda; movimiento orgánico",
+  "project": "agentes",
+  "action": "code",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T01:24:13+01:00",
+  "at": "2026-11-14T01:24:13+01:00"
  }
 ]
