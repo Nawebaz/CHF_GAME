@@ -1145,5 +1145,20 @@
    "text": "Paquete enviado al PC; Hermes lo sirve en :8643 y mide fps",
    "at": "2026-11-14T02:14:24+01:00"
   }
+ },
+ {
+  "id": "claude-camara2-1411",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "menos zoom, hilos tenues, más distancia y márgenes",
+  "project": "agentes",
+  "action": "code",
+  "pct": 10.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T03:58:06+01:00",
+  "at": "2026-11-14T03:58:06+01:00"
  }
 ]
