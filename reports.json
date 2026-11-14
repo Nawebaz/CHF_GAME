@@ -1169,19 +1169,24 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Bóveda y oficina orgánicas",
-  "state": "run",
-  "task": "v2.42 publicada: bóveda sin corte y oficina orgánica; actualizando el PC",
+  "state": "ok",
+  "task": "Bóveda sin corte y oficina orgánica (v2.42 en el PC)",
   "project": "faro",
   "action": "code",
-  "pct": 85.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T10:07:55+01:00",
-  "at": "2026-11-14T10:07:55+01:00",
+  "src_at": "2026-11-14T10:09:47+01:00",
+  "at": "2026-11-14T10:09:47+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Bóveda sin corte y oficina orgánica (v2.42)",
-   "at": "2026-11-14T10:07:55+01:00"
-  }
+   "text": "Hecho: v2.42 en el PC",
+   "at": "2026-11-14T10:09:47+01:00"
+  },
+  "notes": [
+   "10 Proyectos/Faro",
+   "Diario de decisiones"
+  ],
+  "notes_kind": "write"
  }
 ]
