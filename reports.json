@@ -1252,5 +1252,25 @@
    "text": "Plantillas listas, a la espera de consentimientos",
    "at": "2026-11-14T11:25:04+01:00"
   }
+ },
+ {
+  "id": "claude-orbe",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Orbe de la oficina",
+  "state": "run",
+  "task": "Rediseño: el faro pasa a orbe flotante; avisados todos los agentes",
+  "project": "faro",
+  "action": "code",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T11:40:00+01:00",
+  "at": "2026-11-14T11:40:00+01:00",
+  "say": {
+   "to": "Todos",
+   "text": "Aviso: el faro pasa a orbe flotante que ilumina, enfoca, persigue y sobrevuela a quien trabaja; los datos vuelan al orbe y lo alimentan. Leed AVISOS.md",
+   "at": "2026-11-14T11:40:00+01:00"
+  }
  }
 ]
