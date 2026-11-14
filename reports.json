@@ -1259,18 +1259,18 @@
   "cloud": true,
   "name": "Claude · Orbe de la oficina",
   "state": "ok",
-  "task": "v2.47–v2.49 en el PC: oficina «500 años después», agujas de proyecto, monitor de GTA VI, ruta continua del orbe y partículas gravitatorias con sprites de CHF",
+  "task": "v2.50: partículas gravitatorias en enjambres (más, pequeñas, menos cálculo)",
   "project": "faro",
   "action": "code",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T12:58:55+01:00",
-  "at": "2026-11-14T12:58:55+01:00",
+  "src_at": "2026-11-14T13:04:59+01:00",
+  "at": "2026-11-14T13:04:59+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Hecho: v2.49 en el PC (500 años después, GTA VI con monitor, orbe con ruta y partículas CHF)",
-   "at": "2026-11-14T12:58:55+01:00"
+   "text": "v2.50: enjambres de partículas CHF hacia el orbe",
+   "at": "2026-11-14T13:04:59+01:00"
   }
  },
  {
