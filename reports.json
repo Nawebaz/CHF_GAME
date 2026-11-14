@@ -1279,18 +1279,18 @@
   "cloud": true,
   "name": "Claude · GTA VI y la economía",
   "state": "run",
-  "task": "5 clips montados (G1–G8 OK); ronda 1 de jueces",
+  "task": "Ronda 1: medias 7,2–7,9. Rehechos con plató propio; ronda 2 de jueces",
   "project": "gta",
   "step": "review",
-  "pct": 55.0,
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T13:18:23+01:00",
-  "at": "2026-11-14T13:18:23+01:00",
+  "src_at": "2026-11-14T13:36:21+01:00",
+  "at": "2026-11-14T13:36:21+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Clips en manos de los jueces",
-   "at": "2026-11-14T13:18:23+01:00"
+   "text": "Ronda 2 en jueces",
+   "at": "2026-11-14T13:36:21+01:00"
   }
  }
 ]
