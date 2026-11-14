@@ -1279,18 +1279,18 @@
   "cloud": true,
   "name": "Claude · GTA VI y la economía",
   "state": "run",
-  "task": "Barrido de noticias económicas de GTA y cadena de 5 clips (meta: 4 con ≥8,9)",
+  "task": "Barrido hecho: 5 noticias comprobadas; renderizando tanda 5",
   "project": "gta",
-  "step": "search",
-  "pct": 5.0,
+  "step": "build",
+  "pct": 30.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T12:38:48+01:00",
-  "at": "2026-11-14T12:38:48+01:00",
+  "src_at": "2026-11-14T12:47:12+01:00",
+  "at": "2026-11-14T12:47:12+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo el barrido de noticias económicas",
-   "at": "2026-11-14T12:38:48+01:00"
+   "text": "Barrido hecho; montando 5 clips",
+   "at": "2026-11-14T12:47:12+01:00"
   }
  }
 ]
