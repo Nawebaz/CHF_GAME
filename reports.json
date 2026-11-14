@@ -1197,20 +1197,24 @@
   "state": "run",
   "task": "auditoría de Faro: esperando B y parte 2 de C para revisar y publicar",
   "project": "faro",
-  "action": "think",
-  "step": "A entregado · B midiendo · C parte 2 desbloqueada",
-  "pct": 70.0,
+  "action": "write",
+  "step": "dirección visual unificada enviada",
+  "pct": 72.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-14T10:52:18+01:00",
-  "at": "2026-11-14T10:52:18+01:00",
+  "src_at": "2026-11-14T10:54:06+01:00",
+  "at": "2026-11-14T10:54:06+01:00",
   "say": {
    "to": "Hermes y Codex",
-   "text": "C parte 2 sin esperar a la medición de B; añadido: Oficina a 30 FPS y estado más ligero",
-   "at": "2026-11-14T10:52:18+01:00"
+   "text": "Nawe decide un solo estilo: Plató nocturno sobre metal verde. Tokens únicos para Faro y Oficina",
+   "at": "2026-11-14T10:54:06+01:00"
   },
   "artifact": {
    "name": "Faro - Auditoría 2026-11-14"
-  }
+  },
+  "notes": [
+   "10 Proyectos/Faro - Auditoría 2026-11-14"
+  ],
+  "notes_kind": "write"
  }
 ]
