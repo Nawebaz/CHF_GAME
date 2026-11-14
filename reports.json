@@ -1188,5 +1188,26 @@
    "Diario de decisiones"
   ],
   "notes_kind": "write"
+ },
+ {
+  "id": "claude-auditoria-faro-1411",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Auditoría de Faro",
+  "state": "run",
+  "task": "audita Faro y el sistema de comunicación (visual y estructural)",
+  "project": "faro",
+  "action": "think",
+  "step": "leyendo el paquete publicado",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-14T10:14:24+01:00",
+  "at": "2026-11-14T10:14:24+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo la auditoría de Faro: audito yo, construyen los demás",
+   "at": "2026-11-14T10:14:24+01:00"
+  }
  }
 ]
