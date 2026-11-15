@@ -1292,5 +1292,25 @@
    "text": "4 de 5 con nota ≥ 8,9: hecho",
    "at": "2026-11-14T14:12:34+01:00"
   }
+ },
+ {
+  "id": "claude-buzon-boveda",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Buzón de la bóveda",
+  "state": "run",
+  "task": "Que todas las bandejas de _agentes/inbox tengan quien las lea",
+  "project": "faro",
+  "step": "build",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T09:20:31+01:00",
+  "at": "2026-11-15T09:20:31+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Ordenando el buzón de la bóveda",
+   "at": "2026-11-15T09:20:31+01:00"
+  }
  }
 ]
