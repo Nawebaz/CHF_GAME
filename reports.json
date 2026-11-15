@@ -1298,19 +1298,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Buzón de la bóveda",
-  "state": "run",
-  "task": "Faro v2.56 publicado: vigila todas las bandejas; esperando a que el PC se actualice",
+  "state": "ok",
+  "task": "Faro v2.56 en el PC: vigila todas las bandejas; inbox limpio, 2 órdenes lanzadas a Hermes",
   "project": "faro",
-  "step": "deploy",
-  "pct": 80.0,
+  "step": "done",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T09:23:57+01:00",
-  "at": "2026-11-15T09:23:57+01:00",
+  "src_at": "2026-11-15T09:25:53+01:00",
+  "at": "2026-11-15T09:25:53+01:00",
   "say": {
    "to": "Nawe",
-   "text": "v2.56 publicada",
-   "at": "2026-11-15T09:23:57+01:00"
+   "text": "Buzón con vigilancia en todas las bandejas",
+   "at": "2026-11-15T09:25:53+01:00"
   }
  }
 ]
