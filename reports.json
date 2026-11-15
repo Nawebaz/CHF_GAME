@@ -1327,5 +1327,20 @@
   "ttl": 3600,
   "src_at": "2026-11-15T09:39:49+01:00",
   "at": "2026-11-15T09:39:49+01:00"
+ },
+ {
+  "id": "claude-semantica-1511",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "bóveda con significado: menciones, fichas, notas de agentes y guía",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T09:56:19+01:00",
+  "at": "2026-11-15T09:56:19+01:00"
  }
 ]
