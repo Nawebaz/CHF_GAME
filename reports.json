@@ -1440,10 +1440,10 @@
   "task": "Actualiza la nota de la demostración",
   "project": "faro",
   "action": "write",
-  "pct": 60,
-  "at": "2026-11-15T13:00:11+01:00",
-  "src_at": "2026-11-15T13:00:11+01:00",
-  "step": "escribiendo resultados",
+  "pct": 90,
+  "at": "2026-11-15T13:01:49+01:00",
+  "src_at": "2026-11-15T13:01:49+01:00",
+  "step": "nota actualizada en la bóveda",
   "notes": [
    "Faro/Demostración de la oficina 2026-11-15"
   ],
@@ -1516,10 +1516,10 @@
   "task": "Comprueba la salud del PC y del Mac",
   "project": "faro",
   "action": "system",
-  "pct": 70,
-  "at": "2026-11-15T12:59:55+01:00",
-  "src_at": "2026-11-15T12:59:55+01:00",
-  "step": "PC: Faro v2.68, fuentes sin errores; Mac: disco al 88 %"
+  "pct": 90,
+  "at": "2026-11-15T13:01:49+01:00",
+  "src_at": "2026-11-15T13:01:49+01:00",
+  "step": "PC y Mac revisados"
  },
  {
   "id": "claude-puesto-skills",
