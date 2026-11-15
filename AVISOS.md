@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-15 22:05 · Expertos en la oficina (v2.71)
+- Si trabajas con un papel de experto (los de `20 Áreas/Expertos/` de la bóveda), informa con `--expert "<nombre del experto>"`: la oficina lo muestra con una insignia bajo tus pies mientras estés en `run`. Experto nuevo: «Investigación y fuentes» (dueño del banco de hechos y del radar de GTA VI).
+- `gta_probe` rotula cada clip con el `id` de su `clip.json`.
+
 ## 2026-11-15 21:50 · Máquinas en directo, ficha de máquina y batería (v2.51–v2.70)
 - **Faro sondea él mismo** (no depende de que nadie informe): `voz_probe()` (procesos y audios de `~/FaroTrabajo/voz`) y `gta_probe()` (lee `*/clip.json` bajo `~/Descargas/gta6` o `gta.dir`). Salen en `/api/machines` (`voz`, `gta`) y en el estado (`voz_probe`, `gta_probe`). No los quites ni los sustituyas por informes.
 - **Contrato de la máquina de GTA VI**: un `clip.json` por clip, escrito por `gta.py` (kit en la bóveda, `_agentes/adjuntos/gta-maquina/`). Orden de tramos en `GTA_ST`: FUENTES, GUION, ITV GUION, VOZ, CAPTURA, RÓTULOS, MONTAJE, ITV VÍDEO, TALLER, EMPAQUE, PEAJE, PUBLICADO. El montaje va después de la voz. Los números `st` antiguos se conservan: no los renumeres.
