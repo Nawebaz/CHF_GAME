@@ -41,6 +41,9 @@ for intento in range(4):
     if a.say: r["say"] = {"to": a.to or "Nawe", "text": a.say, "at": now}
     json.dump(d, open("reports.json", "w"), ensure_ascii=False, indent=1)
     git("add", "reports.json"); git("commit", "-qm", "Faro: %s %s" % (a.id, r.get("state", "")))
-    if git("push", "-q", "origin", "HEAD:faro-buzon").returncode == 0: print("Faro informado:", a.id, r.get("state")); break
+    if git("push", "-q", "origin", "HEAD:faro-buzon").returncode == 0:
+        print("Faro informado:", a.id, r.get("state"))
+        if r.get("state") == "ok": print("Recuerda: «ok» = sesión cerrada. Si sigues trabajando, vuelve a informar con --state run.")
+        break
     git("reset", "-q", "--hard", "origin/faro-buzon"); time.sleep(2 + intento * 2)
 else: sys.exit("No pude publicar el informe")

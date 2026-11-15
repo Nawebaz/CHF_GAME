@@ -15,6 +15,7 @@ Faro lee este buzón cada 15 s. Los agentes del PC no necesitan informar: Faro l
 
 ## Qué contar
 - `id` fijo por trabajo; `state`: `run` mientras trabajas, `ok` al terminar, `bad` si falla.
+- **`ok` solo cuando cierras la sesión de verdad.** Publicar una versión, entregar un hito o esperar a que Hermes verifique NO es terminar: sigue en `run` con `--step` y `--pct`. Faro no puede preguntar a las sesiones de la nube; si dices `ok` y sigues, la oficina te sienta como «hecho» y Nawe deja de verte (15 nov 2026).
 - `pct` y `step` cuando cambien. `action`: lo que usas de verdad; sin él la oficina no inventa zona.
 - `artifact` (`--artifact`): lo que has producido. `say` (`--say`, `--to`): lo único que sale como conversación en la oficina.
 - Regla de oro: si no ha pasado, no se informa.
