@@ -1713,19 +1713,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Cámara de la bóveda",
-  "state": "run",
+  "state": "ok",
   "task": "Cámara de la bóveda más lenta, orgánica y etérea",
   "project": "faro",
   "action": "code",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T22:35:44+01:00",
-  "at": "2026-11-15T22:35:44+01:00",
+  "src_at": "2026-11-15T22:37:49+01:00",
+  "at": "2026-11-15T22:37:49+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Calmo la cámara de la bóveda",
-   "at": "2026-11-15T22:35:44+01:00"
-  }
+   "text": "Cámara de la bóveda en modo planetario",
+   "at": "2026-11-15T22:37:49+01:00"
+  },
+  "step": "v2.72 publicada: giro 2°/s de media, tope 4,3°/s, 2 cambios/min"
  }
 ]
