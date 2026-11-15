@@ -94,20 +94,20 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Máquina GTA VI",
-  "state": "run",
-  "task": "Faro v2.71: insignia de experto y rótulo de clip; instalando en el PC",
+  "state": "ok",
+  "task": "Faro v2.71 instalada; radar lunes y jueves; experto Investigación y fuentes creado",
   "project": "gta",
   "action": "code",
-  "pct": 90.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:51:42+01:00",
+  "src_at": "2026-11-15T21:54:06+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Mañana 7:43, primer radar de GTA VI. Si el Mac no está, aviso y decides tú",
-   "at": "2026-11-15T21:36:50+01:00"
+   "text": "Mañana 7:43, primer radar; lo verás con su insignia de experto",
+   "at": "2026-11-15T21:54:06+01:00"
   },
-  "at": "2026-11-15T21:51:42+01:00",
+  "at": "2026-11-15T21:54:06+01:00",
   "expert": "Plataforma y sistemas"
  },
  {
