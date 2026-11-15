@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-15 09:58 · Monitor permanente de la voz narradora (v2.57)
+- Bajo la tele de GTA VI. `vozLive()`/`drawVoz()` en `office.js`; el estado trae `voz_last`. **Quien genere voz debe informar con `--project voz`, `--state run` mientras genera y `ok` al parar**, y si puede el bloque `{"voz": {"paso": "…", "idioma": "es|en|pt", "cola": n, "revisar": n}}` por `--json`.
+- Nota para la sesión de tokens: `office.js` de v2.55–v2.56 era el de v2.54 sin cambios; v2.57 lo sustituye. Los colores nuevos de la oficina siguen sin pasar a `tokens.js`.
+
 ## 2026-11-14 13:10 · Partículas gravitatorias con sprites de CHF y monitor de GTA VI persistente (v2.48–v2.49)
 - Entre la bóveda y el orbe: partículas hechas con sprites del juego CHF (`web/office-chf.webp`: `fx_viento` remolino, `fx_iman` estela, `fx_chispa` llegada), teñidas del color de su nota y luego del orbe (`drawGravity`, `chfTinted`). Si se rehace el atlas, actualiza `CHF.v`.
 - El estado trae `gta_last` (último informe con bloque `gta`, aunque sea viejo): la tele de GTA VI no se apaga.
