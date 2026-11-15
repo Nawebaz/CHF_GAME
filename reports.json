@@ -1611,20 +1611,21 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Acento de la voz",
-  "state": "run",
+  "state": "ok",
   "task": "Voz narradora: partir de la 3.ª versión y acercar el acento a castellano del sur",
   "project": "gta",
   "action": "think",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T20:41:07+01:00",
-  "at": "2026-11-15T20:41:07+01:00",
+  "src_at": "2026-11-15T21:18:32+01:00",
+  "at": "2026-11-15T21:18:32+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Nawe elige la 3.ª versión; ajusto el acento",
-   "at": "2026-11-15T20:41:07+01:00"
-  }
+   "text": "Te toca escuchar el acento",
+   "at": "2026-11-15T21:18:32+01:00"
+  },
+  "step": "4 variantes de acento listas (24 tomas aptas); a la espera del oído de Nawe"
  },
  {
   "id": "claude-chf3d-1511",
