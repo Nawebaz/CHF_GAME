@@ -1403,14 +1403,15 @@
   "task": "Pasa la batería de pruebas de Faro v2.63",
   "project": "faro",
   "action": "code",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00",
+  "pct": 70,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
   "say": {
    "to": "Nawe",
    "text": "Arranco las 56 pruebas de Faro",
    "at": "2026-11-15T12:54:53+01:00"
-  }
+  },
+  "step": "pruebas Python y JS"
  },
  {
   "id": "demo-edit",
@@ -1423,9 +1424,10 @@
   "task": "Renderiza un clip vertical 9:16 de prueba",
   "project": "gta",
   "action": "edit",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 80,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
+  "step": "clip renderizado; comprobando duración y formato"
  },
  {
   "id": "demo-write",
@@ -1453,9 +1455,18 @@
   "task": "Lee la bóveda para el informe del Bibliotecario",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 60,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
+  "step": "informe del Bibliotecario generado en local",
+  "notes": [
+   "00 Inicio",
+   "10 Proyectos/Faro",
+   "20 Áreas/Expertos/Bibliotecario",
+   "_agentes/Cómo escribir en la bóveda",
+   "20 Áreas/Expertos/Expertos"
+  ],
+  "notes_kind": "read"
  },
  {
   "id": "demo-web",
@@ -1468,9 +1479,10 @@
   "task": "Busca novedades de GTA VI para la máquina de clips",
   "project": "gta",
   "action": "web",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 60,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
+  "step": "leyendo resultados de búsqueda"
  },
  {
   "id": "demo-mail",
@@ -1483,9 +1495,10 @@
   "task": "Cuenta el correo sin leer (solo cifras)",
   "project": "ingresos",
   "action": "mail",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 50,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
+  "step": "contando hilos sin leer"
  },
  {
   "id": "demo-system",
@@ -1498,9 +1511,10 @@
   "task": "Comprueba la salud del PC y del Mac",
   "project": "faro",
   "action": "system",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 50,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
+  "step": "disco del Mac comprobado; falta salud del PC"
  },
  {
   "id": "demo-skills",
@@ -1513,8 +1527,9 @@
   "task": "Puntúa el clip con la skill de edición dopamínica",
   "project": "gta",
   "action": "skills",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 20,
+  "at": "2026-11-15T12:55:40+01:00",
+  "src_at": "2026-11-15T12:55:40+01:00",
+  "step": "leyendo la skill de edición dopamínica"
  }
 ]
