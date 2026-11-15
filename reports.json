@@ -1371,5 +1371,25 @@
    "text": "Regla nueva: «ok» solo al cerrar sesión",
    "at": "2026-11-15T10:29:22+01:00"
   }
+ },
+ {
+  "id": "claude-gta-voz-5",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · 5 clips GTA con voz",
+  "state": "run",
+  "task": "5 clips de prueba con la voz narradora y subtítulos",
+  "project": "gta",
+  "step": "build",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T10:43:41+01:00",
+  "at": "2026-11-15T10:43:41+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Guiones de voz para 5 clips",
+   "at": "2026-11-15T10:43:41+01:00"
+  }
  }
 ]
