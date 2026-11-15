@@ -1403,15 +1403,15 @@
   "task": "Pasa la batería de pruebas de Faro v2.68",
   "project": "faro",
   "action": "code",
-  "pct": 50,
-  "at": "2026-11-15T12:59:25+01:00",
-  "src_at": "2026-11-15T12:59:25+01:00",
+  "pct": 90,
+  "at": "2026-11-15T12:59:55+01:00",
+  "src_at": "2026-11-15T12:59:55+01:00",
   "say": {
    "to": "Nawe",
    "text": "Ocho puestos a la vez: empiezo por las pruebas",
    "at": "2026-11-15T12:58:28+01:00"
   },
-  "step": "pruebas Python en curso"
+  "step": "56/56 Python en verde; cerrando"
  },
  {
   "id": "claude-puesto-edit",
@@ -1424,10 +1424,10 @@
   "task": "Rehace el clip 9:16 según la skill dopamínica",
   "project": "gta",
   "action": "edit",
-  "pct": 40,
-  "at": "2026-11-15T12:59:25+01:00",
-  "src_at": "2026-11-15T12:59:25+01:00",
-  "step": "gancho en 0 s, zoom de impacto cada 2 s, contador 1/3"
+  "pct": 85,
+  "at": "2026-11-15T12:59:55+01:00",
+  "src_at": "2026-11-15T12:59:55+01:00",
+  "step": "clip v2 renderizado; normalizado a −14 LUFS"
  },
  {
   "id": "claude-puesto-write",
@@ -1470,9 +1470,10 @@
   "task": "Confirma fecha de lanzamiento de GTA VI",
   "project": "gta",
   "action": "web",
-  "pct": 5,
-  "at": "2026-11-15T12:58:28+01:00",
-  "src_at": "2026-11-15T12:58:28+01:00"
+  "pct": 30,
+  "at": "2026-11-15T12:59:55+01:00",
+  "src_at": "2026-11-15T12:59:55+01:00",
+  "step": "buscando fuentes de la fecha de lanzamiento"
  },
  {
   "id": "claude-puesto-mail",
@@ -1485,9 +1486,10 @@
   "task": "Cuenta el correo sin leer por pestañas (solo cifras)",
   "project": "ingresos",
   "action": "mail",
-  "pct": 5,
-  "at": "2026-11-15T12:58:28+01:00",
-  "src_at": "2026-11-15T12:58:28+01:00"
+  "pct": 30,
+  "at": "2026-11-15T12:59:55+01:00",
+  "src_at": "2026-11-15T12:59:55+01:00",
+  "step": "contando por pestañas"
  },
  {
   "id": "claude-puesto-system",
@@ -1500,10 +1502,10 @@
   "task": "Comprueba la salud del PC y del Mac",
   "project": "faro",
   "action": "system",
-  "pct": 30,
-  "at": "2026-11-15T12:59:25+01:00",
-  "src_at": "2026-11-15T12:59:25+01:00",
-  "step": "leyendo salud del PC"
+  "pct": 70,
+  "at": "2026-11-15T12:59:55+01:00",
+  "src_at": "2026-11-15T12:59:55+01:00",
+  "step": "PC: Faro v2.68, fuentes sin errores; Mac: disco al 88 %"
  },
  {
   "id": "claude-puesto-skills",
@@ -1516,8 +1518,9 @@
   "task": "Puntúa el clip con la skill de edición dopamínica",
   "project": "gta",
   "action": "skills",
-  "pct": 5,
-  "at": "2026-11-15T12:58:28+01:00",
-  "src_at": "2026-11-15T12:58:28+01:00"
+  "pct": 40,
+  "at": "2026-11-15T12:59:55+01:00",
+  "src_at": "2026-11-15T12:59:55+01:00",
+  "step": "midiendo gancho, ritmo y sonido del clip v2"
  }
 ]
