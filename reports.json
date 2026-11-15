@@ -1356,20 +1356,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bibliotecario",
-  "state": "run",
-  "task": "Revisar y reparar: avisos de sesiones, orden duplicada, enlace roto, v2.62",
+  "state": "ok",
+  "task": "Revisión y reparación: aviso de sesiones, v2.62–v2.63 comprobadas",
   "project": "faro",
   "action": "code",
-  "pct": 10.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T10:26:01+01:00",
-  "at": "2026-11-15T10:26:01+01:00",
+  "src_at": "2026-11-15T10:29:22+01:00",
+  "at": "2026-11-15T10:29:22+01:00",
   "step": "Publicada v2.61; Hermes verifica",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo revisión y reparación",
-   "at": "2026-11-15T10:26:01+01:00"
+   "text": "Regla nueva: «ok» solo al cerrar sesión",
+   "at": "2026-11-15T10:29:22+01:00"
   }
  }
 ]
