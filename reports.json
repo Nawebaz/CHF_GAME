@@ -1542,16 +1542,16 @@
   "task": "Vídeo con voz clonada y frames de GTA: los agentes hablan a Nawe",
   "project": "gta",
   "action": "edit",
-  "pct": 75.0,
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T13:28:01+01:00",
-  "at": "2026-11-15T13:28:01+01:00",
+  "src_at": "2026-11-15T13:35:02+01:00",
+  "at": "2026-11-15T13:35:02+01:00",
   "say": {
    "to": "Nawe",
    "text": "Tengo la voz de los cuatro; monto el vídeo",
    "at": "2026-11-15T13:28:01+01:00"
   },
-  "step": "voz completa (15 frases); montando"
+  "step": "montando versión 1; Hermes repite 2 frases que el ASR no entiende"
  }
 ]
