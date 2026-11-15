@@ -1687,5 +1687,25 @@
    "text": "5 decisiones tuyas en Faro/Biblioteca; lo urgente: hay dos gta.py distintos",
    "at": "2026-11-15T21:43:39+01:00"
   }
+ },
+ {
+  "id": "claude-voz-limpia",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Voz sin ruido de boca",
+  "state": "run",
+  "task": "Voz narradora: quitar sonido de boca y saliva",
+  "project": "gta",
+  "action": "think",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T22:04:56+01:00",
+  "at": "2026-11-15T22:04:56+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Nawe oye saliva y boca llena; lo diagnostico",
+   "at": "2026-11-15T22:04:56+01:00"
+  }
  }
 ]
