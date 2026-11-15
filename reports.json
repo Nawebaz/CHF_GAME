@@ -1542,22 +1542,16 @@
   "task": "Vídeo con voz clonada y frames de GTA: los agentes hablan a Nawe",
   "project": "gta",
   "action": "edit",
-  "pct": 45.0,
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T13:20:08+01:00",
-  "at": "2026-11-15T13:20:08+01:00",
+  "src_at": "2026-11-15T13:24:45+01:00",
+  "at": "2026-11-15T13:24:45+01:00",
   "say": {
    "to": "Nawe",
    "text": "Cada agente escribe su parte; Hermes pone la voz y los frames",
    "at": "2026-11-15T13:10:46+01:00"
   },
-  "step": "las 4 partes escritas (Claude, Hermes, Strata, Codex); Hermes genera la voz",
-  "notes": [
-   "_agentes/adjuntos/video-agentes/hermes",
-   "_agentes/adjuntos/video-agentes/strata",
-   "_agentes/adjuntos/video-agentes/codex"
-  ],
-  "notes_kind": "read"
+  "step": "24 frames recibidos (2 descartados por texto encima); montaje 9:16 probado"
  }
 ]
