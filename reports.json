@@ -94,20 +94,21 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Máquina GTA VI",
-  "state": "ok",
-  "task": "Radar diario programado (7:43) con vigía (8:25); nichos y notas en la bóveda; encargo al Bibliotecario",
+  "state": "run",
+  "task": "Faro v2.71: insignia de experto y rótulo de clip; instalando en el PC",
   "project": "gta",
-  "action": "web",
-  "pct": 100.0,
+  "action": "code",
+  "pct": 90.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:36:50+01:00",
+  "src_at": "2026-11-15T21:51:42+01:00",
   "say": {
    "to": "Nawe",
    "text": "Mañana 7:43, primer radar de GTA VI. Si el Mac no está, aviso y decides tú",
    "at": "2026-11-15T21:36:50+01:00"
   },
-  "at": "2026-11-15T21:36:50+01:00"
+  "at": "2026-11-15T21:51:42+01:00",
+  "expert": "Plataforma y sistemas"
  },
  {
   "id": "claude-edits-1112",
