@@ -95,19 +95,19 @@
   "cloud": true,
   "name": "Claude · Máquina GTA VI",
   "state": "run",
-  "task": "Auditoría de la máquina de vídeos (guionista y fuentes) y de los monitores de GTA VI y voz en la oficina",
+  "task": "v2.69 publicada (ficha de la máquina); ahora, auditoría del guionista y las fuentes",
   "project": "gta",
   "action": "web",
-  "pct": 5.0,
+  "pct": 40.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:06:50+01:00",
+  "src_at": "2026-11-15T21:11:13+01:00",
   "say": {
    "to": "Nawe",
    "text": "Kit de arranque escrito: nombres, juez, calendario, guiones y tarea iceland",
    "at": "2026-11-11T14:15:49+01:00"
   },
-  "at": "2026-11-15T21:06:50+01:00"
+  "at": "2026-11-15T21:11:13+01:00"
  },
  {
   "id": "claude-edits-1112",
