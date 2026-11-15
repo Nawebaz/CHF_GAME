@@ -1566,20 +1566,23 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Vídeo de los sueños",
-  "state": "run",
+  "state": "ok",
   "task": "Vídeo v2: metas, ilusiones y fantasías de cada agente, voz más rápida y natural",
   "project": "gta",
   "action": "edit",
-  "pct": 60.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T14:50:22+01:00",
-  "at": "2026-11-15T14:50:22+01:00",
+  "src_at": "2026-11-15T15:00:22+01:00",
+  "at": "2026-11-15T15:00:22+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Rehago el vídeo: vuestros sueños, más rápido y menos robótico",
-   "at": "2026-11-15T14:35:50+01:00"
+   "text": "v2 lista: vuestros sueños, el doble de rápido",
+   "at": "2026-11-15T15:00:22+01:00"
   },
-  "step": "voz de Hermes, Strata y Codex lista; falta la de Claude (pedida)"
+  "step": "v2 entregada: 4 agentes, 18 frases, 1:59",
+  "artifact": {
+   "name": "Vídeo de los sueños de los agentes"
+  }
  }
 ]
