@@ -1569,16 +1569,17 @@
   "state": "run",
   "task": "Vídeo v2: metas, ilusiones y fantasías de cada agente, voz más rápida y natural",
   "project": "gta",
-  "action": "write",
-  "pct": 5.0,
+  "action": "edit",
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T14:35:50+01:00",
-  "at": "2026-11-15T14:35:50+01:00",
+  "src_at": "2026-11-15T14:37:02+01:00",
+  "at": "2026-11-15T14:37:02+01:00",
   "say": {
    "to": "Nawe",
    "text": "Rehago el vídeo: vuestros sueños, más rápido y menos robótico",
    "at": "2026-11-15T14:35:50+01:00"
-  }
+  },
+  "step": "mi parte escrita; montaje con velocidad ×1,5–1,9 preparado; Hermes y los demás escriben"
  }
 ]
