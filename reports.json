@@ -1377,19 +1377,19 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · 5 clips GTA con voz",
-  "state": "ok",
-  "task": "5 clips de prueba con voz y subtítulos entregados (Descargas/gta6-tanda-06-voz); 5 frases a repetir",
+  "state": "run",
+  "task": "Entrenamiento de la voz con ánimos lanzado a Hermes; línea base guardada",
   "project": "gta",
-  "step": "done",
-  "pct": 100.0,
+  "step": "voz",
+  "pct": 40.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T11:07:56+01:00",
-  "at": "2026-11-15T11:07:56+01:00",
+  "src_at": "2026-11-15T14:28:39+01:00",
+  "at": "2026-11-15T14:28:39+01:00",
   "say": {
    "to": "Nawe",
-   "text": "5 clips con voz listos para ver",
-   "at": "2026-11-15T11:07:56+01:00"
+   "text": "Voz en entrenamiento",
+   "at": "2026-11-15T14:28:39+01:00"
   }
  },
  {
