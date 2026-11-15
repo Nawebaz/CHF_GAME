@@ -1350,5 +1350,20 @@
    "text": "La bóveda ya se enlaza por significado: 80 → 10 notas con un solo enlace",
    "at": "2026-11-15T10:07:34+01:00"
   }
+ },
+ {
+  "id": "claude-bibliotecario-1511",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Bóveda",
+  "state": "run",
+  "task": "ficha obligatoria al escribir y bibliotecario nocturno",
+  "project": "agentes",
+  "action": "code",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T10:12:39+01:00",
+  "at": "2026-11-15T10:12:39+01:00"
  }
 ]
