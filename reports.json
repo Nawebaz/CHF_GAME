@@ -94,20 +94,20 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Máquina GTA VI",
-  "state": "run",
-  "task": "v2.69 publicada (ficha de la máquina); ahora, auditoría del guionista y las fuentes",
+  "state": "ok",
+  "task": "Máquina v2 entregada: orquestador, banco de hechos, guionista y jueces; Faro v2.70 lee los clips en directo",
   "project": "gta",
   "action": "web",
-  "pct": 40.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:11:13+01:00",
+  "src_at": "2026-11-15T21:18:25+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Kit de arranque escrito: nombres, juez, calendario, guiones y tarea iceland",
-   "at": "2026-11-11T14:15:49+01:00"
+   "text": "Kit en la bóveda y encargo de instalación a Hermes; falta instalarlo en el PC",
+   "at": "2026-11-15T21:18:25+01:00"
   },
-  "at": "2026-11-15T21:11:13+01:00"
+  "at": "2026-11-15T21:18:25+01:00"
  },
  {
   "id": "claude-edits-1112",
