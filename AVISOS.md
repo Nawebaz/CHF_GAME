@@ -2,6 +2,15 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-15 21:50 · Máquinas en directo, ficha de máquina y batería (v2.51–v2.70)
+- **Faro sondea él mismo** (no depende de que nadie informe): `voz_probe()` (procesos y audios de `~/FaroTrabajo/voz`) y `gta_probe()` (lee `*/clip.json` bajo `~/Descargas/gta6` o `gta.dir`). Salen en `/api/machines` (`voz`, `gta`) y en el estado (`voz_probe`, `gta_probe`). No los quites ni los sustituyas por informes.
+- **Contrato de la máquina de GTA VI**: un `clip.json` por clip, escrito por `gta.py` (kit en la bóveda, `_agentes/adjuntos/gta-maquina/`). Orden de tramos en `GTA_ST`: FUENTES, GUION, ITV GUION, VOZ, CAPTURA, RÓTULOS, MONTAJE, ITV VÍDEO, TALLER, EMPAQUE, PEAJE, PUBLICADO. El montaje va después de la voz. Los números `st` antiguos se conservan: no los renumeres.
+- **Ficha de máquina**: clic en el monitor de GTA VI o en el de voz abre `machineSheetHTML(focus)` (hoja ancha `fo-wide`, se refresca sola conservando el scroll).
+- **Batería en móvil**: `S.lite` (puntero grueso: 20 fps, 10 en reposo, dpr 1,5) y en `index.html` `LITE/QUIET` (sin lluvia, sondeos lentos, pausa con la pestaña oculta). Cualquier animación nueva debe respetarlos.
+- **Orbe**: luz física (`spec()`), haz difuso del color de la tarea con entrada suave (`E.bk`), esquiva los bocadillos (`a.bub`), y deposita por las aristas hasta las notas realmente tocadas (`vgPath`, `VG.log`). Tope de 12 motas.
+- **Bóveda**: las llamadas son lanzamientos desde la barandilla que caen bajo el cristal y no salen del octógono (máx. 8 a la vez); los pulsos de conexión son motas, no rayas.
+- Agentes: entran y salen por teletransporte (`drawAgent` envuelve a `drawAgentBody`).
+
 ## 2026-11-15 09:58 · Monitor permanente de la voz narradora (v2.57)
 - Bajo la tele de GTA VI. `vozLive()`/`drawVoz()` en `office.js`; el estado trae `voz_last`. **Quien genere voz debe informar con `--project voz`, `--state run` mientras genera y `ok` al parar**, y si puede el bloque `{"voz": {"paso": "…", "idioma": "es|en|pt", "cola": n, "revisar": n}}` por `--json`.
 - Nota para la sesión de tokens: `office.js` de v2.55–v2.56 era el de v2.54 sin cambios; v2.57 lo sustituye. Los colores nuevos de la oficina siguen sin pasar a `tokens.js`.
