@@ -1632,19 +1632,19 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · CHF 3D acceso",
-  "state": "run",
+  "state": "ok",
   "task": "acceso a CHF 3D desde Mac e iPhone",
   "project": "chf",
   "step": "codigo",
-  "pct": 80.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:15:19+01:00",
-  "at": "2026-11-15T21:15:19+01:00",
+  "src_at": "2026-11-15T21:32:36+01:00",
+  "at": "2026-11-15T21:32:36+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Te toca: 1 comando con tu contraseña del PC para activar HTTPS",
-   "at": "2026-11-15T21:15:19+01:00"
+   "text": "HTTPS activo: https://iceland.tail91a759.ts.net/",
+   "at": "2026-11-15T21:32:36+01:00"
   }
  },
  {
