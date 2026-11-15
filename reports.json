@@ -1399,17 +1399,17 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Código",
-  "state": "run",
+  "state": "ok",
   "task": "Pasa la batería de pruebas de Faro v2.68",
   "project": "faro",
   "action": "code",
-  "pct": 95,
-  "at": "2026-11-15T13:00:11+01:00",
-  "src_at": "2026-11-15T13:00:11+01:00",
+  "pct": 100,
+  "at": "2026-11-15T13:02:37+01:00",
+  "src_at": "2026-11-15T13:02:37+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Ocho puestos a la vez: empiezo por las pruebas",
-   "at": "2026-11-15T12:58:28+01:00"
+   "text": "Pruebas en verde",
+   "at": "2026-11-15T13:02:37+01:00"
   },
   "step": "56/56 en verde"
  },
