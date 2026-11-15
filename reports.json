@@ -1655,16 +1655,22 @@
   "state": "run",
   "task": "Voz narradora: opción 3 (sur suave) con energía de anuncio",
   "project": "gta",
-  "action": "think",
-  "pct": 5.0,
+  "action": "write",
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:24:18+01:00",
-  "at": "2026-11-15T21:24:18+01:00",
+  "src_at": "2026-11-15T21:32:25+01:00",
+  "at": "2026-11-15T21:32:25+01:00",
   "say": {
    "to": "Nawe",
    "text": "Nawe elige la 3.ª; ahora más energía",
    "at": "2026-11-15T21:24:18+01:00"
-  }
+  },
+  "step": "decisión de público (13–24) anotada en la bóveda; Hermes genera la voz con energía",
+  "notes": [
+   "10 Proyectos/GTA VI",
+   "Diario de decisiones"
+  ],
+  "notes_kind": "write"
  }
 ]
