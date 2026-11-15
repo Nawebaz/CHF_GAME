@@ -1693,20 +1693,21 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Voz sin ruido de boca",
-  "state": "run",
+  "state": "ok",
   "task": "Voz narradora: quitar sonido de boca y saliva",
   "project": "gta",
   "action": "think",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T22:04:56+01:00",
-  "at": "2026-11-15T22:04:56+01:00",
+  "src_at": "2026-11-15T22:42:14+01:00",
+  "at": "2026-11-15T22:42:14+01:00",
   "say": {
    "to": "Nawe",
    "text": "Nawe oye saliva y boca llena; lo diagnostico",
    "at": "2026-11-15T22:04:56+01:00"
-  }
+  },
+  "step": "Nawe ya aprobó la variante 4 en otra conversación (22:32); producción la lleva esa sesión"
  },
  {
   "id": "claude-camara-boveda",
