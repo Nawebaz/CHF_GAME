@@ -1420,14 +1420,17 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Edición",
-  "state": "run",
+  "state": "ok",
   "task": "Rehace el clip 9:16 según la skill dopamínica",
   "project": "gta",
   "action": "edit",
-  "pct": 85,
-  "at": "2026-11-15T12:59:55+01:00",
-  "src_at": "2026-11-15T12:59:55+01:00",
-  "step": "clip v2 renderizado; normalizado a −14 LUFS"
+  "pct": 100,
+  "at": "2026-11-15T13:02:56+01:00",
+  "src_at": "2026-11-15T13:02:56+01:00",
+  "step": "clip v2 listo",
+  "artifact": {
+   "name": "Clip 9:16 v2"
+  }
  },
  {
   "id": "claude-puesto-write",
@@ -1528,13 +1531,13 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Skills",
-  "state": "run",
+  "state": "ok",
   "task": "Puntúa el clip con la skill de edición dopamínica",
   "project": "gta",
   "action": "skills",
-  "pct": 70,
-  "at": "2026-11-15T13:00:11+01:00",
-  "src_at": "2026-11-15T13:00:11+01:00",
-  "step": "gancho ok, zoom cada 2 s ok, −14 LUFS ok"
+  "pct": 100,
+  "at": "2026-11-15T13:02:56+01:00",
+  "src_at": "2026-11-15T13:02:56+01:00",
+  "step": "clip v2 aprobado en gancho, ritmo y sonido"
  }
 ]
