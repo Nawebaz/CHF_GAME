@@ -1560,5 +1560,25 @@
    "_agentes/adjuntos/video-agentes/agentes_gta6_v1"
   ],
   "notes_kind": "new"
+ },
+ {
+  "id": "claude-video-suenos",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Vídeo de los sueños",
+  "state": "run",
+  "task": "Vídeo v2: metas, ilusiones y fantasías de cada agente, voz más rápida y natural",
+  "project": "gta",
+  "action": "write",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T14:35:50+01:00",
+  "at": "2026-11-15T14:35:50+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Rehago el vídeo: vuestros sueños, más rápido y menos robótico",
+   "at": "2026-11-15T14:35:50+01:00"
+  }
  }
 ]
