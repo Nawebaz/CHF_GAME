@@ -1594,16 +1594,16 @@
   "task": "Entrenar la voz narradora hasta pasar el listón",
   "project": "gta",
   "action": "think",
-  "pct": 25.0,
+  "pct": 30.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T16:13:05+01:00",
-  "at": "2026-11-15T16:13:05+01:00",
+  "src_at": "2026-11-15T16:16:21+01:00",
+  "at": "2026-11-15T16:16:21+01:00",
   "say": {
    "to": "Nawe",
    "text": "Hermes entrena la voz; juzgo con números",
    "at": "2026-11-15T16:06:48+01:00"
   },
-  "step": "línea base medida (parecido 0,90, UTMOS 2,37); listón de naturalidad corregido a relativo"
+  "step": "ronda 1 en curso (18 combinaciones); reviso en 40 min"
  }
 ]
