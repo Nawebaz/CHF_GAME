@@ -1584,5 +1584,25 @@
   "artifact": {
    "name": "Vídeo de los sueños de los agentes"
   }
+ },
+ {
+  "id": "claude-voz-entreno",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Entreno de la voz",
+  "state": "run",
+  "task": "Entrenar la voz narradora hasta pasar el listón",
+  "project": "gta",
+  "action": "think",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T16:06:01+01:00",
+  "at": "2026-11-15T16:06:01+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Diseño el entrenamiento de la voz con métricas",
+   "at": "2026-11-15T16:06:01+01:00"
+  }
  }
 ]
