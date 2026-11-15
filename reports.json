@@ -1653,26 +1653,21 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Voz con energía",
-  "state": "run",
+  "state": "ok",
   "task": "Voz narradora: opción 3 (sur suave) con energía de anuncio",
   "project": "gta",
-  "action": "write",
-  "pct": 20.0,
+  "action": "think",
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:32:25+01:00",
-  "at": "2026-11-15T21:32:25+01:00",
+  "src_at": "2026-11-15T22:01:16+01:00",
+  "at": "2026-11-15T22:01:16+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Nawe elige la 3.ª; ahora más energía",
-   "at": "2026-11-15T21:24:18+01:00"
+   "text": "Te toca escuchar la voz con energía",
+   "at": "2026-11-15T22:01:16+01:00"
   },
-  "step": "decisión de público (13–24) anotada en la bóveda; Hermes genera la voz con energía",
-  "notes": [
-   "10 Proyectos/GTA VI",
-   "Diario de decisiones"
-  ],
-  "notes_kind": "write"
+  "step": "18 de 24 variantes aptas enviadas a Nawe; frases 4 y 5 no llegan al ritmo"
  },
  {
   "id": "claude-bibliotecario",
