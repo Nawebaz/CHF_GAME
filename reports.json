@@ -1538,20 +1538,27 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Vídeo de los agentes",
-  "state": "run",
+  "state": "ok",
   "task": "Vídeo con voz clonada y frames de GTA: los agentes hablan a Nawe",
   "project": "gta",
   "action": "edit",
-  "pct": 80.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T13:35:02+01:00",
-  "at": "2026-11-15T13:35:02+01:00",
+  "src_at": "2026-11-15T13:54:37+01:00",
+  "at": "2026-11-15T13:54:37+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Tengo la voz de los cuatro; monto el vídeo",
-   "at": "2026-11-15T13:28:01+01:00"
+   "text": "Vídeo listo: Claude, Hermes, Strata y Codex te hablan",
+   "at": "2026-11-15T13:54:37+01:00"
   },
-  "step": "montando versión 1; Hermes repite 2 frases que el ASR no entiende"
+  "step": "vídeo entregado: 4 agentes, 15 frases, 3:33",
+  "artifact": {
+   "name": "Vídeo de los agentes (GTA VI)"
+  },
+  "notes": [
+   "_agentes/adjuntos/video-agentes/agentes_gta6_v1"
+  ],
+  "notes_kind": "new"
  }
 ]
