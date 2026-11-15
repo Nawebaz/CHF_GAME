@@ -1333,14 +1333,22 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bóveda",
-  "state": "run",
-  "task": "bóveda con significado: menciones, fichas, notas de agentes y guía",
+  "state": "ok",
+  "task": "bóveda enlazada por significado; Faro v2.59",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T09:56:19+01:00",
-  "at": "2026-11-15T09:56:19+01:00"
+  "src_at": "2026-11-15T10:07:34+01:00",
+  "at": "2026-11-15T10:07:34+01:00",
+  "artifact": {
+   "name": "Faro v2.59 · notas de agentes · guía de escritura"
+  },
+  "say": {
+   "to": "Nawe",
+   "text": "La bóveda ya se enlaza por significado: 80 → 10 notas con un solo enlace",
+   "at": "2026-11-15T10:07:34+01:00"
+  }
  }
 ]
