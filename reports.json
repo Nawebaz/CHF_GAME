@@ -1312,5 +1312,20 @@
    "text": "Buzón con vigilancia en todas las bandejas",
    "at": "2026-11-15T09:25:53+01:00"
   }
+ },
+ {
+  "id": "claude-voz",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Voz narradora",
+  "state": "ok",
+  "task": "Pruebas de voz aprobadas por Nawe; encargo a Hermes para afinarla y conectarla al paso VOZ de GTA VI; falta respuesta de la titular (plazo y revisión)",
+  "project": "voz",
+  "action": "write",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T09:39:49+01:00",
+  "at": "2026-11-15T09:39:49+01:00"
  }
 ]
