@@ -1759,16 +1759,22 @@
   "state": "run",
   "task": "Añadir un juez de voz (boca, saliva, eses) a la máquina de GTA VI",
   "project": "gta",
-  "action": "think",
-  "pct": 5.0,
+  "action": "code",
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T22:57:44+01:00",
-  "at": "2026-11-15T22:57:44+01:00",
+  "src_at": "2026-11-15T23:00:23+01:00",
+  "at": "2026-11-15T23:00:23+01:00",
   "say": {
    "to": "Nawe",
    "text": "Montamos un juez de voz",
    "at": "2026-11-15T22:57:44+01:00"
-  }
+  },
+  "step": "Juez D escrito y conectado a gta.py en la bóveda; Hermes calibra y lo pasa a los 6 clips",
+  "notes": [
+   "_agentes/adjuntos/gta-maquina/kit/jueces",
+   "_agentes/adjuntos/gta-maquina/LEEME"
+  ],
+  "notes_kind": "write"
  }
 ]
