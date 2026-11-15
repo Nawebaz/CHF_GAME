@@ -1356,20 +1356,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Bibliotecario",
-  "state": "ok",
-  "task": "Ficha de agentes + Bibliotecario nocturno",
+  "state": "run",
+  "task": "Oficina: caída sin puntos; por qué no salen las sesiones",
   "project": "faro",
   "action": "code",
-  "pct": 100.0,
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T10:19:08+01:00",
-  "at": "2026-11-15T10:19:08+01:00",
+  "src_at": "2026-11-15T10:24:46+01:00",
+  "at": "2026-11-15T10:24:46+01:00",
   "step": "Publicada v2.61; Hermes verifica",
   "say": {
    "to": "Nawe",
-   "text": "v2.61: ficha obligatoria, Bibliotecario 04:30–06:30, restaura enlazado v2.59",
-   "at": "2026-11-15T10:19:08+01:00"
+   "text": "v2.62 publicada",
+   "at": "2026-11-15T10:24:46+01:00"
   }
  }
 ]
