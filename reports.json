@@ -1672,5 +1672,24 @@
    "Diario de decisiones"
   ],
   "notes_kind": "write"
+ },
+ {
+  "id": "claude-bibliotecario",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Bibliotecario",
+  "state": "ok",
+  "task": "Recomendaciones de estructura para lo nuevo de GTA VI (solo propone)",
+  "project": "gta",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-15T21:43:39+01:00",
+  "at": "2026-11-15T21:43:39+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "5 decisiones tuyas en Faro/Biblioteca; lo urgente: hay dos gta.py distintos",
+   "at": "2026-11-15T21:43:39+01:00"
+  }
  }
 ]
