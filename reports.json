@@ -1590,20 +1590,20 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Entreno de la voz",
-  "state": "run",
+  "state": "ok",
   "task": "Entrenar la voz narradora hasta pasar el listón",
   "project": "gta",
   "action": "think",
-  "pct": 60.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T16:57:59+01:00",
-  "at": "2026-11-15T16:57:59+01:00",
+  "src_at": "2026-11-15T17:29:03+01:00",
+  "at": "2026-11-15T17:29:03+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Hermes entrena la voz; juzgo con números",
-   "at": "2026-11-15T16:06:48+01:00"
+   "text": "La voz no pasa el listón: necesita las 7 notas originales",
+   "at": "2026-11-15T17:29:03+01:00"
   },
-  "step": "R1–R4 hechas: parecido 0,89 ok; naturalidad 2,5, ritmo 2,2 y entonación 2,3 aún bajo el listón; corregida R5"
+  "step": "5 rondas: techo alcanzado con 15 s de referencia; comparativa enviada a Nawe"
  }
 ]
