@@ -1635,15 +1635,15 @@
   "task": "acceso a CHF 3D desde Mac e iPhone",
   "project": "chf",
   "step": "codigo",
-  "pct": 30.0,
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:11:47+01:00",
-  "at": "2026-11-15T21:11:47+01:00",
+  "src_at": "2026-11-15T21:15:19+01:00",
+  "at": "2026-11-15T21:15:19+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Orden a Hermes vía Faro: servir fijo :8790 y probar desde fuera",
-   "at": "2026-11-15T21:11:47+01:00"
+   "text": "Te toca: 1 comando con tu contraseña del PC para activar HTTPS",
+   "at": "2026-11-15T21:15:19+01:00"
   }
  }
 ]
