@@ -1399,19 +1399,19 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Código",
-  "state": "run",
+  "state": "ok",
   "task": "Pasa la batería de pruebas de Faro v2.63",
   "project": "faro",
   "action": "code",
-  "pct": 70,
-  "at": "2026-11-15T12:55:40+01:00",
-  "src_at": "2026-11-15T12:55:40+01:00",
+  "pct": 100,
+  "at": "2026-11-15T12:55:56+01:00",
+  "src_at": "2026-11-15T12:55:56+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Arranco las 56 pruebas de Faro",
-   "at": "2026-11-15T12:54:53+01:00"
+   "text": "Faro v2.63: 56/56 pruebas en verde",
+   "at": "2026-11-15T12:55:56+01:00"
   },
-  "step": "pruebas Python y JS"
+  "step": "56 pruebas Python + 2 JS: todo verde"
  },
  {
   "id": "demo-edit",
@@ -1420,14 +1420,17 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Edición",
-  "state": "run",
+  "state": "ok",
   "task": "Renderiza un clip vertical 9:16 de prueba",
   "project": "gta",
   "action": "edit",
-  "pct": 80,
-  "at": "2026-11-15T12:55:40+01:00",
-  "src_at": "2026-11-15T12:55:40+01:00",
-  "step": "clip renderizado; comprobando duración y formato"
+  "pct": 100,
+  "at": "2026-11-15T12:55:56+01:00",
+  "src_at": "2026-11-15T12:55:56+01:00",
+  "step": "clip 1080×1920, 15 s, H.264",
+  "artifact": {
+   "name": "Clip de prueba 9:16"
+  }
  },
  {
   "id": "demo-write",
@@ -1440,9 +1443,10 @@
   "task": "Escribe la nota de la demostración",
   "project": "faro",
   "action": "write",
-  "pct": 5,
-  "at": "2026-11-15T12:54:53+01:00",
-  "src_at": "2026-11-15T12:54:53+01:00"
+  "pct": 40,
+  "at": "2026-11-15T12:55:56+01:00",
+  "src_at": "2026-11-15T12:55:56+01:00",
+  "step": "redactando la nota en la bóveda"
  },
  {
   "id": "demo-obsidian",
@@ -1475,14 +1479,14 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Web",
-  "state": "run",
+  "state": "ok",
   "task": "Busca novedades de GTA VI para la máquina de clips",
   "project": "gta",
   "action": "web",
-  "pct": 60,
-  "at": "2026-11-15T12:55:40+01:00",
-  "src_at": "2026-11-15T12:55:40+01:00",
-  "step": "leyendo resultados de búsqueda"
+  "pct": 100,
+  "at": "2026-11-15T12:55:56+01:00",
+  "src_at": "2026-11-15T12:55:56+01:00",
+  "step": "búsqueda hecha: precio y lanzamiento siguen en titulares"
  },
  {
   "id": "demo-mail",
@@ -1491,14 +1495,14 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Correo",
-  "state": "run",
+  "state": "ok",
   "task": "Cuenta el correo sin leer (solo cifras)",
   "project": "ingresos",
   "action": "mail",
-  "pct": 50,
-  "at": "2026-11-15T12:55:40+01:00",
-  "src_at": "2026-11-15T12:55:40+01:00",
-  "step": "contando hilos sin leer"
+  "pct": 100,
+  "at": "2026-11-15T12:55:56+01:00",
+  "src_at": "2026-11-15T12:55:56+01:00",
+  "step": "bandeja con unos 200 hilos sin leer (solo cifra)"
  },
  {
   "id": "demo-system",
@@ -1527,9 +1531,9 @@
   "task": "Puntúa el clip con la skill de edición dopamínica",
   "project": "gta",
   "action": "skills",
-  "pct": 20,
-  "at": "2026-11-15T12:55:40+01:00",
-  "src_at": "2026-11-15T12:55:40+01:00",
-  "step": "leyendo la skill de edición dopamínica"
+  "pct": 60,
+  "at": "2026-11-15T12:55:56+01:00",
+  "src_at": "2026-11-15T12:55:56+01:00",
+  "step": "midiendo sonoridad y ritmo del clip"
  }
 ]
