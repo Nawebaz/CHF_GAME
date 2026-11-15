@@ -95,19 +95,19 @@
   "cloud": true,
   "name": "Claude · Máquina GTA VI",
   "state": "ok",
-  "task": "Máquina v2 entregada: orquestador, banco de hechos, guionista y jueces; Faro v2.70 lee los clips en directo",
+  "task": "Radar diario programado (7:43) con vigía (8:25); nichos y notas en la bóveda; encargo al Bibliotecario",
   "project": "gta",
   "action": "web",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-15T21:18:25+01:00",
+  "src_at": "2026-11-15T21:36:50+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Kit en la bóveda y encargo de instalación a Hermes; falta instalarlo en el PC",
-   "at": "2026-11-15T21:18:25+01:00"
+   "text": "Mañana 7:43, primer radar de GTA VI. Si el Mac no está, aviso y decides tú",
+   "at": "2026-11-15T21:36:50+01:00"
   },
-  "at": "2026-11-15T21:18:25+01:00"
+  "at": "2026-11-15T21:36:50+01:00"
  },
  {
   "id": "claude-edits-1112",
