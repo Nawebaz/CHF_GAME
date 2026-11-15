@@ -1439,18 +1439,19 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Redacción",
-  "state": "run",
+  "state": "ok",
   "task": "Actualiza la nota de la demostración",
   "project": "faro",
   "action": "write",
-  "pct": 90,
-  "at": "2026-11-15T13:01:49+01:00",
-  "src_at": "2026-11-15T13:01:49+01:00",
-  "step": "nota actualizada en la bóveda",
-  "notes": [
-   "Faro/Demostración de la oficina 2026-11-15"
-  ],
-  "notes_kind": "write"
+  "pct": 100,
+  "at": "2026-11-15T13:03:33+01:00",
+  "src_at": "2026-11-15T13:03:33+01:00",
+  "step": "nota en Faro/",
+  "say": {
+   "to": "Nawe",
+   "text": "Demostración terminada: 8 de 8 puestos",
+   "at": "2026-11-15T13:03:33+01:00"
+  }
  },
  {
   "id": "claude-puesto-obsidian",
@@ -1459,22 +1460,14 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Biblioteca",
-  "state": "run",
+  "state": "ok",
   "task": "Repasa las conexiones de la bóveda (solo informe)",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 70,
-  "at": "2026-11-15T13:00:11+01:00",
-  "src_at": "2026-11-15T13:00:11+01:00",
-  "step": "261 notas, 955 enlaces, 1 enlace roto",
-  "notes": [
-   "00 Inicio",
-   "10 Proyectos/Faro",
-   "20 Áreas/Expertos/Bibliotecario",
-   "Faro/Conexiones de la bóveda",
-   "_agentes/Índice de tareas"
-  ],
-  "notes_kind": "read"
+  "pct": 100,
+  "at": "2026-11-15T13:03:33+01:00",
+  "src_at": "2026-11-15T13:03:33+01:00",
+  "step": "repaso hecho"
  },
  {
   "id": "claude-puesto-web",
@@ -1515,14 +1508,14 @@
   "brand": "claude",
   "ttl": 3600,
   "name": "Claude · Sistema",
-  "state": "run",
+  "state": "ok",
   "task": "Comprueba la salud del PC y del Mac",
   "project": "faro",
   "action": "system",
-  "pct": 90,
-  "at": "2026-11-15T13:01:49+01:00",
-  "src_at": "2026-11-15T13:01:49+01:00",
-  "step": "PC y Mac revisados"
+  "pct": 100,
+  "at": "2026-11-15T13:03:33+01:00",
+  "src_at": "2026-11-15T13:03:33+01:00",
+  "step": "todo sano"
  },
  {
   "id": "claude-puesto-skills",
