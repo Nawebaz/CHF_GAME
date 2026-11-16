@@ -1771,5 +1771,25 @@
    "at": "2026-11-15T23:58:36+01:00"
   },
   "step": "Juez D: 28/32 frases pasan; 4 paradas enviadas a Nawe para escuchar"
+ },
+ {
+  "id": "claude-gta-noche",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Auditoría GTA y voz",
+  "state": "run",
+  "task": "Auditoría de edición y tono GTA + estado de la voz",
+  "project": "gta",
+  "action": "think",
+  "pct": 2.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-16T00:18:52+00:00",
+  "at": "2026-11-16T00:18:52+00:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo la auditoría nocturna",
+   "at": "2026-11-16T00:18:52+00:00"
+  }
  }
 ]
