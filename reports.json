@@ -1928,16 +1928,16 @@
   "state": "run",
   "task": "Rehacer 16 clips con voz de producción",
   "project": "gta",
-  "step": "guiones",
-  "pct": 35.0,
+  "step": "montaje",
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T13:51:54+01:00",
-  "at": "2026-11-16T13:51:54+01:00",
+  "src_at": "2026-11-16T14:54:13+01:00",
+  "at": "2026-11-16T14:54:13+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Auditoría de jueces aplicada a guiones; voz encargada a Hermes",
-   "at": "2026-11-16T13:51:54+01:00"
+   "text": "Voz recibida; montando 16 clips (2 de 16 pasan puertas)",
+   "at": "2026-11-16T14:54:13+01:00"
   }
  },
  {
