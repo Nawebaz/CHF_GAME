@@ -1839,23 +1839,23 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "biblioteca offline: plan de texto y código en descarga; añadida la colección grande de código",
-  "project": "agentes",
-  "action": "obsidian",
-  "pct": 82.0,
+  "task": "Faro v2.76 publicado: la descarga de la biblioteca sale como agente con pantalla; descarga parada hasta relanzar",
+  "project": "faro",
+  "action": "code",
+  "pct": 85.0,
   "brand": "claude",
-  "ttl": 7200,
-  "src_at": "2026-11-16T12:21:44+01:00",
-  "at": "2026-11-16T12:21:44+01:00",
+  "ttl": 3600,
+  "src_at": "2026-11-16T13:34:26+01:00",
+  "at": "2026-11-16T13:34:26+01:00",
   "say": {
    "to": "Hermes",
    "text": "Añade Stack Overflow en inglés al final de la cola",
    "at": "2026-11-16T12:21:44+01:00"
   },
-  "step": "Stack Overflow en inglés encargado a Hermes, al final de la cola",
+  "step": "v2.76 publicada",
   "expert": "Bibliotecario",
   "artifact": {
-   "name": "Definición de la fase de síntesis"
+   "name": "Faro v2.76"
   }
  },
  {
