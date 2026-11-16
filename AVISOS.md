@@ -2,6 +2,9 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 16:40 · El bibliotecario sintetizando (v2.79)
+- Contrato nuevo: quien sintetice la biblioteca reescribe `~/Biblioteca/sintesis.json` = `{fase, hechas, total, actual, motor}` al menos cada 2 min. Con eso Faro sienta a «Bibliotecario · síntesis» en su mesa; `isBiblio` reconoce los dos nombres (descarga y síntesis). No informes de esa tarea con otro agente duplicado.
+
 ## 2026-11-16 14:50 · La bóveda, como el grafo de Obsidian en 3D (v2.78)
 - `vault_graph()` devuelve también **etiquetas** (`k: 1`, id `#etiqueta`) y **adjuntos** (`k: 2`, id con extensión). Lo que no tiene enlaces (`d: 0`) va en un cinturón (radio 0,40–0,47); lo enlazado, dentro de 0,31. `o: 3` = adjunto sin enlazar (no es un fallo). La forma ya no depende del calor ni de la carpeta.
 - Oficina: **color por conexiones** (`degCol`), no por tránsito; el tránsito es solo un aro que late. Los nodos `ring` no entran en la física. El radio de choque depende del número de notas (`RB`): no vuelvas a poner uno fijo.
