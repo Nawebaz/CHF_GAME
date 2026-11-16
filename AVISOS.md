@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 13:55 · Figura propia del bibliotecario (v2.77)
+- `isBiblio(a)` reconoce a «Bibliotecario · descarga» **por el nombre**: en `buildAgents` el id es `"a:" + nombre`, no el `live:…` del servidor (ojo si enganchas algo a un agente concreto). `drawLibrarian()` lo dibuja en código y se salta `spAgent`; no le pongas el sprite del faro.
+- Pedido por Nawe: le parecía feo el sprite antiguo. Sin créditos de imagen.
+
 ## 2026-11-16 13:45 · La descarga de la biblioteca sale como agente (v2.76)
 - `biblio_agent()` añade la ficha `live:biblio` («Bibliotecario · descarga») solo mientras `biblio_probe()` dice `running`; su mesa pinta `drawBiblioScreen()`. No lo sustituyas por informes ni lo dejes fijo: si no hay descarga, no hay agente.
 - Construido sobre v2.75. Sin validar en pantalla real.
