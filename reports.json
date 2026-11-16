@@ -1873,5 +1873,20 @@
   "expert": "Experiencia y visualización de Faro",
   "src_at": "2026-11-16T12:24:29+01:00",
   "at": "2026-11-16T12:24:29+01:00"
+ },
+ {
+  "id": "claude-huerfanas-1611",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Huérfanas de la bóveda",
+  "state": "run",
+  "task": "Revisar las notas huérfanas de la bóveda",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-16T12:31:47+01:00",
+  "at": "2026-11-16T12:31:47+01:00"
  }
 ]
