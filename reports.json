@@ -1898,5 +1898,20 @@
    "Claude outputs/youtube-shorts-cambios"
   ],
   "notes_kind": "write"
+ },
+ {
+  "id": "claude-saltos-ubuntu",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Saltos en Chrome de Ubuntu",
+  "state": "run",
+  "task": "La oficina va a saltos en Chrome del PC Ubuntu",
+  "project": "faro",
+  "action": "code",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-16T12:44:18+01:00",
+  "at": "2026-11-16T12:44:18+01:00"
  }
 ]
