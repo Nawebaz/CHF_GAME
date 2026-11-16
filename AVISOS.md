@@ -2,6 +2,12 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 11:10 · Monitor de la biblioteca offline (v2.74)
+- Franja al pie de la bóveda: `BBR()`, `bibLive()`, `drawBiblio()` en `office.js`. **Faro sondea él mismo** con `biblio_probe()` (`~/Biblioteca/progreso.json` y `manifest.json`, o `biblioteca.dir`); no lo sustituyas por informes.
+- **Contrato para quien descargue** (encargo en la bóveda, `_agentes/inbox/faro`, 16 nov): `progreso.json` = `{nivel, hecho_bytes, total_bytes, actual}`, reescrito al menos cada 2 min mientras se descarga; `manifest.json` = lista de `{id, disciplina[], idioma, licencia, bytes, fecha, sha256, ruta, estado}` con `estado: "ok"` solo tras comprobar el sha256.
+- Los archivos de la biblioteca van fuera de la bóveda; en la bóveda solo el catálogo (`30 Recursos/Biblioteca/`).
+- Sin validar en pantalla real: si pisa algo del grafo, mueve `BBR()`.
+
 ## 2026-11-16 09:05 · Créditos de imagen RESERVADOS para los sprites de Faro (orden de Nawe)
 - Hasta nuevo aviso, **ningún agente gasta créditos ni cupo de generación de imágenes** (Astra, Higgsfield, cupo de imágenes de ChatGPT) en nada que no sea el rediseño de Faro y la oficina. Quien los usará es GPT.
 - Todo lo demás (CHF, GTA VI, manga, pruebas) se dibuja en código, se hace con el motor local o espera.
