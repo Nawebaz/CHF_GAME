@@ -1960,5 +1960,20 @@
    "text": "Recarga Faro: la bóveda abre con la vista completa",
    "at": "2026-11-16T14:25:39+01:00"
   }
+ },
+ {
+  "id": "claude-limpieza-boveda",
+  "kind": "run",
+  "cloud": true,
+  "name": "Claude · Limpieza de la bóveda",
+  "state": "run",
+  "task": "Inventario de notas archivadas e inútiles antes de limpiar",
+  "project": "agentes",
+  "action": "obsidian",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-16T14:56:31+01:00",
+  "at": "2026-11-16T14:56:31+01:00"
  }
 ]
