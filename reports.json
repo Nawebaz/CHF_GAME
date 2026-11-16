@@ -1813,5 +1813,24 @@
   },
   "action": "web",
   "pct": 100.0
+ },
+ {
+  "id": "claude-creditos-faro",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Reserva de créditos",
+  "state": "ok",
+  "task": "Créditos de imagen reservados para los sprites de Faro (los usará GPT)",
+  "project": "faro",
+  "pct": 100.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-16T09:29:32+01:00",
+  "at": "2026-11-16T09:29:32+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Reserva avisada en el buzón; falta saber qué es Astra y avisar en la bóveda",
+   "at": "2026-11-16T09:29:32+01:00"
+  }
  }
 ]
