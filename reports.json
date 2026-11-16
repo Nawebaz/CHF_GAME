@@ -1780,17 +1780,17 @@
   "state": "run",
   "task": "Auditoría de edición y tono GTA + estado de la voz",
   "project": "gta",
-  "action": "web",
-  "pct": 30.0,
+  "action": "write",
+  "pct": 40.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T00:20:21+00:00",
-  "at": "2026-11-16T00:20:21+00:00",
+  "src_at": "2026-11-16T00:21:22+00:00",
+  "at": "2026-11-16T00:21:22+00:00",
   "say": {
    "to": "Nawe",
-   "text": "Sin carpetas del Mac: espero tu permiso en el aviso",
-   "at": "2026-11-16T00:20:21+00:00"
+   "text": "Borrador de guía v2 listo; falta el Mac",
+   "at": "2026-11-16T00:21:22+00:00"
   },
-  "step": "Referencias recogidas (24); sin acceso al Mac: falta medir tandas"
+  "step": "Guía v2 y 17 referencias en borrador; reintento acceso al Mac a las 02:52"
  }
 ]
