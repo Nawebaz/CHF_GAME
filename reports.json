@@ -1839,25 +1839,20 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "biblioteca offline de carreras y másters: encargo entregado, descarga pendiente en el PC",
-  "project": "agentes",
-  "action": "obsidian",
-  "pct": 15.0,
+  "task": "monitor de la biblioteca en la oficina de Faro",
+  "project": "faro",
+  "action": "code",
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 7200,
-  "src_at": "2026-11-16T10:50:28+01:00",
-  "at": "2026-11-16T10:50:28+01:00",
+  "src_at": "2026-11-16T10:54:05+01:00",
+  "at": "2026-11-16T10:54:05+01:00",
   "say": {
    "to": "Hermes",
    "text": "Encargo dejado: biblioteca offline por niveles; empieza por comprobar disco",
    "at": "2026-11-16T10:50:28+01:00"
   },
-  "step": "encargo en la bandeja de Faro; ejecuta Hermes",
-  "expert": "Bibliotecario",
-  "notes": [
-   "20 Áreas/Expertos/Bibliotecario",
-   "_agentes/Cómo escribir en la bóveda"
-  ],
-  "notes_kind": "read"
+  "step": "leyendo la última versión de Faro",
+  "expert": "Bibliotecario"
  }
 ]
