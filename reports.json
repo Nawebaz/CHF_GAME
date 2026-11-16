@@ -1928,16 +1928,16 @@
   "state": "run",
   "task": "Rehacer 16 clips con voz de producción",
   "project": "gta",
-  "step": "montaje",
-  "pct": 60.0,
+  "step": "jueces",
+  "pct": 85.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T14:54:13+01:00",
-  "at": "2026-11-16T14:54:13+01:00",
+  "src_at": "2026-11-16T15:59:02+01:00",
+  "at": "2026-11-16T15:59:02+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Voz recibida; montando 16 clips (2 de 16 pasan puertas)",
-   "at": "2026-11-16T14:54:13+01:00"
+   "text": "16 clips montados, pasan puertas; v1 entregada en el Mac; jueces revisando",
+   "at": "2026-11-16T15:59:02+01:00"
   }
  },
  {
