@@ -1839,20 +1839,20 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "Faro v2.77: figura propia del bibliotecario; síntesis en cola con limpieza y resíntesis",
+  "task": "arranque de la síntesis y monitor del bibliotecario sintetizando",
   "project": "faro",
   "action": "code",
-  "pct": 92.0,
+  "pct": 93.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T13:48:03+01:00",
-  "at": "2026-11-16T13:48:03+01:00",
+  "src_at": "2026-11-16T16:26:44+01:00",
+  "at": "2026-11-16T16:26:44+01:00",
   "say": {
    "to": "Nawe",
    "text": "Quitada la ventana nocturna y subido el límite: la descarga corre ya",
    "at": "2026-11-16T13:41:21+01:00"
   },
-  "step": "v2.77 publicada",
+  "step": "preparando Faro para mostrar la síntesis",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Faro v2.77"
