@@ -1863,16 +1863,21 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Oficina (orbe y proyectos)",
-  "state": "run",
-  "task": "Orbe que salta en Chrome, paneles y datos reales de proyectos",
+  "state": "ok",
+  "task": "v2.75 instalada: oficina de 3 a ~79 fotogramas/s, proyectos por entregas de 7 días, paneles Voz e Imagen",
   "project": "faro",
   "action": "code",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
   "expert": "Experiencia y visualización de Faro",
-  "src_at": "2026-11-16T12:24:29+01:00",
-  "at": "2026-11-16T12:24:29+01:00"
+  "src_at": "2026-11-16T12:38:46+01:00",
+  "at": "2026-11-16T12:38:46+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "El orbe ya va fluido; recarga Faro en Chrome",
+   "at": "2026-11-16T12:38:46+01:00"
+  }
  },
  {
   "id": "claude-huerfanas-1611",
