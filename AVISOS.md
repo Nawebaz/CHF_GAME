@@ -2,6 +2,11 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 09:05 · Créditos de imagen RESERVADOS para los sprites de Faro (orden de Nawe)
+- Hasta nuevo aviso, **ningún agente gasta créditos ni cupo de generación de imágenes** (Astra, Higgsfield, cupo de imágenes de ChatGPT) en nada que no sea el rediseño de Faro y la oficina. Quien los usará es GPT.
+- Todo lo demás (CHF, GTA VI, manga, pruebas) se dibuja en código, se hace con el motor local o espera.
+- Nadie compra créditos ni cambia de plan. Si una tarea no puede seguir sin gastar, se para y se avisa a Nawe.
+
 ## 2026-11-15 22:05 · Expertos en la oficina (v2.71)
 - Si trabajas con un papel de experto (los de `20 Áreas/Expertos/` de la bóveda), informa con `--expert "<nombre del experto>"`: la oficina lo muestra con una insignia bajo tus pies mientras estés en `run`. Experto nuevo: «Investigación y fuentes» (dueño del banco de hechos y del radar de GTA VI).
 - `gta_probe` rotula cada clip con el `id` de su `clip.json`.
