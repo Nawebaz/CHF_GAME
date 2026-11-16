@@ -1832,5 +1832,25 @@
    "text": "Reserva avisada en el buzón; falta saber qué es Astra y avisar en la bóveda",
    "at": "2026-11-16T09:29:32+01:00"
   }
+ },
+ {
+  "id": "biblioteca-universal",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Biblioteca",
+  "state": "run",
+  "task": "prepara la biblioteca offline de carreras y másters",
+  "project": "boveda",
+  "action": "think",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "src_at": "2026-11-16T10:46:52+01:00",
+  "at": "2026-11-16T10:46:52+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Empiezo: catálogo de fuentes abiertas para la bóveda",
+   "at": "2026-11-16T10:46:52+01:00"
+  }
  }
 ]
