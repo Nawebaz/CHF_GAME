@@ -1780,16 +1780,17 @@
   "state": "run",
   "task": "Auditoría de edición y tono GTA + estado de la voz",
   "project": "gta",
-  "action": "think",
-  "pct": 2.0,
+  "action": "web",
+  "pct": 30.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T00:18:52+00:00",
-  "at": "2026-11-16T00:18:52+00:00",
+  "src_at": "2026-11-16T00:20:21+00:00",
+  "at": "2026-11-16T00:20:21+00:00",
   "say": {
    "to": "Nawe",
-   "text": "Empiezo la auditoría nocturna",
-   "at": "2026-11-16T00:18:52+00:00"
-  }
+   "text": "Sin carpetas del Mac: espero tu permiso en el aviso",
+   "at": "2026-11-16T00:20:21+00:00"
+  },
+  "step": "Referencias recogidas (24); sin acceso al Mac: falta medir tandas"
  }
 ]
