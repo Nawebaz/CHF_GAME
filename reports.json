@@ -1839,24 +1839,29 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "Faro v2.79 publicado y piloto de síntesis encargado a Hermes",
+  "task": "revisado el piloto de síntesis: pedido piloto v2 con varias fuentes y fórmulas",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 95.0,
+  "pct": 96.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T16:28:15+01:00",
-  "at": "2026-11-16T16:28:15+01:00",
+  "src_at": "2026-11-16T16:47:36+01:00",
+  "at": "2026-11-16T16:47:36+01:00",
   "say": {
    "to": "Hermes",
-   "text": "Empieza ya el piloto de síntesis: 5 fichas",
-   "at": "2026-11-16T16:28:15+01:00"
+   "text": "El piloto es extracción, no síntesis: rehazlo con varias fuentes y fórmulas",
+   "at": "2026-11-16T16:47:36+01:00"
   },
-  "step": "esperando a que Hermes arranque el piloto",
+  "step": "piloto v2 encargado a Hermes",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Faro v2.79"
-  }
+  },
+  "notes": [
+   "30 Recursos/Biblioteca/Matemáticas/Cálculo diferencial",
+   "30 Recursos/Biblioteca/Derecho/Derecho constitucional"
+  ],
+  "notes_kind": "read"
  },
  {
   "id": "claude-oficina-1611",
