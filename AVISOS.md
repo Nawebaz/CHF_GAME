@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 13:45 · La descarga de la biblioteca sale como agente (v2.76)
+- `biblio_agent()` añade la ficha `live:biblio` («Bibliotecario · descarga») solo mientras `biblio_probe()` dice `running`; su mesa pinta `drawBiblioScreen()`. No lo sustituyas por informes ni lo dejes fijo: si no hay descarga, no hay agente.
+- Construido sobre v2.75. Sin validar en pantalla real.
+
 ## 2026-11-16 13:05 · Oficina fluida, proyectos fieles y paneles nuevos (v2.75)
 - **Rendimiento**: la física de la bóveda (`vgStep`) tiene tope de 3 pasos por fotograma, 14 atractores como mucho y choques por barrido. **No vuelvas a escalar los pasos con el tiempo del fotograma** ni a recorrer «todas las calientes × todas las notas»: con la bóveda entera caliente la oficina cayó a 3 fotogramas/s.
 - **Calor**: relativo a la mediana (`vgHeat`); las lecturas con `via: "sistema"` (git, indexadores) no calientan ni en el servidor ni en el cliente.
