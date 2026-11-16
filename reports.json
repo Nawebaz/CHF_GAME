@@ -1839,23 +1839,27 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "biblioteca offline: Nivel 1 descargando en el PC con Faro v2.74; pendiente recorte y síntesis",
+  "task": "biblioteca offline: cambio a solo texto y código, formato para máquinas",
   "project": "agentes",
-  "action": "system",
+  "action": "obsidian",
   "pct": 80.0,
   "brand": "claude",
   "ttl": 7200,
-  "src_at": "2026-11-16T11:10:59+01:00",
-  "at": "2026-11-16T11:10:59+01:00",
+  "src_at": "2026-11-16T11:25:04+01:00",
+  "at": "2026-11-16T11:25:04+01:00",
   "say": {
-   "to": "Nawe",
-   "text": "Descarga en marcha con aria2; primera colección verificada",
-   "at": "2026-11-16T11:10:59+01:00"
+   "to": "Hermes",
+   "text": "Cambio de plan: fuera vídeo e imágenes; solo texto y código",
+   "at": "2026-11-16T11:25:04+01:00"
   },
-  "step": "descarga en marcha; vigilando velocidad",
+  "step": "plan nuevo encargado a Hermes",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Definición de la fase de síntesis"
-  }
+  },
+  "notes": [
+   "Diario de decisiones"
+  ],
+  "notes_kind": "write"
  }
 ]
