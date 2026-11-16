@@ -1879,15 +1879,19 @@
   "kind": "run",
   "cloud": true,
   "name": "Claude · Huérfanas de la bóveda",
-  "state": "run",
+  "state": "ok",
   "task": "Revisar las notas huérfanas de la bóveda",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 60.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T12:32:24+01:00",
-  "at": "2026-11-16T12:32:24+01:00",
-  "step": "5 notas huérfanas reales; el resto son ~730 adjuntos (audio, imagen, json) que el grafo muestra como huérfanos"
+  "src_at": "2026-11-16T12:34:33+01:00",
+  "at": "2026-11-16T12:34:33+01:00",
+  "step": "adjuntos ocultos en el grafo; huérfana real enlazada; Hermes saca el audio de pruebas de la bóveda",
+  "notes": [
+   "Claude outputs/youtube-shorts-cambios"
+  ],
+  "notes_kind": "write"
  }
 ]
