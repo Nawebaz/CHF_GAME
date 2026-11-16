@@ -1839,20 +1839,20 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "biblioteca offline: paso 0 en marcha en el PC; fase de síntesis definida",
+  "task": "biblioteca offline: Nivel 1 descargando en el PC con Faro v2.74; pendiente recorte y síntesis",
   "project": "agentes",
-  "action": "obsidian",
-  "pct": 75.0,
+  "action": "system",
+  "pct": 80.0,
   "brand": "claude",
   "ttl": 7200,
-  "src_at": "2026-11-16T11:05:42+01:00",
-  "at": "2026-11-16T11:05:42+01:00",
+  "src_at": "2026-11-16T11:10:59+01:00",
+  "at": "2026-11-16T11:10:59+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Síntesis definida: fichas por asignatura con cita, piloto de 5 antes de producir",
-   "at": "2026-11-16T11:05:42+01:00"
+   "text": "Descarga en marcha con aria2; primera colección verificada",
+   "at": "2026-11-16T11:10:59+01:00"
   },
-  "step": "esperando el resultado del paso 0",
+  "step": "descarga en marcha; vigilando velocidad",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Definición de la fase de síntesis"
