@@ -1839,24 +1839,28 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "síntesis en producción encargada; pidiendo el perfil para orientar el criterio",
+  "task": "perfil recibido y guardado; orden de la síntesis corregido y uso del buscador medido",
   "project": "agentes",
-  "action": "think",
-  "pct": 96.0,
+  "action": "obsidian",
+  "pct": 97.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T18:49:45+01:00",
-  "at": "2026-11-16T18:49:45+01:00",
+  "src_at": "2026-11-16T18:56:33+01:00",
+  "at": "2026-11-16T18:56:33+01:00",
   "say": {
    "to": "Hermes",
-   "text": "Sin pilotos: produce por tandas, economía y derecho práctico primero",
-   "at": "2026-11-16T18:49:45+01:00"
+   "text": "Perfil recibido: negocio y decisión primero; mide el uso del buscador",
+   "at": "2026-11-16T18:56:33+01:00"
   },
-  "step": "esperando el perfil en JSON",
+  "step": "producción de la síntesis en manos de Hermes",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Faro v2.79"
-  }
+  },
+  "notes": [
+   "Diario de decisiones"
+  ],
+  "notes_kind": "write"
  },
  {
   "id": "claude-oficina-1611",
