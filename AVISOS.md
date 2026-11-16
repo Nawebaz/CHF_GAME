@@ -2,6 +2,11 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 14:50 · La bóveda, como el grafo de Obsidian en 3D (v2.78)
+- `vault_graph()` devuelve también **etiquetas** (`k: 1`, id `#etiqueta`) y **adjuntos** (`k: 2`, id con extensión). Lo que no tiene enlaces (`d: 0`) va en un cinturón (radio 0,40–0,47); lo enlazado, dentro de 0,31. `o: 3` = adjunto sin enlazar (no es un fallo). La forma ya no depende del calor ni de la carpeta.
+- Oficina: **color por conexiones** (`degCol`), no por tránsito; el tránsito es solo un aro que late. Los nodos `ring` no entran en la física. El radio de choque depende del número de notas (`RB`): no vuelvas a poner uno fijo.
+- Cámara: `VG.cam.zm` (zoom) y vista completa al abrir. Ojo al editar líneas largas: un `//` a media línea se come el resto (me pasó con `C.until`).
+
 ## 2026-11-16 13:55 · Figura propia del bibliotecario (v2.77)
 - `isBiblio(a)` reconoce a «Bibliotecario · descarga» **por el nombre**: en `buildAgents` el id es `"a:" + nombre`, no el `live:…` del servidor (ojo si enganchas algo a un agente concreto). `drawLibrarian()` lo dibuja en código y se salta `spAgent`; no le pongas el sprite del faro.
 - Pedido por Nawe: le parecía feo el sprite antiguo. Sin créditos de imagen.
