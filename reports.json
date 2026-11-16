@@ -1839,28 +1839,24 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "biblioteca offline: descarga relanzada de día con límite alto; midiendo velocidad",
-  "project": "agentes",
-  "action": "system",
-  "pct": 88.0,
+  "task": "Faro v2.77: figura propia del bibliotecario; síntesis en cola con limpieza y resíntesis",
+  "project": "faro",
+  "action": "code",
+  "pct": 92.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T13:41:21+01:00",
-  "at": "2026-11-16T13:41:21+01:00",
+  "src_at": "2026-11-16T13:48:03+01:00",
+  "at": "2026-11-16T13:48:03+01:00",
   "say": {
    "to": "Nawe",
    "text": "Quitada la ventana nocturna y subido el límite: la descarga corre ya",
    "at": "2026-11-16T13:41:21+01:00"
   },
-  "step": "descarga en marcha en el PC",
+  "step": "v2.77 publicada",
   "expert": "Bibliotecario",
   "artifact": {
-   "name": "Faro v2.76"
-  },
-  "notes": [
-   "Diario de decisiones"
-  ],
-  "notes_kind": "write"
+   "name": "Faro v2.77"
+  }
  },
  {
   "id": "claude-oficina-1611",
