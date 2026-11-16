@@ -1839,24 +1839,28 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "Faro v2.76 publicado: la descarga de la biblioteca sale como agente con pantalla; descarga parada hasta relanzar",
-  "project": "faro",
-  "action": "code",
-  "pct": 85.0,
+  "task": "biblioteca offline: descarga relanzada de día con límite alto; midiendo velocidad",
+  "project": "agentes",
+  "action": "system",
+  "pct": 88.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T13:34:26+01:00",
-  "at": "2026-11-16T13:34:26+01:00",
+  "src_at": "2026-11-16T13:41:21+01:00",
+  "at": "2026-11-16T13:41:21+01:00",
   "say": {
-   "to": "Hermes",
-   "text": "Añade Stack Overflow en inglés al final de la cola",
-   "at": "2026-11-16T12:21:44+01:00"
+   "to": "Nawe",
+   "text": "Quitada la ventana nocturna y subido el límite: la descarga corre ya",
+   "at": "2026-11-16T13:41:21+01:00"
   },
-  "step": "v2.76 publicada",
+  "step": "descarga en marcha en el PC",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Faro v2.76"
-  }
+  },
+  "notes": [
+   "Diario de decisiones"
+  ],
+  "notes_kind": "write"
  },
  {
   "id": "claude-oficina-1611",
