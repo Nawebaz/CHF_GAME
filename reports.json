@@ -1857,5 +1857,21 @@
   "artifact": {
    "name": "Definición de la fase de síntesis"
   }
+ },
+ {
+  "id": "claude-oficina-1611",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Oficina (orbe y proyectos)",
+  "state": "run",
+  "task": "Orbe que salta en Chrome, paneles y datos reales de proyectos",
+  "project": "faro",
+  "action": "code",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "expert": "Experiencia y visualización de Faro",
+  "src_at": "2026-11-16T12:24:29+01:00",
+  "at": "2026-11-16T12:24:29+01:00"
  }
 ]
