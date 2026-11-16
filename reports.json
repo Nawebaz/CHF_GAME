@@ -1908,11 +1908,11 @@
   "task": "La oficina va a saltos en Chrome del PC Ubuntu",
   "project": "faro",
   "action": "think",
-  "pct": 30.0,
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T12:45:03+01:00",
-  "at": "2026-11-16T12:45:03+01:00",
-  "step": "sospecha: Chrome/escritorio del PC sin aceleración gráfica; Hermes diagnostica (solo lectura)"
+  "src_at": "2026-11-16T12:47:11+01:00",
+  "at": "2026-11-16T12:47:11+01:00",
+  "step": "chrome://gpu: todo por software (llvmpipe); Chrome apagó la GPU tras varios fallos en Wayland+NVIDIA"
  }
 ]
