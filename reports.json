@@ -1939,5 +1939,21 @@
    "text": "Auditoría de jueces aplicada a guiones; voz encargada a Hermes",
    "at": "2026-11-16T13:51:54+01:00"
   }
+ },
+ {
+  "id": "claude-boveda3d",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Bóveda 3D",
+  "state": "run",
+  "task": "Bóveda de la oficina fiel al grafo de Obsidian, en 3D",
+  "project": "faro",
+  "action": "code",
+  "pct": 5.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "expert": "Experiencia y visualización de Faro",
+  "src_at": "2026-11-16T14:11:27+01:00",
+  "at": "2026-11-16T14:11:27+01:00"
  }
 ]
