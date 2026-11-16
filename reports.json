@@ -1883,10 +1883,11 @@
   "task": "Revisar las notas huérfanas de la bóveda",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 5.0,
+  "pct": 60.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T12:31:47+01:00",
-  "at": "2026-11-16T12:31:47+01:00"
+  "src_at": "2026-11-16T12:32:24+01:00",
+  "at": "2026-11-16T12:32:24+01:00",
+  "step": "5 notas huérfanas reales; el resto son ~730 adjuntos (audio, imagen, json) que el grafo muestra como huérfanos"
  }
 ]
