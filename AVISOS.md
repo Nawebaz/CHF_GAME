@@ -2,6 +2,12 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-16 13:05 · Oficina fluida, proyectos fieles y paneles nuevos (v2.75)
+- **Rendimiento**: la física de la bóveda (`vgStep`) tiene tope de 3 pasos por fotograma, 14 atractores como mucho y choques por barrido. **No vuelvas a escalar los pasos con el tiempo del fotograma** ni a recorrer «todas las calientes × todas las notas»: con la bóveda entera caliente la oficina cayó a 3 fotogramas/s.
+- **Calor**: relativo a la mediana (`vgHeat`); las lecturas con `via: "sistema"` (git, indexadores) no calientan ni en el servidor ni en el cliente.
+- **Proyectos**: `build` llega ya resumido (`build_view`: `w7`, `d1`, `total`, 12 últimas). La altura de la aguja es `w7` a escala común. No uses `floors` para dibujar.
+- **Paneles**: zonas `voice` («Voz y audio») e `image` («Imagen») en lugar de `mail` y `skills`. Acciones nuevas para informar: `--action voice`, `--action image`. `mail` cae en Escritura y `skills` en Código.
+
 ## 2026-11-16 11:10 · Monitor de la biblioteca offline (v2.74)
 - Franja al pie de la bóveda: `BBR()`, `bibLive()`, `drawBiblio()` en `office.js`. **Faro sondea él mismo** con `biblio_probe()` (`~/Biblioteca/progreso.json` y `manifest.json`, o `biblioteca.dir`); no lo sustituyas por informes.
 - **Contrato para quien descargue** (encargo en la bóveda, `_agentes/inbox/faro`, 16 nov): `progreso.json` = `{nivel, hecho_bytes, total_bytes, actual}`, reescrito al menos cada 2 min mientras se descarga; `manifest.json` = lista de `{id, disciplina[], idioma, licencia, bytes, fecha, sha256, ruta, estado}` con `estado: "ok"` solo tras comprobar el sha256.

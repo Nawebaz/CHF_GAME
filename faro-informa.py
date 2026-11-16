@@ -17,7 +17,7 @@ p.add_argument("--kind", choices=["run", "agent"], help="agent: sale como agente
 p.add_argument("--json", help='campos extra genéricos, p. ej. {"gta": {...}} (solo se admite "gta")')
 a = p.parse_args()
 if not a.id: sys.exit("falta --id")
-ACT = {"code", "write", "web", "edit", "think", "obsidian", "mail", "system", "skills"}
+ACT = {"code", "write", "web", "edit", "think", "obsidian", "mail", "system", "skills", "voice", "image"}
 if a.action and a.action not in ACT:   # una frase no es una acción: va como paso
     a.step = a.step or a.action; a.action = None
 here = os.path.dirname(os.path.abspath(__file__)); os.chdir(here)
