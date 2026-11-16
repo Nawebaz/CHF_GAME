@@ -1908,16 +1908,16 @@
   "task": "La oficina va a saltos en Chrome del PC Ubuntu",
   "project": "faro",
   "action": "system",
-  "pct": 85.0,
+  "pct": 90.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-16T13:02:25+01:00",
-  "at": "2026-11-16T13:02:25+01:00",
-  "step": "Chrome no es: todo el escritorio del PC pinta por CPU (gnome-shell 627 %); Hermes busca la causa (solo lectura)",
+  "src_at": "2026-11-16T13:15:20+01:00",
+  "at": "2026-11-16T13:15:20+01:00",
+  "step": "causa: driver NVIDIA .run 620 mezclado con paquetes 595, sin EGL/GBM; pasos de reinstalación dados a Nawe",
   "say": {
    "to": "Nawe",
-   "text": "Hermes arregla la gráfica de Chrome en el PC",
-   "at": "2026-11-16T12:49:38+01:00"
+   "text": "Te paso los comandos para reparar el driver",
+   "at": "2026-11-16T13:15:20+01:00"
   }
  }
 ]
