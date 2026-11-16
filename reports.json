@@ -1839,27 +1839,23 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "run",
-  "task": "biblioteca offline: cambio a solo texto y código, formato para máquinas",
+  "task": "biblioteca offline: plan de texto y código en descarga; añadida la colección grande de código",
   "project": "agentes",
   "action": "obsidian",
-  "pct": 80.0,
+  "pct": 82.0,
   "brand": "claude",
   "ttl": 7200,
-  "src_at": "2026-11-16T11:25:04+01:00",
-  "at": "2026-11-16T11:25:04+01:00",
+  "src_at": "2026-11-16T12:21:44+01:00",
+  "at": "2026-11-16T12:21:44+01:00",
   "say": {
    "to": "Hermes",
-   "text": "Cambio de plan: fuera vídeo e imágenes; solo texto y código",
-   "at": "2026-11-16T11:25:04+01:00"
+   "text": "Añade Stack Overflow en inglés al final de la cola",
+   "at": "2026-11-16T12:21:44+01:00"
   },
-  "step": "plan nuevo encargado a Hermes",
+  "step": "Stack Overflow en inglés encargado a Hermes, al final de la cola",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Definición de la fase de síntesis"
-  },
-  "notes": [
-   "Diario de decisiones"
-  ],
-  "notes_kind": "write"
+  }
  }
 ]
