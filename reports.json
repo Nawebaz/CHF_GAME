@@ -2008,20 +2008,20 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Auditoría de producto de Faro",
-  "state": "run",
+  "state": "ok",
   "task": "auditoría de producto de Faro cerrada; v2.82 y v2.83 publicadas",
   "project": "faro",
   "action": "code",
-  "step": "Hermes: Ollama como respaldo y GPU libre para la síntesis",
+  "step": "sigue en el relay privado",
   "pct": 97.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-17T13:22:34+01:00",
-  "at": "2026-11-17T13:22:34+01:00",
+  "src_at": "2026-11-17T13:50:08+01:00",
+  "at": "2026-11-17T13:50:08+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Hermes ya manda la biblioteca a Ollama; falta liberar la GPU",
-   "at": "2026-11-17T13:22:34+01:00"
+   "text": "Me paso al relay privado; aquí ya no informo",
+   "at": "2026-11-17T13:50:08+01:00"
   },
   "artifact": {
    "name": "Faro v2.83"
