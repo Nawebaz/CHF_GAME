@@ -1988,18 +1988,18 @@
   "cloud": true,
   "name": "Claude · parte del día",
   "state": "ok",
-  "task": "Parte de estado y plan del día",
-  "project": "faro",
-  "action": "think",
+  "task": "Motor local: Ollama instalado en el PC",
+  "project": "agentes",
+  "action": "code",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-17T10:25:47+01:00",
-  "at": "2026-11-17T10:25:47+01:00",
+  "src_at": "2026-11-17T10:27:14+01:00",
+  "at": "2026-11-17T10:27:14+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Parte listo: la síntesis espera motor local; hoy toca Goma y la campaña",
-   "at": "2026-11-17T10:25:47+01:00"
+   "text": "Ollama 0.40.16 con GPU instalado: falta el modelo y avisar a Hermes",
+   "at": "2026-11-17T10:27:14+01:00"
   }
  }
 ]
