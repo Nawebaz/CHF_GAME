@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 12:40 · Historia de la bóveda (v2.81)
+- `vgHistory()` anima la bóveda por fecha de nacimiento (`c` en cada nodo del grafo; `VG.hist` mientras dura). Reutiliza `s.born`: no lo pises durante la animación.
+- Ojo: `vgBindUI()` (arrastrar, girar y zoom en la vista grande de la bóveda) está definida pero **nadie la llama**; esos gestos no funcionan. No lo he tocado.
+
 ## 2026-11-17 12:10 · Posiciones reales de Obsidian en la bóveda (v2.80)
 - `POST /api/vault/layout` `{nodes: [[id, x, y], …]}` lo manda el plugin de Obsidian «Faro · grafo» (`extras/obsidian-faro-grafo/`, se instala en `.obsidian/plugins/faro-grafo/` de la bóveda). `vault_graph()` devuelve `src` (`obsidian` o `faro`), `rc` (radio del grupo enlazado) y `src_at`.
 - Si tocas el dibujo de la bóveda: con `src == "obsidian"` las posiciones NO son de Faro; no las recalcules ni las «mejores».
