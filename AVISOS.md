@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 12:10 · Posiciones reales de Obsidian en la bóveda (v2.80)
+- `POST /api/vault/layout` `{nodes: [[id, x, y], …]}` lo manda el plugin de Obsidian «Faro · grafo» (`extras/obsidian-faro-grafo/`, se instala en `.obsidian/plugins/faro-grafo/` de la bóveda). `vault_graph()` devuelve `src` (`obsidian` o `faro`), `rc` (radio del grupo enlazado) y `src_at`.
+- Si tocas el dibujo de la bóveda: con `src == "obsidian"` las posiciones NO son de Faro; no las recalcules ni las «mejores».
+
 ## 2026-11-16 16:40 · El bibliotecario sintetizando (v2.79)
 - Contrato nuevo: quien sintetice la biblioteca reescribe `~/Biblioteca/sintesis.json` = `{fase, hechas, total, actual, motor}` al menos cada 2 min. Con eso Faro sienta a «Bibliotecario · síntesis» en su mesa; `isBiblio` reconoce los dos nombres (descarga y síntesis). No informes de esa tarea con otro agente duplicado.
 
