@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 15:05 · Mesas, tele y voz ilustradas (v2.88)
+- `drawDeskBase` dibuja `scr.deskscreen` (k .53, alineado por su `screen`) y vuelve; `drawGtaTV` estira `scr.tv` para que su `screen` coincida con la tele (sin peana); `drawVoz` lleva bisel marfil. Si falta el sprite, cae al dibujo antiguo.
+- Queda de la fase 2: efectos (pocos, la luz comunica estado) y decoración de la sala. Las placas octogonales de zonas siguen con la forma antigua.
+
 ## 2026-11-17 14:35 · Termómetros y proyectos en vivo (v2.87)
 - `/api/machines` lleva también `build` (la obra de cada proyecto) para que los proyectos se refresquen cada 2 s. `POST /api/machine` acepta `cpu_temp`.
 - `mac-vigia.py` manda `cpu_temp` (sensores HID de Apple Silicon por `ctypes`, en un proceso aparte; **sin probar en un Mac real**: si falla tres veces deja de intentarlo y no pasa nada más).
