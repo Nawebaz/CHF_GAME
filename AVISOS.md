@@ -2,6 +2,11 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 14:35 · Termómetros y proyectos en vivo (v2.87)
+- `/api/machines` lleva también `build` (la obra de cada proyecto) para que los proyectos se refresquen cada 2 s. `POST /api/machine` acepta `cpu_temp`.
+- `mac-vigia.py` manda `cpu_temp` (sensores HID de Apple Silicon por `ctypes`, en un proceso aparte; **sin probar en un Mac real**: si falla tres veces deja de intentarlo y no pasa nada más).
+- Proyectos: `drawProjects` dibuja bloques redondeados y, con `agHead()`, las cabezas de quien trabaja en cada proyecto (de `S.ag`, en vivo). No vuelvas a las agujas.
+
 ## 2026-11-17 13:55 · Paleta nueva en toda la oficina (v2.85)
 - Los colores de `office.js` se han pasado en bloque del neón a la paleta del rediseño. **Si añades algo, usa estos**: turquesa `#66d9ce` (antes `#7cf5ff`), verde «trabaja» `#8fdcae` (antes `#39ff88`/`#3ee08f`), ámbar `#f2c078` (antes `#facc15`), rosa GTA `#f08aa6` (antes `#ff3ea5`), lavanda `#aa9de8`, coral `#f29b7d`, alerta `#f0736e`; fondos `#141a24`–`#252f3b`. No reintroduzcas los neones antiguos.
 - `glow()` atenúa todo un 25 %. Termómetro por equipo en los medidores (usa `gpu_temp`/`cpu_temp` de `/api/machines`).

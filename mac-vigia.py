@@ -86,8 +86,48 @@ def maquina():
     top = sorted(procs, reverse=True)[:5]
     return {"name": "Mac", "kind": "mac", "cpu": round(cpu, 1), "ncpu": ncpu,
             "ram": round(used / total * 100, 1) if total else None, "ram_gb": round(used / 2**30, 1), "ram_total_gb": round(total / 2**30, 1),
-            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None,
+            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": temperatura(),
             "top": [{"name": n[:28], "cpu": round(c / ncpu, 1)} for c, _, n in top if c > 1]}
+
+TEMP_PY = r"""
+import ctypes, ctypes.util
+IO = ctypes.cdll.LoadLibrary(ctypes.util.find_library('IOKit')); CF = ctypes.cdll.LoadLibrary(ctypes.util.find_library('CoreFoundation'))
+vp = ctypes.c_void_p
+CF.CFStringCreateWithCString.restype = vp; CF.CFStringCreateWithCString.argtypes = [vp, ctypes.c_char_p, ctypes.c_uint32]
+CF.CFNumberCreate.restype = vp; CF.CFNumberCreate.argtypes = [vp, ctypes.c_long, vp]
+CF.CFDictionaryCreate.restype = vp; CF.CFDictionaryCreate.argtypes = [vp, ctypes.POINTER(vp), ctypes.POINTER(vp), ctypes.c_long, vp, vp]
+CF.CFArrayGetCount.restype = ctypes.c_long; CF.CFArrayGetCount.argtypes = [vp]
+CF.CFArrayGetValueAtIndex.restype = vp; CF.CFArrayGetValueAtIndex.argtypes = [vp, ctypes.c_long]
+IO.IOHIDEventSystemClientCreate.restype = vp; IO.IOHIDEventSystemClientCreate.argtypes = [vp]
+IO.IOHIDEventSystemClientSetMatching.argtypes = [vp, vp]
+IO.IOHIDEventSystemClientCopyServices.restype = vp; IO.IOHIDEventSystemClientCopyServices.argtypes = [vp]
+IO.IOHIDServiceClientCopyEvent.restype = vp; IO.IOHIDServiceClientCopyEvent.argtypes = [vp, ctypes.c_int64, ctypes.c_int32, ctypes.c_int64]
+IO.IOHIDEventGetFloatValue.restype = ctypes.c_double; IO.IOHIDEventGetFloatValue.argtypes = [vp, ctypes.c_int32]
+s = lambda t: CF.CFStringCreateWithCString(None, t, 0x08000100)
+def num(v): x = ctypes.c_int32(v); return CF.CFNumberCreate(None, 3, ctypes.byref(x))
+keys = (vp * 2)(s(b'PrimaryUsagePage'), s(b'PrimaryUsage')); vals = (vp * 2)(num(0xff00), num(5))
+cb = lambda n: ctypes.addressof(ctypes.c_char.in_dll(CF, n))
+d = CF.CFDictionaryCreate(None, keys, vals, 2, cb('kCFTypeDictionaryKeyCallBacks'), cb('kCFTypeDictionaryValueCallBacks'))
+c = IO.IOHIDEventSystemClientCreate(None); IO.IOHIDEventSystemClientSetMatching(c, d); sv = IO.IOHIDEventSystemClientCopyServices(c); best = 0.0
+for i in range(CF.CFArrayGetCount(sv) if sv else 0):
+    e = IO.IOHIDServiceClientCopyEvent(CF.CFArrayGetValueAtIndex(sv, i), 15, 0, 0)
+    if e:
+        t = IO.IOHIDEventGetFloatValue(e, 15 << 16)
+        if 10 < t < 125 and t > best: best = t
+print(round(best, 1))
+"""
+_TEMP = {"fallos": 0, "v": None, "t": 0.0}
+def temperatura():
+    """Lo más caliente del chip (Apple Silicon), sin sudo: sensores HID del sistema. Va en un proceso aparte para que,
+    si en algún macOS falla, no se lleve por delante al vigía; tras tres fallos seguidos deja de intentarlo."""
+    if _TEMP["fallos"] >= 3: return None
+    if time.time() - _TEMP["t"] < 9: return _TEMP["v"]
+    _TEMP["t"] = time.time()
+    try:
+        out = subprocess.run([sys.executable, "-c", TEMP_PY], capture_output=True, text=True, timeout=5).stdout.strip()
+        v = float(out); _TEMP["v"] = round(v) if v > 10 else None; _TEMP["fallos"] = 0 if v > 10 else _TEMP["fallos"] + 1
+    except Exception: _TEMP["fallos"] += 1; _TEMP["v"] = None
+    return _TEMP["v"]
 
 def enviar_maquina(m):
     for u in FAROS:
