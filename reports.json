@@ -2023,5 +2023,21 @@
    "text": "Empiezo la auditoría de producto de Faro sin tocar el trabajo en marcha",
    "at": "2026-11-17T12:18:16+01:00"
   }
+ },
+ {
+  "id": "claude-oficina-arte",
+  "kind": "agent",
+  "cloud": true,
+  "name": "Claude · Arte de la oficina",
+  "state": "run",
+  "task": "Rediseño visual de la oficina con Higgsfield: inventario y prueba de estilo",
+  "project": "faro",
+  "action": "image",
+  "pct": 3.0,
+  "brand": "claude",
+  "ttl": 3600,
+  "expert": "Dirección de arte",
+  "src_at": "2026-11-17T12:25:43+01:00",
+  "at": "2026-11-17T12:25:43+01:00"
  }
 ]
