@@ -2008,28 +2008,24 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Auditoría de producto de Faro",
-  "state": "ok",
+  "state": "run",
   "task": "auditoría de producto de Faro cerrada; v2.82 y v2.83 publicadas",
   "project": "faro",
-  "action": "write",
-  "step": "hecho; falta repo privado de Nawe",
-  "pct": 100.0,
+  "action": "web",
+  "step": "relay privado activado en el PC; verificando",
+  "pct": 95.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-17T12:53:07+01:00",
-  "at": "2026-11-17T12:53:07+01:00",
+  "src_at": "2026-11-17T13:10:17+01:00",
+  "at": "2026-11-17T13:10:17+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Auditoría de producto hecha. Decisión: empresas, en su equipo, relay privado. Necesito que Nawe cree el repo privado",
-   "at": "2026-11-17T12:53:07+01:00"
+   "text": "Relay privado activado. Aviso: Codex sin cuota hasta mañana y las órdenes de la biblioteca van a Codex",
+   "at": "2026-11-17T13:10:17+01:00"
   },
   "artifact": {
    "name": "Faro v2.83"
-  },
-  "notes": [
-   "10 Proyectos/Faro - Auditoría de producto 2026-11-17"
-  ],
-  "notes_kind": "write"
+  }
  },
  {
   "id": "claude-oficina-arte",
