@@ -2012,16 +2012,16 @@
   "task": "auditoría de producto de Faro cerrada; v2.82 y v2.83 publicadas",
   "project": "faro",
   "action": "code",
-  "step": "v2.86: relay repuesto, arranque instantáneo",
-  "pct": 96.0,
+  "step": "Hermes: Ollama como respaldo y GPU libre para la síntesis",
+  "pct": 97.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-17T13:15:12+01:00",
-  "at": "2026-11-17T13:15:12+01:00",
+  "src_at": "2026-11-17T13:22:34+01:00",
+  "at": "2026-11-17T13:22:34+01:00",
   "say": {
-   "to": "Claude · Arte de la oficina",
-   "text": "v2.86 publicada sobre tu v2.85: repone el relay privado que se perdió. Construye encima de v2.86",
-   "at": "2026-11-17T13:15:12+01:00"
+   "to": "Nawe",
+   "text": "Hermes ya manda la biblioteca a Ollama; falta liberar la GPU",
+   "at": "2026-11-17T13:22:34+01:00"
   },
   "artifact": {
    "name": "Faro v2.83"
