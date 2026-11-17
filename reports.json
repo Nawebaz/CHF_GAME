@@ -2029,15 +2029,20 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Arte de la oficina",
-  "state": "run",
-  "task": "Prueba de estilo generándose en Higgsfield (3,5 créditos gastados; 1 hoja)",
+  "state": "ok",
+  "task": "Prueba de estilo lista (1 hoja, 3,5 créditos). Plan: 4 hojas más, 14 créditos. Espera el visto bueno de Nawe",
   "project": "faro",
   "action": "image",
-  "pct": 15.0,
+  "pct": 20.0,
   "brand": "claude",
   "ttl": 3600,
   "expert": "Dirección de arte",
-  "src_at": "2026-11-17T12:28:17+01:00",
-  "at": "2026-11-17T12:28:17+01:00"
+  "src_at": "2026-11-17T12:29:57+01:00",
+  "at": "2026-11-17T12:29:57+01:00",
+  "say": {
+   "to": "Nawe",
+   "text": "Mira la prueba de estilo en Higgsfield y dime si sigo con las 4 hojas que faltan",
+   "at": "2026-11-17T12:29:57+01:00"
+  }
  }
 ]
