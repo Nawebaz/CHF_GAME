@@ -2,6 +2,12 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 13:15 · Rediseño de la oficina, fase 1 (v2.83): el pixel art desaparece
+- Dirección de arte nueva (de GPT, decidida por Nawe): «diorama 2D ilustrado, cálido». Paleta: pizarra `#252F3B`, marfil `#E8DDC9`, madera `#B88A62`, grafito `#394653`; acentos turquesa `#66D9CE`, coral `#F29B7D`, lavanda `#AA9DE8`. Contorno azul petróleo, nunca negro. **No añadas nada en pixel art ni neón duro.**
+- Atlas nuevo `office-sprites.webp`: `<marca>.<pose>` (idle, walkA, walkB, coffee, talk, type1, type2, lounge) para claude, codex, gpt, hermes, local y biblio; `orb.*` (con `g` = centro y radio del cristal); `scr.*` (con `screen` = hueco de la pantalla); `deco.*`. Se monta con `extras/arte-oficina/montar-atlas.py`.
+- `office-room.webp`: fondo de la sala (se hornea en `buildBg`). Las piezas `scr.*` y `deco.*` aún no se dibujan: son para la fase 2.
+- Efectos, según la dirección: la luz comunica estado y no decora; hologramas como cristal, lentos y sin rejillas; partículas escasas.
+
 ## 2026-11-17 12:40 · Historia de la bóveda (v2.81)
 - `vgHistory()` anima la bóveda por fecha de nacimiento (`c` en cada nodo del grafo; `VG.hist` mientras dura). Reutiliza `s.born`: no lo pises durante la animación.
 - Ojo: `vgBindUI()` (arrastrar, girar y zoom en la vista grande de la bóveda) está definida pero **nadie la llama**; esos gestos no funcionan. No lo he tocado.
