@@ -2036,20 +2036,20 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Arte de la oficina",
-  "state": "run",
-  "task": "Personaje genérico recoloreable (3 cabezas) y bibliotecario nuevo en la oficina",
+  "state": "ok",
+  "task": "v2.84 instalada: personaje genérico teñible, bibliotecario ilustrado y orbe palantír. 21 créditos en total. Falta la fase 2 (mesas, medidores con termómetros, proyectos, pantallas)",
   "project": "faro",
   "action": "image",
-  "pct": 62.0,
+  "pct": 70.0,
   "brand": "claude",
   "ttl": 3600,
   "expert": "Dirección de arte",
-  "src_at": "2026-11-17T12:55:13+01:00",
-  "at": "2026-11-17T12:55:13+01:00",
+  "src_at": "2026-11-17T13:04:10+01:00",
+  "at": "2026-11-17T13:04:10+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Recarga Faro: ya no hay pixel art. Falta pasar paneles y pantallas a la paleta nueva",
-   "at": "2026-11-17T12:54:31+01:00"
+   "text": "Recarga Faro. Lo siguiente es la fase 2: mesas holográficas, medidores con termómetros, proyectos y pantallas",
+   "at": "2026-11-17T13:04:10+01:00"
   }
  }
 ]
