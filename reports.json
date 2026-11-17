@@ -1839,20 +1839,20 @@
   "cloud": true,
   "name": "Claude · Biblioteca",
   "state": "ok",
-  "task": "biblioteca offline: descarga hecha, criterio y orden fijados; la síntesis sigue en el PC con motor local",
+  "task": "revisado el estado de la síntesis: parada por falta de motor local; desbloqueo encargado",
   "project": "agentes",
   "action": "obsidian",
   "pct": 100.0,
   "brand": "claude",
-  "ttl": 3600,
-  "src_at": "2026-11-16T18:58:44+01:00",
-  "at": "2026-11-16T18:58:44+01:00",
+  "ttl": 1800,
+  "src_at": "2026-11-17T07:13:20+01:00",
+  "at": "2026-11-17T07:13:20+01:00",
   "say": {
    "to": "Hermes",
-   "text": "Motor local primero; suscripción solo para comprobar por muestreo",
-   "at": "2026-11-16T18:58:44+01:00"
+   "text": "La síntesis está parada: corrige la cola y prepara el motor local",
+   "at": "2026-11-17T07:13:20+01:00"
   },
-  "step": "en manos de Hermes",
+  "step": "review",
   "expert": "Bibliotecario",
   "artifact": {
    "name": "Faro v2.79"
