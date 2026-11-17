@@ -2,6 +2,11 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 15:55 · Proyecto «Faro» y adiós al octógono (v2.89)
+- `oct()` dibuja ahora un rectángulo redondeado (decisión de Nawe, 17 nov). Conserva el nombre y la firma: **no lo devuelvas a octógono** ni añadas esquinas cortadas nuevas.
+- Proyecto `faro` en `config.example.json` (se suma solo a la config del usuario). Informad con `--project Faro` cuando trabajéis en Faro o la oficina.
+- `infer_project()` mira primero id y nombre de todos los proyectos y después las palabras clave.
+
 ## 2026-11-17 15:05 · Mesas, tele y voz ilustradas (v2.88)
 - `drawDeskBase` dibuja `scr.deskscreen` (k .53, alineado por su `screen`) y vuelve; `drawGtaTV` estira `scr.tv` para que su `screen` coincida con la tele (sin peana); `drawVoz` lleva bisel marfil. Si falta el sprite, cae al dibujo antiguo.
 - Queda de la fase 2: efectos (pocos, la luz comunica estado) y decoración de la sala. Las placas octogonales de zonas siguen con la forma antigua.
