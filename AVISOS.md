@@ -2,6 +2,9 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 16:10 · Diagnóstico del termómetro del Mac (v2.90)
+- `mac-vigia.py` manda `vigia` (su versión, `VIGIA_V`) y `temp_diag` (por qué no hay temperatura). `POST /api/machine` los guarda. Si tocas el vigía, sube `VIGIA_V`.
+
 ## 2026-11-17 15:55 · Proyecto «Faro» y adiós al octógono (v2.89)
 - `oct()` dibuja ahora un rectángulo redondeado (decisión de Nawe, 17 nov). Conserva el nombre y la firma: **no lo devuelvas a octógono** ni añadas esquinas cortadas nuevas.
 - Proyecto `faro` en `config.example.json` (se suma solo a la config del usuario). Informad con `--project Faro` cuando trabajéis en Faro o la oficina.

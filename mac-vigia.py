@@ -86,12 +86,19 @@ def maquina():
     top = sorted(procs, reverse=True)[:5]
     return {"name": "Mac", "kind": "mac", "cpu": round(cpu, 1), "ncpu": ncpu,
             "ram": round(used / total * 100, 1) if total else None, "ram_gb": round(used / 2**30, 1), "ram_total_gb": round(total / 2**30, 1),
-            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": temperatura(),
+            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": temperatura(), "vigia": VIGIA_V, "temp_diag": _TEMP.get("diag"),
             "top": [{"name": n[:28], "cpu": round(c / ncpu, 1)} for c, _, n in top if c > 1]}
 
+VIGIA_V = "2026.11.17c"
 TEMP_PY = r"""
-import ctypes, ctypes.util
-IO = ctypes.cdll.LoadLibrary(ctypes.util.find_library('IOKit')); CF = ctypes.cdll.LoadLibrary(ctypes.util.find_library('CoreFoundation'))
+import ctypes, ctypes.util, sys
+def lib(n):
+    for p in (ctypes.util.find_library(n), "/System/Library/Frameworks/%s.framework/%s" % (n, n)):
+        try:
+            if p: return ctypes.cdll.LoadLibrary(p)
+        except OSError: pass
+    raise OSError("no carga " + n)
+IO = lib('IOKit'); CF = lib('CoreFoundation')
 vp = ctypes.c_void_p
 CF.CFStringCreateWithCString.restype = vp; CF.CFStringCreateWithCString.argtypes = [vp, ctypes.c_char_p, ctypes.c_uint32]
 CF.CFNumberCreate.restype = vp; CF.CFNumberCreate.argtypes = [vp, ctypes.c_long, vp]
@@ -108,15 +115,17 @@ def num(v): x = ctypes.c_int32(v); return CF.CFNumberCreate(None, 3, ctypes.byre
 keys = (vp * 2)(s(b'PrimaryUsagePage'), s(b'PrimaryUsage')); vals = (vp * 2)(num(0xff00), num(5))
 cb = lambda n: ctypes.addressof(ctypes.c_char.in_dll(CF, n))
 d = CF.CFDictionaryCreate(None, keys, vals, 2, cb('kCFTypeDictionaryKeyCallBacks'), cb('kCFTypeDictionaryValueCallBacks'))
-c = IO.IOHIDEventSystemClientCreate(None); IO.IOHIDEventSystemClientSetMatching(c, d); sv = IO.IOHIDEventSystemClientCopyServices(c); best = 0.0
-for i in range(CF.CFArrayGetCount(sv) if sv else 0):
+c = IO.IOHIDEventSystemClientCreate(None); IO.IOHIDEventSystemClientSetMatching(c, d); sv = IO.IOHIDEventSystemClientCopyServices(c); best = 0.0; ne = 0
+n = CF.CFArrayGetCount(sv) if sv else 0
+for i in range(n):
     e = IO.IOHIDServiceClientCopyEvent(CF.CFArrayGetValueAtIndex(sv, i), 15, 0, 0)
     if e:
-        t = IO.IOHIDEventGetFloatValue(e, 15 << 16)
+        ne += 1; t = IO.IOHIDEventGetFloatValue(e, 15 << 16)
         if 10 < t < 125 and t > best: best = t
+sys.stderr.write('cliente=%s servicios=%d eventos=%d max=%.1f' % (bool(c), n, ne, best))
 print(round(best, 1))
 """
-_TEMP = {"fallos": 0, "v": None, "t": 0.0}
+_TEMP = {"fallos": 0, "v": None, "t": 0.0, "diag": None}
 def temperatura():
     """Lo más caliente del chip (Apple Silicon), sin sudo: sensores HID del sistema. Va en un proceso aparte para que,
     si en algún macOS falla, no se lleve por delante al vigía; tras tres fallos seguidos deja de intentarlo."""
@@ -124,9 +133,10 @@ def temperatura():
     if time.time() - _TEMP["t"] < 9: return _TEMP["v"]
     _TEMP["t"] = time.time()
     try:
-        out = subprocess.run([sys.executable, "-c", TEMP_PY], capture_output=True, text=True, timeout=5).stdout.strip()
+        r = subprocess.run([sys.executable, "-c", TEMP_PY], capture_output=True, text=True, timeout=5); out = r.stdout.strip()
+        _TEMP["diag"] = ("py%d.%d rc=%s " % (sys.version_info[0], sys.version_info[1], r.returncode) + (r.stderr.strip().splitlines() or [""])[-1])[:200]
         v = float(out); _TEMP["v"] = round(v) if v > 10 else None; _TEMP["fallos"] = 0 if v > 10 else _TEMP["fallos"] + 1
-    except Exception: _TEMP["fallos"] += 1; _TEMP["v"] = None
+    except Exception as e: _TEMP["fallos"] += 1; _TEMP["v"] = None; _TEMP["diag"] = ((_TEMP.get("diag") or "") + " | " + repr(e))[:200]
     return _TEMP["v"]
 
 def enviar_maquina(m):
