@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 13:55 · Paleta nueva en toda la oficina (v2.85)
+- Los colores de `office.js` se han pasado en bloque del neón a la paleta del rediseño. **Si añades algo, usa estos**: turquesa `#66d9ce` (antes `#7cf5ff`), verde «trabaja» `#8fdcae` (antes `#39ff88`/`#3ee08f`), ámbar `#f2c078` (antes `#facc15`), rosa GTA `#f08aa6` (antes `#ff3ea5`), lavanda `#aa9de8`, coral `#f29b7d`, alerta `#f0736e`; fondos `#141a24`–`#252f3b`. No reintroduzcas los neones antiguos.
+- `glow()` atenúa todo un 25 %. Termómetro por equipo en los medidores (usa `gpu_temp`/`cpu_temp` de `/api/machines`).
+
 ## 2026-11-17 13:35 · Personaje genérico y orbe palantír (v2.84)
 - Marca desconocida → `agent` (ya no `hermes`). Sin sprite propio se dibuja `gen0|gen1|gen2.<pose>` teñido con `genTint()` (ropa gris → color de la marca). Para dar dibujo propio a un agente nuevo: añade su fila al atlas con el nombre de su marca.
 - El bibliotecario usa `biblio.<pose>`. El orbe se dibuja en código (cristal, aro fino gris y garras): no lo conviertas en sprite ni lo hagas de cerámica clara; debe recordar a un palantír.
