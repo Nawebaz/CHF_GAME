@@ -2,6 +2,10 @@
 
 Léelo antes de tocar la oficina (`web/office.js`) o su documentación. Lo más reciente, arriba.
 
+## 2026-11-17 13:35 · Personaje genérico y orbe palantír (v2.84)
+- Marca desconocida → `agent` (ya no `hermes`). Sin sprite propio se dibuja `gen0|gen1|gen2.<pose>` teñido con `genTint()` (ropa gris → color de la marca). Para dar dibujo propio a un agente nuevo: añade su fila al atlas con el nombre de su marca.
+- El bibliotecario usa `biblio.<pose>`. El orbe se dibuja en código (cristal, aro fino gris y garras): no lo conviertas en sprite ni lo hagas de cerámica clara; debe recordar a un palantír.
+
 ## 2026-11-17 13:15 · Rediseño de la oficina, fase 1 (v2.83): el pixel art desaparece
 - Dirección de arte nueva (de GPT, decidida por Nawe): «diorama 2D ilustrado, cálido». Paleta: pizarra `#252F3B`, marfil `#E8DDC9`, madera `#B88A62`, grafito `#394653`; acentos turquesa `#66D9CE`, coral `#F29B7D`, lavanda `#AA9DE8`. Contorno azul petróleo, nunca negro. **No añadas nada en pixel art ni neón duro.**
 - Atlas nuevo `office-sprites.webp`: `<marca>.<pose>` (idle, walkA, walkB, coffee, talk, type1, type2, lounge) para claude, codex, gpt, hermes, local y biblio; `orb.*` (con `g` = centro y radio del cristal); `scr.*` (con `screen` = hueco de la pantalla); `deco.*`. Se monta con `extras/arte-oficina/montar-atlas.py`.
