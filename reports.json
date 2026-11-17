@@ -1988,18 +1988,19 @@
   "cloud": true,
   "name": "Claude · parte del día",
   "state": "ok",
-  "task": "Motor local: Ollama instalado en el PC",
+  "task": "Motor local probado y orden de síntesis dejada a Hermes",
   "project": "agentes",
-  "action": "code",
+  "action": "obsidian",
   "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
-  "src_at": "2026-11-17T10:27:14+01:00",
-  "at": "2026-11-17T10:27:14+01:00",
+  "src_at": "2026-11-17T10:31:26+01:00",
+  "at": "2026-11-17T10:31:26+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Ollama 0.40.16 con GPU instalado: falta el modelo y avisar a Hermes",
-   "at": "2026-11-17T10:27:14+01:00"
-  }
+   "text": "qwen3:14b responde en la GPU; Hermes tiene la orden de arrancar la tanda 1",
+   "at": "2026-11-17T10:31:26+01:00"
+  },
+  "expert": "Bibliotecario"
  }
 ]
