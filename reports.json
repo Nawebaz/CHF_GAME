@@ -1945,20 +1945,20 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Bóveda 3D",
-  "state": "run",
-  "task": "Plugin de Obsidian que manda a Faro las posiciones reales del grafo",
+  "state": "ok",
+  "task": "v2.80 instalada y plugin «Faro · grafo» copiado a la bóveda; falta activarlo en Obsidian",
   "project": "faro",
   "action": "code",
-  "pct": 5.0,
+  "pct": 100.0,
   "brand": "claude",
   "ttl": 3600,
   "expert": "Experiencia y visualización de Faro",
-  "src_at": "2026-11-17T11:48:16+01:00",
-  "at": "2026-11-17T11:48:16+01:00",
+  "src_at": "2026-11-17T11:53:21+01:00",
+  "at": "2026-11-17T11:53:21+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Recarga Faro: la bóveda abre con la vista completa",
-   "at": "2026-11-16T14:25:39+01:00"
+   "text": "Activa el complemento «Faro · grafo» en Obsidian y abre la vista gráfica",
+   "at": "2026-11-17T11:53:21+01:00"
   }
  },
  {
