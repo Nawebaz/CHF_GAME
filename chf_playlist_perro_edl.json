@@ -1,0 +1,83 @@
+{
+  "tipo": "Pieza independiente generada por código; no gameplay",
+  "fps": 30,
+  "duracion_segundos": 10.0,
+  "cinco_respuestas": {
+    "gana": "Gusto y FOMO: chiste de la semana, listo para mandar.",
+    "pregunta_segundo_1": "¿Cuál es el nº 1 de la playlist del Perro?",
+    "segunda_vuelta": "El tema 2 dura ocho fotogramas; el nº 1 baja al 7 y el bucle obliga a releer.",
+    "destinatario_y_frase": "A un amigo que sigue la actualidad: «Mira lo que escucha el Perro».",
+    "comentario": "¿Qué tema le falta?"
+  },
+  "timeline": [
+    {
+      "desde": 0,
+      "hasta": 1.5,
+      "imagen": "Pregunta abierta; Perro con cascos y nº 1 tapado."
+    },
+    {
+      "desde": 1.5,
+      "hasta": 2.26,
+      "imagen": "7 · Eso no es lo que dije  · 0:00; cambia el chiptune y la pose."
+    },
+    {
+      "desde": 2.26,
+      "hasta": 3.09,
+      "imagen": "6 · Cortina de humo (en directo) · ∞; cambia el chiptune y la pose."
+    },
+    {
+      "desde": 3.09,
+      "hasta": 3.76,
+      "imagen": "5 · Decretito  · 3:15; cambia el chiptune y la pose."
+    },
+    {
+      "desde": 3.76,
+      "hasta": 4.64,
+      "imagen": "4 · Rueda de prensa (sin preguntas) · 0:33; cambia el chiptune y la pose."
+    },
+    {
+      "desde": 4.64,
+      "hasta": 5.47,
+      "imagen": "3 · Cambio de opinión (versión extendida) · 4 años; cambia el chiptune y la pose."
+    },
+    {
+      "desde": 5.47,
+      "hasta": 5.736666666666666,
+      "imagen": "2 · Me aforo (intro) · 0:80; cambia el chiptune y la pose."
+    },
+    {
+      "desde": 5.736666666666666,
+      "hasta": 7.04,
+      "imagen": "Tema 2 se escapa; vuelve a estar ilegible."
+    },
+    {
+      "desde": 7.04,
+      "hasta": 7.34,
+      "audio": "Silencio de 0,3 s."
+    },
+    {
+      "desde": 7.34,
+      "hasta": 8.43,
+      "imagen": "Se revela «Hoy toca decir lo contrario».",
+      "audio": "Golpe grave original."
+    },
+    {
+      "desde": 8.43,
+      "hasta": 9.34,
+      "imagen": "El nº 1 cae al 7; «…y mañana, otra»."
+    },
+    {
+      "desde": 9.34,
+      "hasta": 10,
+      "imagen": "Se vuelve a tapar el nº 1; fotograma final idéntico al inicial."
+    }
+  ],
+  "fuentes": [
+    "assets/bossart/perro.jpg",
+    "assets/sprites/perro@3x.webp",
+    "index.html ENEMIES.perro / PERRO_FRASES"
+  ],
+  "audio": "Síntesis PCM chiptune original por código, sin música de terceros.",
+  "propuesta_publicacion": "El Perro ha compartido su playlist. La nº 1 cambia según el día. Gratis en el navegador: nawebaz.github.io/CHF_GAME #CuantosHacemosFalta #playlist #elecciones #humor #pixelart",
+  "publicacion": "No publicado; pendiente aprobación de Nawe."
+}
