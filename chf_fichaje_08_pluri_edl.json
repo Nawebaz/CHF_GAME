@@ -1,0 +1,54 @@
+{
+  "cinco_respuestas": {
+    "gana": "Información: habilidad y objeto reales de Pluriempleado",
+    "pregunta_segundo_1": "¿A quién fichas?",
+    "segunda_vuelta": "recuento de golpes",
+    "destinatario_y_frase": "A quien juega en equipo: «¿A quién ficharías?»",
+    "comentario": "¿Fichas a Pluriempleado o esperas al siguiente?"
+  },
+  "fuente": [
+    "origin/main:index.html TYPES.pluri",
+    "SUPERS.pluri",
+    "ITEMS.tortillaC",
+    "ACTS Año de elecciones",
+    "assets/sprites y bg/vias"
+  ],
+  "etiqueta": "FICHAJE 08/40 · EVENTO ELECCIONES · 29-N",
+  "orden": "súper, ataque, objeto",
+  "escenas": [
+    [
+      0,
+      1.65,
+      "sprite y grito textual del juego"
+    ],
+    [
+      1.65,
+      3.85,
+      "primer golpe o entrada ilustrada del súper"
+    ],
+    [
+      3.85,
+      6.35,
+      "entrada ilustrada del súper o primer golpe"
+    ],
+    [
+      6.35,
+      8.5,
+      "objeto y golpe ilustrado con objeto"
+    ],
+    [
+      8.5,
+      10,
+      "pregunta y vuelta visual al grito"
+    ]
+  ],
+  "objeto": "Tortilla con cebolla",
+  "efecto": "+daño",
+  "super": "Tres contratos",
+  "efecto_super": "Llama a dos copias",
+  "fps": 24,
+  "fotogramas": 240,
+  "duracion_segundos": 10.0,
+  "estado": "PREVISUALIZACIÓN ILUSTRADA. Sprites y textos del juego; no es gameplay ni captura del nivel.",
+  "pendiente": "Capturar partida auténtica en el nivel y sustituir recreaciones antes de publicar. Audio en silencio: no hay gritos grabados entre los assets."
+}
