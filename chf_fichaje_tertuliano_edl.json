@@ -1,0 +1,39 @@
+{
+  "cinco_respuestas": {
+    "gana": "Información: descubre el ataque en área y la debilidad del súper",
+    "pregunta_segundo_1": "¿Qué hace el Tertuliano?",
+    "segunda_vuelta": "Carta del café durante 12 fotogramas y frase en bucle",
+    "destinatario_y_frase": "Amigo que ve tertulias: «Este es el opinador del juego»",
+    "comentario": "¿A quién presentamos mañana?"
+  },
+  "fuente": [
+    "index.html TYPES.tertuliano, SUPERS.tertuliano, ITEMS.cafe, ITEM_DAMP"
+  ],
+  "escenas": [
+    {
+      "intervalo": "0–1,5",
+      "accion": "sprite y grito originales"
+    },
+    {
+      "intervalo": "1,5–4",
+      "accion": "dos impactos ilustrados; ATQ base 6, no lectura de daño en partida"
+    },
+    {
+      "intervalo": "4–7",
+      "accion": "Todólogo: debilita ataque enemigo un 25 % durante 3 s"
+    },
+    {
+      "intervalo": "7–9",
+      "accion": "Café con leche; desc efectivo +30 % velocidad (40 % antes de ITEM_DAMP)"
+    },
+    {
+      "intervalo": "9–10",
+      "accion": "pregunta y costura al primer fotograma"
+    }
+  ],
+  "zona_segura": "Texto en x=31..508 (a 540); arriba de y=132, debajo de y=792; revisar overlay móvil.",
+  "fotogramas": 240,
+  "fps": 24,
+  "duracion_segundos": 10.0,
+  "nota_verificacion": "Escenas ilustradas por código con sprites/sfx reales; NO captura del motor. Los golpes y daño mostrado no están verificados en partida. Requiere captura real antes de publicar."
+}

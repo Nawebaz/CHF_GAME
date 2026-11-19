@@ -1,0 +1,39 @@
+{
+  "cinco_respuestas": {
+    "gana": "Gusto: presentación de jefe como tráiler de lucha",
+    "pregunta_segundo_1": "¿Quién te sube el alquiler?",
+    "segunda_vuelta": "Barra de vida durante 8 fotogramas y relectura del gancho",
+    "destinatario_y_frase": "Al colega del alquiler: «Mira al jefe que nos toca»",
+    "comentario": "Un número: ¿cuántos hacemos falta?"
+  },
+  "fuente": [
+    "index.html ENEMIES.casero, bossIntro (elige aleatoriamente una línea), ACTS Barrio; assets/sprites/tenedor@3x.webp"
+  ],
+  "escenas": [
+    {
+      "intervalo": "0–1",
+      "accion": "silueta sobre color del juego"
+    },
+    {
+      "intervalo": "1–3",
+      "accion": "revelado progresivo con partículas"
+    },
+    {
+      "intervalo": "3–5",
+      "accion": "nombre y línea real posible del intro: «¡Sube el alquiler!»"
+    },
+    {
+      "intervalo": "5–9",
+      "accion": "montaje artístico ilustrado: área e inquilinos, NO ataques capturados"
+    },
+    {
+      "intervalo": "9–11",
+      "accion": "cuadrilla ilustrada, pregunta y costura"
+    }
+  ],
+  "zona_segura": "Gancho y nombre centrados; validar último tercio en móvil.",
+  "fotogramas": 264,
+  "fps": 24,
+  "duracion_segundos": 11.0,
+  "nota_verificacion": "Escenas ilustradas por código con sprites/sfx reales; NO captura del motor. Los golpes y daño mostrado no están verificados en partida. Requiere captura real antes de publicar."
+}

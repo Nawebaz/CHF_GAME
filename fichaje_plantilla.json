@@ -1,0 +1,16 @@
+{
+  "id": "tertuliano",
+  "numero": "01/40",
+  "escenario": "barrio",
+  "enemigo_sprite": "paloma",
+  "objeto": "cafe",
+  "objeto_nombre": "Café con leche",
+  "objeto_efecto": "+30 % vel. de ataque",
+  "ataque_base": 6,
+  "proyectil_rotulo": "¡GRITO!",
+  "ataque_rotulo": "MISMO GOLPE · MÁS RÁPIDO",
+  "linea_ataque": "Grita, daña y ralentiza",
+  "linea_super": "Enemigos: −25 % ataque · 3 s",
+  "pregunta": "¿Qué hace el Tertuliano?",
+  "pregunta_comentario": "¿A quién presentamos mañana?"
+}

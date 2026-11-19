@@ -1,0 +1,406 @@
+{
+  "fuente": "origin/main:index.html",
+  "nota": "Selección editorial de 40: 38 fichables y 2 premios (Bombero, Enfermera). Fontanero y Espetero son premios reales no incluidos; Nini no es fichaje.",
+  "fichajes": [
+    {
+      "id": "andaluz",
+      "nombre": "Andaluz",
+      "rol": "tanque",
+      "grito": "¡ARTE, ARTE Y ARTE!",
+      "super": "¡Arte!",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "gallego",
+      "nombre": "Gallego",
+      "rol": "dps",
+      "grito": "¡MÁS LUCES QUE / UN AEROPUERTO!",
+      "super": "Alumbrado de Navidad",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "vasco",
+      "nombre": "Vasco",
+      "rol": "tanque",
+      "grito": "¡AUPA!",
+      "super": "La piedra",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "catalan",
+      "nombre": "Catalán",
+      "rol": "dps",
+      "grito": "PEATGE!",
+      "super": "Peatge",
+      "coste_desbloqueo": 80,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "fumado",
+      "nombre": "Fumado",
+      "rol": "tanque",
+      "grito": "¿Y SI LOS MALOS… / …SOMOS NOSOTROS?",
+      "super": "El bong de la verdad",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "cocido",
+      "nombre": "Cocido",
+      "rol": "dps",
+      "grito": "¿LUNES? ¿QUÉ LUNES?",
+      "super": "El after",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "borracho",
+      "nombre": "Borracho de feria",
+      "rol": "dps",
+      "grito": "¡LA ÚLTIMA!",
+      "super": "La última y nos vamos",
+      "coste_desbloqueo": 100,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "tentador",
+      "nombre": "Tentador de la isla",
+      "rol": "apoyo",
+      "grito": "¡HAY VÍDEO!",
+      "super": "La hoguera",
+      "coste_desbloqueo": 160,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "influencer",
+      "nombre": "Influencer",
+      "rol": "apoyo",
+      "grito": "¡LINK EN LA BIO!",
+      "super": "Se ha hecho viral",
+      "coste_desbloqueo": 160,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "autonomo",
+      "nombre": "Autónomo",
+      "rol": "dps",
+      "grito": "¡OS HAGO CONTRATO!",
+      "super": "Os hago contrato",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "funcionario",
+      "nombre": "Funcionario",
+      "rol": "tanque",
+      "grito": "¡FALTA UNA COMPULSADA!",
+      "super": "Vuelva usted mañana",
+      "coste_desbloqueo": 100,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "rider",
+      "nombre": "Rider",
+      "rol": "apoyo",
+      "grito": "¡LLEGO EN 10 MINUTOS!",
+      "super": "Su pedido está en camino",
+      "coste_desbloqueo": 120,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "tertuliano",
+      "nombre": "Opinador de bar",
+      "rol": "dps",
+      "grito": "¡YA LO DIJE EN MARZO!",
+      "super": "Todólogo",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "cafe"
+    },
+    {
+      "id": "filtrador",
+      "nombre": "Filtrador de Telegram",
+      "rol": "apoyo",
+      "grito": null,
+      "super": null,
+      "coste_desbloqueo": 120,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "guiri",
+      "nombre": "Guiri jubilado",
+      "rol": "tanque",
+      "grito": "¡SANGRÍA FOR EVERYBODY!",
+      "super": "Todo incluido",
+      "coste_desbloqueo": 150,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "pluri",
+      "nombre": "Pluriempleado",
+      "rol": "dps",
+      "grito": "¡ENTRO A LAS 6!",
+      "super": "Tres contratos",
+      "coste_desbloqueo": 220,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "nomada",
+      "nombre": "Nómada digital",
+      "rol": "dps",
+      "grito": "¡QUÉ AUTÉNTICO TODO!",
+      "super": "Gentrificación",
+      "coste_desbloqueo": 180,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "abuela",
+      "nombre": "Abuela",
+      "rol": "cura",
+      "grito": "¡COMO TE COJA!",
+      "super": "Zapatilla teledirigida",
+      "coste_desbloqueo": 0,
+      "desbloqueo": "Inicial",
+      "objeto_recomendado": "churros"
+    },
+    {
+      "id": "cunado",
+      "nombre": "Cuñado",
+      "rol": "apoyo",
+      "grito": "¡A VER, TE EXPLICO!",
+      "super": "Te lo explico",
+      "coste_desbloqueo": 60,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "valenciano",
+      "nombre": "Valenciano",
+      "rol": "dps",
+      "grito": "SENYOR PIROTÈCNIC, POT COMENÇAR!",
+      "super": "Mascletà de las dos",
+      "coste_desbloqueo": 100,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "friki",
+      "nombre": "Friki",
+      "rol": "dps",
+      "grito": "¡TIRO INICIATIVA!",
+      "super": "¡20 natural!",
+      "coste_desbloqueo": 120,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "argentino",
+      "nombre": "Argentino de la parrilla",
+      "rol": "cura",
+      "grito": "¡UN APLAUSO / PAL ASADOR!",
+      "super": "Asado de domingo",
+      "coste_desbloqueo": 140,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "churros"
+    },
+    {
+      "id": "sushi",
+      "nombre": "La del sushi",
+      "rol": "dps",
+      "grito": "¡SASHIMI!",
+      "super": "Sashimi",
+      "coste_desbloqueo": 140,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "kebabero",
+      "nombre": "Amigo",
+      "rol": "tanque",
+      "grito": "¿KE VA, BRO?",
+      "super": "¿Ke va, bro?",
+      "coste_desbloqueo": 140,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "okupa",
+      "nombre": "Okupa",
+      "rol": "tanque",
+      "grito": "¡DE AQUÍ NO ME / ECHA NADIE!",
+      "super": "Atrincherado",
+      "coste_desbloqueo": 120,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "cajera",
+      "nombre": "Cajera del súper",
+      "rol": "dps",
+      "grito": "¿TIENE TARJETA / DE PUNTOS?",
+      "super": "Autocobro",
+      "coste_desbloqueo": 80,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "cura",
+      "nombre": "El cura del pueblo",
+      "rol": "cura",
+      "grito": "¡ESTO AHORA ES / DE LA PARROQUIA!",
+      "super": "Inmatriculación",
+      "coste_desbloqueo": 140,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "churros"
+    },
+    {
+      "id": "mendigo",
+      "nombre": "Mendigo",
+      "rol": "apoyo",
+      "grito": "¿UNA MONEDITA?",
+      "super": "Nadie lo vio venir",
+      "coste_desbloqueo": 90,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "agricultor",
+      "nombre": "Agricultor",
+      "rol": "tanque",
+      "grito": "¡SIN CAMPO NO HAY CIUDAD!",
+      "super": "Tractorada",
+      "coste_desbloqueo": 120,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "currante",
+      "nombre": "La Currante",
+      "rol": "dps",
+      "grito": "¡HUELGA!",
+      "super": "Se para el mundo",
+      "coste_desbloqueo": 120,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "universitario",
+      "nombre": "Universitario de la pública",
+      "rol": "dps",
+      "grito": "¡MATRÍCULA DE HONOR!",
+      "super": "El TFG",
+      "coste_desbloqueo": 50,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "camarero",
+      "nombre": "Camarero",
+      "rol": "cura",
+      "grito": "¡MARCHANDO UNA / DE BRAVAS!",
+      "super": "¡Marchando!",
+      "coste_desbloqueo": 90,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "churros"
+    },
+    {
+      "id": "taxista",
+      "nombre": "Taxista",
+      "rol": "tanque",
+      "grito": "¡PI-PI-PIIIII!",
+      "super": "Huelga indefinida",
+      "coste_desbloqueo": 130,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "farmaceutico",
+      "nombre": "Farmacéutica",
+      "rol": "cura",
+      "grito": "¡ESTÁ DE GUARDIA!",
+      "super": "Farmacia de guardia",
+      "coste_desbloqueo": 140,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "churros"
+    },
+    {
+      "id": "onlyfaner",
+      "nombre": "Creadora de contenido",
+      "rol": "apoyo",
+      "grito": "¡CONTENIDO EXCLUSIVO!",
+      "super": "Muro de pago",
+      "coste_desbloqueo": 150,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "mecanico",
+      "nombre": "Mecánico",
+      "rol": "apoyo",
+      "grito": "¡TE LO DEJO NIQUELAO!",
+      "super": "Pasa la ITV",
+      "coste_desbloqueo": 100,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "madero",
+      "nombre": "Poli de barrio",
+      "rol": "apoyo",
+      "grito": "¡ALTO, POLICÍA!",
+      "super": "Control rutinario",
+      "coste_desbloqueo": 150,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "tortillaC"
+    },
+    {
+      "id": "gymbro",
+      "nombre": "Gymbro",
+      "rol": "tanque",
+      "grito": "¡MÍRAME!",
+      "super": "Hoy tocaba pierna",
+      "coste_desbloqueo": 200,
+      "desbloqueo": "Puntos",
+      "objeto_recomendado": "paella"
+    },
+    {
+      "id": "bombero",
+      "nombre": "Bombero",
+      "rol": "cura",
+      "grito": "¡AGUA VA!",
+      "super": "Con medios",
+      "coste_desbloqueo": null,
+      "desbloqueo": "Premio; no se compra",
+      "objeto_recomendado": "churros"
+    },
+    {
+      "id": "enfermera",
+      "nombre": "Enfermera",
+      "rol": "cura",
+      "grito": "¡HA LLEGADO / EL REFUERZO!",
+      "super": "Plantilla completa",
+      "coste_desbloqueo": null,
+      "desbloqueo": "Premio; no se compra",
+      "objeto_recomendado": "churros"
+    }
+  ]
+}
