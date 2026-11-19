@@ -1798,21 +1798,21 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Radar GTA VI",
-  "state": "run",
-  "task": "Radar: virales desde el último radar y temas nuevos",
+  "state": "ok",
+  "task": "Radar del 19 nov: la nota récord del juego",
   "project": "gta",
   "brand": "claude",
   "ttl": 3600,
   "expert": "Investigación y fuentes",
-  "src_at": "2026-11-19T06:45:01+00:00",
-  "at": "2026-11-19T06:45:01+00:00",
+  "src_at": "2026-11-19T06:53:58+00:00",
+  "at": "2026-11-19T06:53:58+00:00",
   "say": {
    "to": "Nawe",
-   "text": "Radar hecho: dos guiones listos; el de la hora de desbloqueo caduca el 18, hay que sacarlo el martes",
-   "at": "2026-11-16T07:50:55+00:00"
+   "text": "Radar listo con tres guiones; uno caduca el 21, conviene hacerlo el primero",
+   "at": "2026-11-19T06:53:58+00:00"
   },
   "action": "web",
-  "pct": 50.0
+  "pct": 100.0
  },
  {
   "id": "claude-creditos-faro",
