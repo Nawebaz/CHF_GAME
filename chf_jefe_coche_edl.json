@@ -1,0 +1,22 @@
+{
+  "cinco_respuestas": {
+    "gana": "Gusto: presentación del jefe",
+    "pregunta_segundo_1": "¿Qué te bloquea?",
+    "segunda_vuelta": "línea de jefe y vuelta a silueta",
+    "destinatario_y_frase": "A un colega: «¿Cómo lo pararías?»",
+    "comentario": "¿A quién llevarías a este jefe?"
+  },
+  "fuente": [
+    "origin/main:index.html ENEMIES.coche",
+    "ACTS Puerto Hércules",
+    "assets/sprites y bg/puerto"
+  ],
+  "etiqueta": "JEFE · EVENTO ELECCIONES · 29-N",
+  "linea": "Modo conducción autónoma activado",
+  "mecanica": "Jefe de Puerto Hércules, no de Año de elecciones",
+  "fps": 24,
+  "fotogramas": 264,
+  "duracion_segundos": 11.0,
+  "estado": "PREVISUALIZACIÓN ILUSTRADA. Sprites y textos del juego; no es gameplay ni captura del nivel.",
+  "pendiente": "Capturar partida auténtica en el nivel y sustituir recreaciones antes de publicar. Audio en silencio: no hay gritos grabados entre los assets."
+}

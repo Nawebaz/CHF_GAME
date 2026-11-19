@@ -26,7 +26,7 @@ SPEC={
 }
 BOSSES={
  'aplazamiento':('EL APLAZAMIENTO','Después de las elecciones','Si la vía baja del 80 %, apenas recibe daño','vias'),
- 'coche':('EL COCHE AUTÓNOMO','Actualización en curso','Jefe de Puerto Hércules, no de Año de elecciones','puerto'),
+ 'coche':('EL COCHE AUTÓNOMO','Modo conducción autónoma activado','Jefe de Puerto Hércules, no de Año de elecciones','puerto'),
 }
 
 def spr(key,idx=0):

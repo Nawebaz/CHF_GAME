@@ -1,0 +1,22 @@
+{
+  "cinco_respuestas": {
+    "gana": "Gusto: presentación del jefe",
+    "pregunta_segundo_1": "¿Qué te bloquea?",
+    "segunda_vuelta": "línea de jefe y vuelta a silueta",
+    "destinatario_y_frase": "A un colega: «¿Cómo lo pararías?»",
+    "comentario": "¿A quién llevarías a este jefe?"
+  },
+  "fuente": [
+    "origin/main:index.html ENEMIES.aplazamiento",
+    "ACTS Año de elecciones",
+    "assets/sprites y bg/vias"
+  ],
+  "etiqueta": "JEFE · EVENTO ELECCIONES · 29-N",
+  "linea": "Después de las elecciones",
+  "mecanica": "Si la vía baja del 80 %, apenas recibe daño",
+  "fps": 24,
+  "fotogramas": 264,
+  "duracion_segundos": 11.0,
+  "estado": "PREVISUALIZACIÓN ILUSTRADA. Sprites y textos del juego; no es gameplay ni captura del nivel.",
+  "pendiente": "Capturar partida auténtica en el nivel y sustituir recreaciones antes de publicar. Audio en silencio: no hay gritos grabados entre los assets."
+}
