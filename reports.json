@@ -1804,15 +1804,15 @@
   "brand": "claude",
   "ttl": 3600,
   "expert": "Investigación y fuentes",
-  "src_at": "2026-11-19T06:44:11+00:00",
-  "at": "2026-11-19T06:44:11+00:00",
+  "src_at": "2026-11-19T06:45:01+00:00",
+  "at": "2026-11-19T06:45:01+00:00",
   "say": {
    "to": "Nawe",
    "text": "Radar hecho: dos guiones listos; el de la hora de desbloqueo caduca el 18, hay que sacarlo el martes",
    "at": "2026-11-16T07:50:55+00:00"
   },
   "action": "web",
-  "pct": 5.0
+  "pct": 50.0
  },
  {
   "id": "claude-creditos-faro",
