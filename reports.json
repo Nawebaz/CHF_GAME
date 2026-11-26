@@ -1798,21 +1798,21 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Radar GTA VI",
-  "state": "ok",
-  "task": "Radar del 23 nov: cifra oficial de ventas del primer día",
+  "state": "run",
+  "task": "Radar: virales desde el último radar y temas nuevos",
   "project": "gta",
   "brand": "claude",
   "ttl": 3600,
   "expert": "Investigación y fuentes",
-  "src_at": "2026-11-23T07:54:05+01:00",
-  "at": "2026-11-23T07:54:05+01:00",
+  "src_at": "2026-11-26T07:43:55+01:00",
+  "at": "2026-11-26T07:43:55+01:00",
   "say": {
    "to": "Nawe",
    "text": "Ya hay cifra oficial de ventas: tres guiones listos en la bóveda, ninguno caduca antes del jueves",
    "at": "2026-11-23T07:54:05+01:00"
   },
   "action": "web",
-  "pct": 100.0
+  "pct": 5.0
  },
  {
   "id": "claude-creditos-faro",
