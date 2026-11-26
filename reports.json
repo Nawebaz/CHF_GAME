@@ -1798,21 +1798,21 @@
   "kind": "agent",
   "cloud": true,
   "name": "Claude · Radar GTA VI",
-  "state": "run",
-  "task": "Radar: virales desde el último radar y temas nuevos",
+  "state": "ok",
+  "task": "Radar del 26 nov: ocho candidaturas a premios antes de salir a la venta",
   "project": "gta",
   "brand": "claude",
   "ttl": 3600,
   "expert": "Investigación y fuentes",
-  "src_at": "2026-11-26T07:45:55+01:00",
-  "at": "2026-11-26T07:45:55+01:00",
+  "src_at": "2026-11-26T07:49:15+01:00",
+  "at": "2026-11-26T07:49:15+01:00",
   "say": {
    "to": "Nawe",
-   "text": "Ya hay cifra oficial de ventas: tres guiones listos en la bóveda, ninguno caduca antes del jueves",
-   "at": "2026-11-23T07:54:05+01:00"
+   "text": "Radar hecho: dos guiones con fuente doble (premios y el Bigfoot del juego); ninguno caduca antes del lunes. Parche y truco de dinero, sin fuente suficiente",
+   "at": "2026-11-26T07:49:15+01:00"
   },
   "action": "web",
-  "pct": 50.0
+  "pct": 100.0
  },
  {
   "id": "claude-creditos-faro",
