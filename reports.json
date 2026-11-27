@@ -2048,5 +2048,23 @@
    "at": "2026-11-17T13:13:02+01:00"
   },
   "step": "El Mac ya manda temperatura (52°) y su termómetro sale en la oficina"
+ },
+ {
+  "id": "mimo-montajes-fuentes",
+  "kind": "run",
+  "cloud": true,
+  "name": "Bibliotecario · Mimo",
+  "state": "ok",
+  "task": "Contrastar 14 materiales de montajes.json",
+  "project": "agentes",
+  "action": "web",
+  "step": "Copia revisada en Mimo/datos; 3 vídeos oEmbed HTTP 200",
+  "pct": 100.0,
+  "ttl": 3600,
+  "src_at": "2026-11-27T07:42:48+01:00",
+  "at": "2026-11-27T07:42:48+01:00",
+  "artifact": {
+   "name": "/home/iceland/Mimo/datos/montajes.json"
+  }
  }
 ]
