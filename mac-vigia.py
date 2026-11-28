@@ -90,7 +90,7 @@ def maquina():
             "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": t_cpu, "vigia": VIGIA_V, "temp_diag": _TEMP.get("diag"),
             "top": [{"name": n[:28], "cpu": round(c / ncpu, 1)} for c, _, n in top if c > 1]}
 
-VIGIA_V = "2026.11.28b"
+VIGIA_V = "2026.11.28c"
 TEMP_PY = r"""
 import ctypes, ctypes.util, sys
 def lib(n):
@@ -174,10 +174,6 @@ def temperatura():
         cpu, gpu, quien = elegir(json.loads(out))
         _TEMP["v"], _TEMP["gpu"] = cpu, gpu; _TEMP["fallos"] = 0 if cpu else _TEMP["fallos"] + 1
         _TEMP["diag"] = (_TEMP["diag"] + " " + quien)[:200]
-        _TEMP["n"] = _TEMP.get("n", 0) + 1
-        pags = resumen(json.loads(out))
-        if pags and _TEMP["n"] % 2 == 0:   # una lectura de cada dos: una página del listado de sensores (temporal, para afinar la gráfica)
-            k = (_TEMP["n"] // 2) % len(pags); _TEMP["diag"] = ("sens %d/%d: %s" % (k + 1, len(pags), pags[k]))[:200]
     except Exception as e: _TEMP["fallos"] += 1; _TEMP["v"] = _TEMP["gpu"] = None; _TEMP["diag"] = ((_TEMP.get("diag") or "") + " | " + repr(e))[:200]
     return _TEMP["v"]
 
