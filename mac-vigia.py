@@ -84,12 +84,13 @@ def maquina():
     io = _run(["ioreg", "-r", "-d", "1", "-w", "0", "-c", "IOAccelerator"])
     g = re.search(r'"Device Utilization %"\s*=\s*(\d+)', io); gm = re.search(r'"In use system memory"\s*=\s*(\d+)', io)
     top = sorted(procs, reverse=True)[:5]
-    return {"name": "Mac", "kind": "mac", "cpu": round(cpu, 1), "ncpu": ncpu,
+    t_cpu = temperatura()
+    return {"name": "Mac", "gpu_temp": _TEMP.get("gpu"), "kind": "mac", "cpu": round(cpu, 1), "ncpu": ncpu,
             "ram": round(used / total * 100, 1) if total else None, "ram_gb": round(used / 2**30, 1), "ram_total_gb": round(total / 2**30, 1),
-            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": temperatura(), "vigia": VIGIA_V, "temp_diag": _TEMP.get("diag"),
+            "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": t_cpu, "vigia": VIGIA_V, "temp_diag": _TEMP.get("diag"),
             "top": [{"name": n[:28], "cpu": round(c / ncpu, 1)} for c, _, n in top if c > 1]}
 
-VIGIA_V = "2026.11.17c"
+VIGIA_V = "2026.11.28a"
 TEMP_PY = r"""
 import ctypes, ctypes.util, sys
 def lib(n):
@@ -110,22 +111,44 @@ IO.IOHIDEventSystemClientSetMatching.argtypes = [vp, vp]
 IO.IOHIDEventSystemClientCopyServices.restype = vp; IO.IOHIDEventSystemClientCopyServices.argtypes = [vp]
 IO.IOHIDServiceClientCopyEvent.restype = vp; IO.IOHIDServiceClientCopyEvent.argtypes = [vp, ctypes.c_int64, ctypes.c_int32, ctypes.c_int64]
 IO.IOHIDEventGetFloatValue.restype = ctypes.c_double; IO.IOHIDEventGetFloatValue.argtypes = [vp, ctypes.c_int32]
+IO.IOHIDServiceClientCopyProperty.restype = vp; IO.IOHIDServiceClientCopyProperty.argtypes = [vp, vp]
+CF.CFStringGetCString.restype = ctypes.c_bool; CF.CFStringGetCString.argtypes = [vp, ctypes.c_char_p, ctypes.c_long, ctypes.c_uint32]
+CF.CFGetTypeID.restype = ctypes.c_ulong; CF.CFGetTypeID.argtypes = [vp]; CF.CFStringGetTypeID.restype = ctypes.c_ulong
 s = lambda t: CF.CFStringCreateWithCString(None, t, 0x08000100)
 def num(v): x = ctypes.c_int32(v); return CF.CFNumberCreate(None, 3, ctypes.byref(x))
 keys = (vp * 2)(s(b'PrimaryUsagePage'), s(b'PrimaryUsage')); vals = (vp * 2)(num(0xff00), num(5))
 cb = lambda n: ctypes.addressof(ctypes.c_char.in_dll(CF, n))
 d = CF.CFDictionaryCreate(None, keys, vals, 2, cb('kCFTypeDictionaryKeyCallBacks'), cb('kCFTypeDictionaryValueCallBacks'))
-c = IO.IOHIDEventSystemClientCreate(None); IO.IOHIDEventSystemClientSetMatching(c, d); sv = IO.IOHIDEventSystemClientCopyServices(c); best = 0.0; ne = 0
+def nombre(svc):
+    try:
+        p = IO.IOHIDServiceClientCopyProperty(svc, s(b'Product')); buf = ctypes.create_string_buffer(128)
+        return buf.value.decode('utf-8', 'replace') if p and CF.CFGetTypeID(p) == CF.CFStringGetTypeID() and CF.CFStringGetCString(p, buf, 128, 0x08000100) else ''
+    except Exception: return ''
+c = IO.IOHIDEventSystemClientCreate(None); IO.IOHIDEventSystemClientSetMatching(c, d); sv = IO.IOHIDEventSystemClientCopyServices(c); pares = []; ne = 0
 n = CF.CFArrayGetCount(sv) if sv else 0
 for i in range(n):
-    e = IO.IOHIDServiceClientCopyEvent(CF.CFArrayGetValueAtIndex(sv, i), 15, 0, 0)
+    svc = CF.CFArrayGetValueAtIndex(sv, i); e = IO.IOHIDServiceClientCopyEvent(svc, 15, 0, 0)
     if e:
-        ne += 1; t = IO.IOHIDEventGetFloatValue(e, 15 << 16)
-        if 10 < t < 125 and t > best: best = t
-sys.stderr.write('cliente=%s servicios=%d eventos=%d max=%.1f' % (bool(c), n, ne, best))
-print(round(best, 1))
+        ne += 1; pares.append([nombre(svc), round(IO.IOHIDEventGetFloatValue(e, 15 << 16), 1)])
+sys.stderr.write('cliente=%s servicios=%d eventos=%d con_nombre=%d' % (bool(c), n, ne, sum(1 for x in pares if x[0])))
+import json; print(json.dumps(pares))
 """
-_TEMP = {"fallos": 0, "v": None, "t": 0.0, "diag": None}
+_TEMP = {"fallos": 0, "v": None, "gpu": None, "t": 0.0, "diag": None}
+SENS_CPU = ("pACC MTR", "eACC MTR", "PMU tdie", "SOC MTR")
+SENS_GPU = ("GPU MTR",)
+SENS_NO = ("tcal", "battery", "gas gauge", "nand")   # «PMU tcal» es de calibración: ~51,8 °C fijo, no mide el chip
+
+def elegir(pares):
+    """(nombre, °C) de cada sensor HID → (CPU, GPU). CPU: lo más caliente de núcleos y troquel; GPU: lo más caliente de la gráfica.
+    Fuera calibración, batería y NAND. Si macOS no da nombres, lo más caliente de todo (como antes)."""
+    ok = [(str(n or ""), float(v)) for n, v in pares if v is not None and 10 < float(v) < 125]
+    if not any(n for n, _ in ok):
+        return (round(max(v for _, v in ok)) if ok else None, None, "sin nombres")
+    ok = [(n, v) for n, v in ok if not any(b in n.lower() for b in SENS_NO)]
+    cpu = [(v, n) for n, v in ok if n.startswith(SENS_CPU)] or [(v, n) for n, v in ok if not n.startswith(SENS_GPU)]
+    gpu = [(v, n) for n, v in ok if n.startswith(SENS_GPU)]
+    c, g = (max(cpu) if cpu else None), (max(gpu) if gpu else None)
+    return (round(c[0]) if c else None, round(g[0]) if g else None, "cpu=%s gpu=%s" % (c[1] if c else "-", g[1] if g else "-"))
 def temperatura():
     """Lo más caliente del chip (Apple Silicon), sin sudo: sensores HID del sistema. Va en un proceso aparte para que,
     si en algún macOS falla, no se lleve por delante al vigía; tras tres fallos seguidos deja de intentarlo."""
@@ -135,8 +158,10 @@ def temperatura():
     try:
         r = subprocess.run([sys.executable, "-c", TEMP_PY], capture_output=True, text=True, timeout=5); out = r.stdout.strip()
         _TEMP["diag"] = ("py%d.%d rc=%s " % (sys.version_info[0], sys.version_info[1], r.returncode) + (r.stderr.strip().splitlines() or [""])[-1])[:200]
-        v = float(out); _TEMP["v"] = round(v) if v > 10 else None; _TEMP["fallos"] = 0 if v > 10 else _TEMP["fallos"] + 1
-    except Exception as e: _TEMP["fallos"] += 1; _TEMP["v"] = None; _TEMP["diag"] = ((_TEMP.get("diag") or "") + " | " + repr(e))[:200]
+        cpu, gpu, quien = elegir(json.loads(out))
+        _TEMP["v"], _TEMP["gpu"] = cpu, gpu; _TEMP["fallos"] = 0 if cpu else _TEMP["fallos"] + 1
+        _TEMP["diag"] = (_TEMP["diag"] + " " + quien)[:200]
+    except Exception as e: _TEMP["fallos"] += 1; _TEMP["v"] = _TEMP["gpu"] = None; _TEMP["diag"] = ((_TEMP.get("diag") or "") + " | " + repr(e))[:200]
     return _TEMP["v"]
 
 def enviar_maquina(m):
