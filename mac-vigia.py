@@ -90,7 +90,7 @@ def maquina():
             "gpu": int(g.group(1)) if g else None, "vram_gb": round(int(gm.group(1)) / 2**30, 1) if gm else None, "cpu_temp": t_cpu, "vigia": VIGIA_V, "temp_diag": _TEMP.get("diag"),
             "top": [{"name": n[:28], "cpu": round(c / ncpu, 1)} for c, _, n in top if c > 1]}
 
-VIGIA_V = "2026.11.28a"
+VIGIA_V = "2026.11.28b"
 TEMP_PY = r"""
 import ctypes, ctypes.util, sys
 def lib(n):
@@ -145,10 +145,23 @@ def elegir(pares):
     if not any(n for n, _ in ok):
         return (round(max(v for _, v in ok)) if ok else None, None, "sin nombres")
     ok = [(n, v) for n, v in ok if not any(b in n.lower() for b in SENS_NO)]
-    cpu = [(v, n) for n, v in ok if n.startswith(SENS_CPU)] or [(v, n) for n, v in ok if not n.startswith(SENS_GPU)]
-    gpu = [(v, n) for n, v in ok if n.startswith(SENS_GPU)]
+    cpu = [(v, n) for n, v in ok if n.startswith(SENS_CPU)] or [(v, n) for n, v in ok if not (n.startswith(SENS_GPU) or "gpu" in n.lower())]
+    gpu = [(v, n) for n, v in ok if n.startswith(SENS_GPU) or "gpu" in n.lower()]
     c, g = (max(cpu) if cpu else None), (max(gpu) if gpu else None)
     return (round(c[0]) if c else None, round(g[0]) if g else None, "cpu=%s gpu=%s" % (c[1] if c else "-", g[1] if g else "-"))
+def resumen(pares, ancho=170):
+    """Familias de sensores (nombre sin el número final) con cuántos hay y su máximo, en páginas que caben en temp_diag."""
+    fam = {}
+    for n, v in pares:
+        k = re.sub(r"\s*\d+$", "", str(n or "?"))[:24]; c, m = fam.get(k, (0, 0.0)); fam[k] = (c + 1, max(m, float(v or 0)))
+    items = ["%s×%d %.0f" % (k, c, m) for k, (c, m) in sorted(fam.items())]
+    pags, cur = [], ""
+    for it in items:
+        if cur and len(cur) + len(it) + 2 > ancho: pags.append(cur); cur = it
+        else: cur = (cur + "; " + it) if cur else it
+    if cur: pags.append(cur)
+    return pags
+
 def temperatura():
     """Lo más caliente del chip (Apple Silicon), sin sudo: sensores HID del sistema. Va en un proceso aparte para que,
     si en algún macOS falla, no se lleve por delante al vigía; tras tres fallos seguidos deja de intentarlo."""
@@ -161,6 +174,10 @@ def temperatura():
         cpu, gpu, quien = elegir(json.loads(out))
         _TEMP["v"], _TEMP["gpu"] = cpu, gpu; _TEMP["fallos"] = 0 if cpu else _TEMP["fallos"] + 1
         _TEMP["diag"] = (_TEMP["diag"] + " " + quien)[:200]
+        _TEMP["n"] = _TEMP.get("n", 0) + 1
+        pags = resumen(json.loads(out))
+        if pags and _TEMP["n"] % 2 == 0:   # una lectura de cada dos: una página del listado de sensores (temporal, para afinar la gráfica)
+            k = (_TEMP["n"] // 2) % len(pags); _TEMP["diag"] = ("sens %d/%d: %s" % (k + 1, len(pags), pags[k]))[:200]
     except Exception as e: _TEMP["fallos"] += 1; _TEMP["v"] = _TEMP["gpu"] = None; _TEMP["diag"] = ((_TEMP.get("diag") or "") + " | " + repr(e))[:200]
     return _TEMP["v"]
 
